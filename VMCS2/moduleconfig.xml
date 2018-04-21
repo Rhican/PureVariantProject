@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<moduleconfigs name="Default">
+  <moduleconfig ignoreerrors="false" name="Default">
+    <input use="false"/>
+    <output clear="false" create="false" recover="false" use="false"/>
+    <mode type="overwrite"/>
+    <module exclude="" include="/variant" name="Create variant of project: VMCS.eap" tname="Enterprise Architect Module">
+      <parameter name="file" type="">VMCS.eap</parameter>
+      <parameter name="dir" type="">.</parameter>
+      <parameter name="srcfile" type="ps:path"/>
+      <parameter name="srcdir" type="ps:directory"/>
+    </module>
+  </moduleconfig>
+</moduleconfigs>

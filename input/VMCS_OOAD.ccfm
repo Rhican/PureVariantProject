@@ -1,0 +1,2015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="ihKSg6bIyL0VJbXw-" cm:version="1.5" cm:type="ps:ccfm"><cm:head><cm:properties><cm:property cm:id="ihKSg6bIyL0VJbXw-_A_psversion" cm:type="ps:string" cm:invisible="true" cm:name="ps:version"><cm:constant cm:id="ihKSg6bIyL0VJbXw-_A_psversion_C" cm:type="ps:string">1.0</cm:constant>
+</cm:property>
+<cm:property cm:id="ihKSg6bIyL0VJbXw-_A_psname" cm:type="ps:string" cm:invisible="true" cm:name="ps:name"><cm:constant cm:id="ihKSg6bIyL0VJbXw-_A_psname_C" cm:type="ps:string">VMCS_OOAD</cm:constant>
+</cm:property>
+<cm:property cm:id="ihKSg6bIyL0VJbXw-_A_psauthor" cm:type="ps:string" cm:invisible="true" cm:name="ps:author"><cm:constant cm:id="ihKSg6bIyL0VJbXw-_A_psauthor_C" cm:type="ps:string">nguwarthawdarshwe</cm:constant>
+</cm:property>
+<cm:property cm:id="ihKSg6bIyL0VJbXw-_A_pscreated" cm:type="ps:date" cm:invisible="true" cm:name="ps:created"><cm:constant cm:id="ihKSg6bIyL0VJbXw-_A_pscreated_C" cm:type="ps:date">2018-04-21T10:57:39Z</cm:constant>
+</cm:property>
+<cm:property cm:id="inKXtpHgpQQYtpuEV" cm:type="ps:natures" cm:invisible="true" cm:fixed="true" cm:container="ps:list" cm:name="ps:ModelNature"><cm:constant cm:id="iFCO9C8uA40eL8Ej_" cm:type="ps:natures">com.ps.consul.eclipse.ui.sourceimport.SourceImportNature</cm:constant>
+</cm:property>
+</cm:properties>
+</cm:head>
+<cm:elements cm:rootid="iUHL3aDjZVKOH0rkeBKlhtqKPsIl"><cm:element cm:id="iUHL3aDjZVKOH0rkeBKlhtqKPsIl" cm:name="VMCS_OOAD" cm:type="ps:family" cm:class="ps:family" cm:default="on"><cm:relations cm:id="iUHL3aDjZVKOH0rkeBKlhtqKPsIldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iebsefbredaiYgb5E1TMzK5pttemZ4Us0gXpt8pnt" cm:class="ps:children"><cm:relation cm:id="iTBO68p8pt0PQ6obGptAgqey2QAJ4qu7-IyK5TBvL" cm:type="ps:optional"><cm:target cm:id="icGS76EcGYmT7t0ZSBgsKBMxfqe6UteDNtuU7JiNP">./ixyk3KCkkzwfVQNAupvqVPGnwfDa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ifLSuYWd0YvT0gTRlVivb60__4sl" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:readonly="true" cm:name="config"><cm:constant cm:id="iRX7nWDqitzChuWyiBol1_MQJOci" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.JavaConfiguration</cm:constant>
+</cm:property>
+<cm:property cm:id="iVmwBptcZ7my_JUk6x6QL1XCcIFo" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:readonly="true" cm:name="sourceimport:configuration:settings"><cm:constant cm:id="iBoFNcifDPKbKI7VQoEqbF9UqAvk" cm:type="ps:string">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;associations&gt;&lt;association checked=&quot;false&quot; desc=&quot;Other files&quot; ending=&quot;.*&quot; filetype=&quot;undefined&quot; type=&quot;ps:object&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;Java source file&quot; ending=&quot;.java&quot; filetype=&quot;impl&quot; type=&quot;ps:class&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;Ant build script&quot; ending=&quot;build.xml&quot; filetype=&quot;misc&quot; type=&quot;ps:makefile&quot;/&gt;&lt;pattern/&gt;&lt;switches&gt;&lt;switch name=&quot;HIDE_MT_COMPONENTS&quot;&gt;true&lt;/switch&gt;&lt;switch name=&quot;USE_RELATIVE_PATHS&quot;&gt;true&lt;/switch&gt;&lt;switch name=&quot;USE_SORTING&quot;&gt;true&lt;/switch&gt;&lt;/switches&gt;&lt;values&gt;&lt;value name=&quot;RELATIVE_TO&quot;&gt;absolute&lt;/value&gt;&lt;/values&gt;&lt;/associations&gt;</cm:constant>
+</cm:property>
+<cm:property cm:id="inCmDGXUf-oaCazIu" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="ModelSyncStoreID"><cm:constant cm:id="inumBh5vFvcY3lLfT" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.SourceImportSyncStore</cm:constant>
+</cm:property>
+<cm:property cm:id="ioEHbdOhOka31J-fw" cm:type="ps:natures" cm:invisible="true" cm:fixed="true" cm:name="ps:ModelNature"><cm:constant cm:id="ixDp115Ox7PHtbkJz" cm:type="ps:natures">com.ps.consul.eclipse.ui.sourceimport.SourceImportNature</cm:constant>
+</cm:property>
+<cm:property cm:id="ijqOg3nVms8wk4oN9" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="MAP_OBJECT"><cm:constant cm:id="id-cTZcW9pgWBZpyr" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.ObjectNullMapping</cm:constant>
+</cm:property>
+<cm:property cm:id="ig1tUP7XvG8DYUBl0" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="SOURCE_HANDLER"><cm:constant cm:id="itnU9aI5tyhMlUmml" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.SourceImportHandler</cm:constant>
+</cm:property>
+<cm:property cm:id="iA23l44qU2P8_n57t" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="EXT_TOOL"><cm:constant cm:id="i_shF9XD7oNHKJEWZ" cm:type="ps:string">Filesystem</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iCLjvsFOqO380r7ZH" cm:mimetype="text/plain" cm:encoding="utf-8">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ixyk3KCkkzwfVQNAupvqVPGnwfDa" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="ixyk3KCkkzwfVQNAupvqVPGnwfDadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i8pHicWDNK5-pXmgX-pfHEN6EHyaWz2nJr0nZjsuL" cm:class="ps:parents"><cm:relation cm:id="i9p9pBwGyUR3D5orKMP7-md__EhksJOdq__6UfHeH" cm:type="ps:parent"><cm:target cm:id="iKzr0K5PQdq7-4-Ii8pjsz2gXDxs05U0TdqFx-_6o">./iUHL3aDjZVKOH0rkeBKlhtqKPsIl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i1T-FS7OQ09-Vzw7UOQX8YCS7x1baAgufsK6ooZ2D" cm:class="ps:children"><cm:relation cm:id="ixfaqS7ishXIiC3L53n4UP6PQgrBwzggrywjsdqda" cm:type="ps:optional"><cm:target cm:id="ihH6UEN8_baUlfbChfrdWkIWSlctunJC3jIdqKzFx">./iTum9H-kfMMl5XmbM_D1mt7wiHcl</cm:target>
+<cm:target cm:id="iMjv1cGFxse5U8FwfTl7EYCZSoJG4eXXShbca5-9p">./i4_IvTIZMOjicBngntKxufOCBgyb</cm:target>
+<cm:target cm:id="iqujImZOQygebtK5U6EIO6UaanZE3ndlIeHptbWHi">./im56mAsY-6BByfefgUCvrmlVqLef</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iLxF7RMEIC_DFTFFsY9R63yUDBZj" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="idydcXCY_vpHQuTipt_RWLZMbA4c" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS</cm:constant>
+</cm:property>
+<cm:property cm:id="izYRa345lngCZFvNMBq5Ja_t2ryh" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="idUkYQ3px6EyUXw0d0oSoawNjfHh" cm:type="ps:directory">PureVariantVCMS</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iQrBZL3Et3h83IE4f" cm:mimetype="text/plain" cm:encoding="utf-8">PureVariantVCMS</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iTum9H-kfMMl5XmbM_D1mt7wiHcl" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iTum9H-kfMMl5XmbM_D1mt7wiHcldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="icWwf0Tt09pOQeXXSw1kYV7wvgXT7rKBMmJ1DwvfH" cm:class="ps:parents"><cm:relation cm:id="ipZChIyZCEhAgHyDN_VOAK5-p6o-_kIksdWHOExJO" cm:type="ps:parent"><cm:target cm:id="izgNjSRDNgbzg0TkI39PAhXQAcW2THilYqux17oxv">./ixyk3KCkkzwfVQNAupvqVPGnwfDa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iV7aGKjzMptw1nZ_FYmLP4-q0kI6EM5XCNzoddGca" cm:class="ps:children"><cm:relation cm:id="iS7FhCN2DhbDhGibqTRV7RA5oQkFNqeWS_pF3N5zg" cm:type="ps:optional"><cm:target cm:id="iEhhXlYY8__s05E_pLPX8P63DreFxteeH2TLPOAAM">./imnwNn6ob1_JfKwC60WiAQrZw6Jn</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i9mnmAYEJSXOP1H7ilmx1vxvbb0b" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iVCMD0sBsWnyX4M473-4TnHpATKl" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src</cm:constant>
+</cm:property>
+<cm:property cm:id="ir9HORLft6itFD7S7rXVXtZuYxli" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iGlcDcwqvDsrKv0OeqBGhA9Idsae" cm:type="ps:directory">PureVariantVCMS/src</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i_FADQq2YWMKANlrG" cm:mimetype="text/plain" cm:encoding="utf-8">src</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="imnwNn6ob1_JfKwC60WiAQrZw6Jn" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="imnwNn6ob1_JfKwC60WiAQrZw6Jndependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="itKpZzg19mt8_lYL5Y8fbhX1nUlXmhrseaqebPAic" cm:class="ps:parents"><cm:relation cm:id="i_FwfqKseAgTRmtufruodaGZm6E-pygJOuvdqM5VR" cm:type="ps:parent"><cm:target cm:id="iG4XS2TLPcWGy2nlY6EpZAMXmEN6-wfvvoZGyYm1T">./iTum9H-kfMMl5XmbM_D1mt7wiHcl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iY8PAebgHJOy2cqiITlw16oGOQkWCU74E6ETR3nKz" cm:class="ps:children"><cm:relation cm:id="iUl3nPAkccq6Ez2jcjI9p7E39qK-VUlW8FNP6NjWC" cm:type="ps:optional"><cm:target cm:id="iY8LzNzW8iIeXP6HyQkQAWmTRCxiYuf1TdqTBTBaq">./iwm6dJnS619F1LA8SPbwVh2dRtdd</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ier7e8NO6fm4K_Fx489cDPUdbqtb" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iPR8XNdImgetlXnJ9a3ZGmBVZfnh" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg</cm:constant>
+</cm:property>
+<cm:property cm:id="iORHfxupl6uLfMFq-8NPlsIr8Aha" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="irrTuvyGNgVmY42-0T4pQi9acjIj" cm:type="ps:directory">PureVariantVCMS/src/sg</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="isJDr2x_eTeM0Ds4A" cm:mimetype="text/plain" cm:encoding="utf-8">sg</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iwm6dJnS619F1LA8SPbwVh2dRtdd" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iwm6dJnS619F1LA8SPbwVh2dRtdddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iOQ7odaaG-pS75EeboZFh1TGOL52DZCKjYmzw9Fs0" cm:class="ps:parents"><cm:relation cm:id="irKjYO6hbK5ot8_Dxq0OQDNz2GiptLzWmygO6xvnt" cm:type="ps:parent"><cm:target cm:id="is0KPG4lI5EbqTlZ8oJVRVRXm1TeHbW6-VRmJ4o6E">./imnwNn6ob1_JfKwC60WiAQrZw6Jn</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="isKTlK5Kz-_J46-ExtKhHotG42npJteNzQAgrOQkI" cm:class="ps:children"><cm:relation cm:id="iiYwLptT7Y8ufMzvL2nPQ9FfHbWvft09___4-F3Fh" cm:type="ps:optional"><cm:target cm:id="i8FMjr019P65--p_p39kYR6Sl4EnZTliYQkjc09Q6">./iop3sLMNOtytXmrpCPHOXqM0GxMl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iDmGLz9neYh9bdncO2av6aagnddg" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iCAbeeQobxcn57Tdea9g7Wa2vm0p" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu</cm:constant>
+</cm:property>
+<cm:property cm:id="ikMr2rFWaBfjvKk57sEdxiPx3OGa" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="i6WsHWHuysWKin5VMHD3-ZkGVWva" cm:type="ps:directory">PureVariantVCMS/src/sg/edu</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ib3tGbM-v-8pIKRgE" cm:mimetype="text/plain" cm:encoding="utf-8">edu</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iop3sLMNOtytXmrpCPHOXqM0GxMl" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iop3sLMNOtytXmrpCPHOXqM0GxMldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ikcLzN5G4Ym5E4-NjdWuLPkURPQW8RkIynt3D_FSl" cm:class="ps:parents"><cm:relation cm:id="iz2ksxL3TptX8Z8u1TlD34UU78FURO6-pruGiZmiY" cm:type="ps:parent"><cm:target cm:id="iaaIiv1grfrfr7-W8bG6oWS__eHVlx1iYEhDh6EYC">./iwm6dJnS619F1LA8SPbwVh2dRtdd</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i9VMzMjJikIdakYSR1n2nygC3X8yMA2K5C3PkRQ4U" cm:class="ps:children"><cm:relation cm:id="iZmMjvfvfgX8VeHmdhHkcGOmZD3hrreIOptI4P6bq" cm:type="ps:optional"><cm:target cm:id="ise19O6BgIOAgWCVBlcrKmZ9FLzotndRQEN5oqeQk">./iBkBVQe11FGVHM1ca2OfNcKNHi0h</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i2Svs8_v4uZBBkpInNFnphc1Z7Zo" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="i5QVPMVkHUwBVCeauCN9_OhPwLbe" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus</cm:constant>
+</cm:property>
+<cm:property cm:id="i4owI6fSDbVGZrBbPatFKoMMPxll" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="ifOidNj2vTPZW-AhKrVuS7n6u2He" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ihAaKV8drI6LIVGZR" cm:mimetype="text/plain" cm:encoding="utf-8">nus</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iBkBVQe11FGVHM1ca2OfNcKNHi0h" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iBkBVQe11FGVHM1ca2OfNcKNHi0hdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ijIpZ2TOQ8_PQ_VQkjcZSW8AMZ8xvy24o6E4-gbDx" cm:class="ps:parents"><cm:relation cm:id="itKS7SBRAu1fHndjI4EEhNzaq19Zmw1kYuL0n5-aq" cm:type="ps:parent"><cm:target cm:id="igbicQkCNG4uf19V7nZ5-YmFhAwhraG4oNPisGyAM">./iop3sLMNOtytXmrpCPHOXqM0GxMl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iyMkcG4XmOAYmXCeHXmhHxLlY1T0T7ER6vLWmnJxf" cm:class="ps:children"><cm:relation cm:id="iURL5su_pN5kYO62TM5gH1nbWuf8p8FfHZm7-uL9_" cm:type="ps:optional"><cm:target cm:id="ibWlYAgv1gHR6w1RQ_VSRQkMPntcGwfxvkY3DnZPk">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iwKKrvC0CrS48xL_xaPdkX-761Pm" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="ioClefVCIAVXJ83jjF-fNGgLsEjb" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss</cm:constant>
+</cm:property>
+<cm:property cm:id="i9nfLlmrKYIZHcdjs66WIReO7s0d" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="ivqDJYIsW0vrZgVpDFhXPFAPZobb" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i9sBdyhJTvWMLMa_S" cm:mimetype="text/plain" cm:encoding="utf-8">iss</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ipTYTEvyV7FldB5RQbpQKKt1hwre" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="ipTYTEvyV7FldB5RQbpQKKt1hwredependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i-pMPoJlYlIebXSYmhrOkXCJyoZq0ENWm7EY8sKvv" cm:class="ps:parents"><cm:relation cm:id="iW8Hyq0w1EhgbZSQQuL5UeXQ6qKJyFhdqoJAgGO09" cm:type="ps:parent"><cm:target cm:id="iMPExM5ywQQDhSB1ndGt0-F5-V7ZmYSBM7oUlTlTB">./iBkBVQe11FGVHM1ca2OfNcKNHi0h</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iLP9VBMlYTlZm3nMjs0daP6uLAgVBgb8V8F8pZSeH" cm:class="ps:children"><cm:relation cm:id="ifbBwLPlsM5YSlYhrZ8ZCbWJOwLndOAiYzwA2aqXS" cm:type="ps:optional"><cm:target cm:id="iJ4SlXC8_YCKzXmzgjcBw39-VRAmJIiQ6VBIOr0hr">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+<cm:target cm:id="iRkVBbqcasuWmK5R67oE3uf4E0DQ6-_Y8CxbG_FK5">./ibK3jmHws-jEB8VYjoUkzWb9JG9e</cm:target>
+<cm:target cm:id="iZCXSvLHyzMSB5-KjDh099_9pq0lI1T_V0TntpJks">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+<cm:target cm:id="i091TmZeH6EDNJihbOAtKKPbajsDNfX5oJ4zwuvlY">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+<cm:target cm:id="iwv7ECNfrXCgHzgO6iY__BghXJ4PkB2pdF3gb8Vwv">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+<cm:target cm:id="i9pYmSR5UteX8RAmJAwIOqu-p2n39NPteYCM5_FxL">./ilTCpLzkO2vGl8CateBbQuj3j6Lf</cm:target>
+<cm:target cm:id="iBgUlTRw1DhGiNz0nP6Q6-pseqeaafbAMr0RkPAJ4">./iqor5OI8g0r_s3Yu9eS5EkgUZCdj</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i-rQDDPaPFW4kAPFwvzD6xvrZlEj" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iVim4mN_vWcRFPH3ZZYdqVQFzT2n" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss/vmcs</cm:constant>
+</cm:property>
+<cm:property cm:id="i19OuUAHIbxgvkjj_CdUZuvQX34c" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="i9WIzlQtQWdfoyPJSP1zljfKOb0j" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss/vmcs</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="isY7jeq69Ye9hZzQZ" cm:mimetype="text/plain" cm:encoding="utf-8">vmcs</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ign-QeKPv866f0XMjRX865jrEqXc" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="ign-QeKPv866f0XMjRX865jrEqXcdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iJyFh3TcWM5U7nt-VfbJiNjBMZS3DaW_VishXQ6AM" cm:class="ps:parents"><cm:relation cm:id="iB2w109cWaqsKXSOAAMquxvuf-F29H4_pnJsentIi" cm:type="ps:parent"><cm:target cm:id="i0D4-aWFh5UR6aWxLx1URLPaqRkjcmJcWqKD3kIgr">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ikslczgRQR6RkxLervL5EAg5E1neX7oN5dqIy1DVB" cm:class="ps:children"><cm:relation cm:id="iZSjshH4-0TZ84omZqevL7-dafH4oL5lYvLWS-_3n" cm:type="ps:optional"><cm:target cm:id="iJ4yM1TC3XSI4uvsus0Z84UYSChJ41TvLgH3nz2VR">./ioFKKlE5xXNz7qjBmdvYKunOIF9e</cm:target>
+<cm:target cm:id="iu1Z88Vbqq0DNTBMzbWAM4U5-dqFxntF3kcChEhX8">./iWQIc2PxjJkOxp1hb4tSEg798wTc</cm:target>
+<cm:target cm:id="iMjHOG4BwXmMP__w1MjFNDxiI5oFhPAtuOAv1Okmd">./i0HKUE2dcdQg98tDK_pHH9qLGm3g</cm:target>
+<cm:target cm:id="itKDxpdhXXSKjsKygfrJimZ6oAgN5oZgrlsqKjc7E">./i_fz7FSnHeqGpvQbs1XnaegkTn5h</cm:target>
+<cm:target cm:id="ite6Uptjs5UBgKz7U1npZZCH4lIcGhHYCDh4-cqCh">./i0_ME-qVC1CGzclWIO3Aqhl2Y0Wm</cm:target>
+<cm:target cm:id="ijsisCNbGKP0T4ElsmdquL5SBKjfX0Dqeod3n6ocG">./itSzsMLVbLF9a6OaFtiLeTQ74X6j</cm:target>
+<cm:target cm:id="i5-GOrKPkeHbGwLFh7UJypderSRI4URvLvvxfN55-">./ig9xHmnMeyT-MSaO_jJkGO62HlGp</cm:target>
+<cm:target cm:id="i4UjYjYAM9FbGpJhHL5aGMzAwW8G4kscqBwkYIOtu">./iyi-JcPgCyedajS9VvoSi44OeAxb</cm:target>
+<cm:target cm:id="iIi8pVBiI3nSB0DreFhlc9_Awlc09WmteMjqK7U4U">./i26vptfca_6Jiu-vj7oizPvNf0Ge</cm:target>
+<cm:target cm:id="iHO6EUB3ngbE3v11TSlIyB2Qk5UP6OkFxPQF3dG8p">./iKjaTH8Q74EHVdslLzo2II5i3Kei</cm:target>
+<cm:target cm:id="iHy0DSRURAM-VxfZC8VKjmd1Dfb_F29M5XmJOZSIO">./igTnwbWaodpXapydDeIMue-YX0Vl</cm:target>
+<cm:target cm:id="inJxviYod3Dt0VBzg7UfrnZRQiI9FfH6UgHT7ba-V">./iMyBeKr6gv7_oCA9iIIDPap5U01b</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iGmb5gyi8mdlg9SeezJeNRDPuFTk" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iVv8M_wMRpHrOTTsT9vaYM_5hsyk" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss/vmcs/customer</cm:constant>
+</cm:property>
+<cm:property cm:id="i7Aq07F6ItMZUnWG0mrF4Th6Padi" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="i1eymkT7HSbJ1xVCwPF9jdza76rb" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss/vmcs/customer</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iLfoLZj5cJJeauaLi" cm:mimetype="text/plain" cm:encoding="utf-8">customer</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ioFKKlE5xXNz7qjBmdvYKunOIF9e" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="ioFKKlE5xXNz7qjBmdvYKunOIF9edependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iWmzM7E__C3gXOA9V7Edq2DlYjIaGdWU7OAHit0s0" cm:class="ps:parents"><cm:relation cm:id="i19S73TYC9F09bWuftejYjsGyBMGiK5M59VqeWmgb" cm:type="ps:parent"><cm:target cm:id="iJOxLfXLPaW0T5EcGdG__tu-pfbgrRARAz2M5suaG">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ivLW8LzfHRk8V3Ty2nt5optdGL5VlruPk8pVBdq19" cm:class="ps:children"><cm:relation cm:id="itKfXXSwvNj5oqKygfrwL5-XCkIz2s0mtLjlcqeMj" cm:type="ps:optional"><cm:target cm:id="ixLMPBMod194USBhX1DE3r0I4zwuL4UQA8_aaeH_V">./iSBX8Uc4WXb9aO4bMfVrVdTxRSob</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iaQbG9sshMz5ZZ_cY" cm:mimetype="text/plain" cm:encoding="utf-8">ChangeGiver</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iSBX8Uc4WXb9aO4bMfVrVdTxRSob" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iSBX8Uc4WXb9aO4bMfVrVdTxRSobdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i6UaWmdbGIO099pENgrChN5sK5EhHG4qunJTlIy6o" cm:class="ps:parents"><cm:relation cm:id="i0DuLvLU7KPebWmIOQ6F31TgXLPaa6ogX3DgH-FPA" cm:type="ps:parent"><cm:target cm:id="iebdGaqUlisDx9VX8teN5hbbqw1lYDN0nE3R6Kj4E">./ioFKKlE5xXNz7qjBmdvYKunOIF9e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i06_TOG_LczkC3gUQG6PGTl-YlGe" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="itTHxqItJcQw6W-cD-3wx9D2e0Ej" cm:type="ps:path">ChangeGiver.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iC8__Z-NKev6_iKAbihmvZpIPPXa" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="icxiwnbbs5VfjFM_tdCoWu_8-18o" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i0Tecgg_yZxdiWgtn" cm:mimetype="text/plain" cm:encoding="utf-8">ChangeGiver.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iWQIc2PxjJkOxp1hb4tSEg798wTc" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iWQIc2PxjJkOxp1hb4tSEg798wTcdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ieHv1TlbWs0rKdGmZJ4GOSRaW7UaGYCbGrK_F8pCN" cm:class="ps:parents"><cm:relation cm:id="iXCJiVRRk4-BwYmQ6K5SlicDNy2gr6U7Uotpdx1_p" cm:type="ps:parent"><cm:target cm:id="iQAtKgHNzDNy2Z8Q6VRiczwJiHOotjIVlseE3dWoJ">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iDh1nPQ0DH4HiFhNz-VC3GOuvmZHOwvBw1DaG1DN5" cm:class="ps:children"><cm:relation cm:id="iRA0nrukcHOFNXCENvfuvaaAwB25o6-dW3DV729Ym" cm:type="ps:optional"><cm:target cm:id="itupdjY7ojYsuFh9F5UNz_VPQBgMPA2Awr0LzaaYm">./iow9-_5TI43m0p5j1G6n4BzCdiGe</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iuFTjPAkHrDLlBXOI" cm:mimetype="text/plain" cm:encoding="utf-8">CoinButton</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iow9-_5TI43m0p5j1G6n4BzCdiGe" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iow9-_5TI43m0p5j1G6n4BzCdiGedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iQANPeXks7oDhdGq02DNPY8LP1DeblIAwmd091nYC" cm:class="ps:parents"><cm:relation cm:id="iI4QAkIgb7o2TC3UlTRqucqoZ7-lYrKtKgXVRjY6-" cm:type="ps:parent"><cm:target cm:id="iPAfX19AgDhteCx2njsptCNYSzwksA2D3NjlsD3gX">./iWQIc2PxjJkOxp1hb4tSEg798wTc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="icdMmWLLplcID3YLigPQNWupjhpk" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iuU6nTkLlXIv5ppVXLTxJWeZL8dp" cm:type="ps:path">CoinButton.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ifyQuyBVzXD8VKa8L8--0kQr0dBj" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ijO2o-c8JC2jsboiDd2YLjrc_JHb" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i2hWlyeqau-dH8b38" cm:mimetype="text/plain" cm:encoding="utf-8">CoinButton.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i0HKUE2dcdQg98tDK_pHH9qLGm3g" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i0HKUE2dcdQg98tDK_pHH9qLGm3gdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i7E7ouf2TeHiIjcndOkse7-8V4-T7__tu8_CNuf7E" cm:class="ps:parents"><cm:relation cm:id="iFxJOyMDh5-PQmJMPsuZ8jcodx1KPsKlceXvv2DK5" cm:type="ps:parent"><cm:target cm:id="iR6gHChbGDNBM7ElI2TNzdGC339GO1n9FaWuLquBM">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="isuBMWmVBIO6ondvf4otew1iYEhjs4Eu1bq1ncGE3" cm:class="ps:children"><cm:relation cm:id="i-F7EChM53DU79Fu1uL8_OkkIDN7EENY8Y8isaGre" cm:type="ps:optional"><cm:target cm:id="iX8Fh-V3DwvbqfblsR6FNgXZCWCSlgbaaOAot7UBw">./imo-ou05ggepqqnwiWHGskMkmC6h</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ic6rx_XAin5_abJLn" cm:mimetype="text/plain" cm:encoding="utf-8">CoinInputBox</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="imo-ou05ggepqqnwiWHGskMkmC6h" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="imo-ou05ggepqqnwiWHGskMkmC6hdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iWCX8CNF35UBgdWD3u1CNCNkc4EotvfQQB20nxfFh" cm:class="ps:parents"><cm:relation cm:id="iX8bq0nEhV7ywaqebntTlyg5-YmVRW8A2dayMs0Hy" cm:type="ps:parent"><cm:target cm:id="iuv199V9VHiuLw1vLAgVRywqK6opJV7eXCNqK2n7U">./i0HKUE2dcdQg98tDK_pHH9qLGm3g</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iGUCdbzs-KkdBsII2wkqlYX6bcok" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="igzfF21PjqBTWRstWbVG2Y3yZDhk" cm:type="ps:path">CoinInputBox.java</cm:constant>
+</cm:property>
+<cm:property cm:id="inev7KWGLBKIwzWMp3NwgoJHuxji" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iGcFIL5c4V-aLVeZHxQUkOyGNWof" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="igdXBTyPok6iihFJd" cm:mimetype="text/plain" cm:encoding="utf-8">CoinInputBox.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i_fz7FSnHeqGpvQbs1XnaegkTn5h" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i_fz7FSnHeqGpvQbs1XnaegkTn5hdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iY8IyN5LjVRgrBgHyTR8V4-3ThHAwy2pZT7ywebaW" cm:class="ps:parents"><cm:relation cm:id="iMPYCy2SRSRYS6EisV7Y8xfiI2DpJyMfrZ88pqK9V" cm:type="ps:parent"><cm:target cm:id="i2ntKcGpdFx8_mJebkIGOUlI4gbjIVBXSBMYC0nw1">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="idqJ42DQQVldajc-pbqzg_VUR2DXC39icQQ5Us0U7" cm:class="ps:children"><cm:relation cm:id="iHOHOV79FuvUB-FiIvvpJ8FPA3DB2PkreU79FgbkI" cm:type="ps:optional"><cm:target cm:id="i5-dqhXpJRQJO-pGi1D4oD3bGPQicjIfHhXnJz2P6">./ia9NpaGuUL9iUcOMx1jn6wSPt1Om</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iGTydexl0ocpPXJr6" cm:mimetype="text/plain" cm:encoding="utf-8">CoinInputListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ia9NpaGuUL9iUcOMx1jn6wSPt1Om" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ia9NpaGuUL9iUcOMx1jn6wSPt1Omdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iTRNzfHnd29qKvfjYgbptTRjY8Vv1QAkslsF3hbq0" cm:class="ps:parents"><cm:relation cm:id="ibaYCfHcGKzkYNzFNiI2TzMkYJ48V6EcG3DSRMPJ4" cm:type="ps:parent"><cm:target cm:id="i-FIyUl2nQ63DcGNPKPFhRQWmPQkcUB-p5UQ61nBg">./i_fz7FSnHeqGpvQbs1XnaegkTn5h</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ipcCYWuA7QStFDRyYCaClm6zLs1g" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iWT_XX5Z14WK7oiUGl74VnUQalLo" cm:type="ps:path">CoinInputListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ieS8ScTeVmJCLMZElJfX71dab66n" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iWwyshMf71oonPFuqkt2g_fphoql" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iKCzACFrOC69HKOOE" cm:mimetype="text/plain" cm:encoding="utf-8">CoinInputListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i0_ME-qVC1CGzclWIO3Aqhl2Y0Wm" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i0_ME-qVC1CGzclWIO3Aqhl2Y0Wmdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="igHicnJtuFx2THiBMGOSl3DOQ1DBg09R6AwN5_VIy" cm:class="ps:parents"><cm:relation cm:id="iMPx1C38F1T5o296onJxLLP_pXmOkIOAwSlfrH40n" cm:type="ps:parent"><cm:target cm:id="i-VURgXruGiSBKzUBS7oJKz-FsKhrO6ptNjSRkYO6">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="idabGVRMPreF3CNnJDNqu9FcahbHiufwvA2nt7ESB" cm:class="ps:children"><cm:relation cm:id="ipdVBG4wLndzMZSNzOQTlS7kcXC__teiYpZ4oO6MP" cm:type="ps:optional"><cm:target cm:id="iEhO6nd7-cWoZlIcWB2pZnZis7-6UEx7-RAOkjYN5">./ifRKNC-DU60ie-AupGYXDhoWZN1d</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ii6KW_weKNqLTO9gn" cm:mimetype="text/plain" cm:encoding="utf-8">CoinReceiver</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ifRKNC-DU60ie-AupGYXDhoWZN1d" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ifRKNC-DU60ie-AupGYXDhoWZN1ddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iisA2-VZSSRtKCxTlq0CxDNV7Mj4UKP5E4-6-JOpZ" cm:class="ps:parents"><cm:relation cm:id="iU7N5grG4aahHC3daK5r0EhSBPk5EiYVRqKWCufxL" cm:type="ps:parent"><cm:target cm:id="iDh6UksFNda39ba4oT72DVllY9_qe7UjYWC-ps00T">./i0_ME-qVC1CGzclWIO3Aqhl2Y0Wm</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i00tpmFMVM6RAcAwVCSavtmHMxii" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iPQRS61okWnT_9W_9lLcQxo_P6Ko" cm:type="ps:path">CoinReceiver.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i5DjdmmqbDG3dFdUSza4Ut_ypBPm" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iCWYkOM73beYwt7BnQUBIsNH-2hj" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iXXmWL3_mbh02PmKP" cm:mimetype="text/plain" cm:encoding="utf-8">CoinReceiver.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="itSzsMLVbLF9a6OaFtiLeTQ74X6j" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="itSzsMLVbLF9a6OaFtiLeTQ74X6jdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iX8AgksjIRQ_FiYLzL5VlH4VlmZNzisnJgbcqfbBw" cm:class="ps:parents"><cm:relation cm:id="ifbrudWoZiYzw2DDxmtW8HyLjNjFxqeFhntCh_Vuf" cm:type="ps:parent"><cm:target cm:id="i9Fx1DxhHIO2DW8vvZCvfHyJOT7__2T19PA4-HiE3">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iLzjsksZmSBTBS7rKfHzgOAAw6-ExQk7EWC4Uz2fb" cm:class="ps:children"><cm:relation cm:id="i9FiYLjB2odXCIyCxOQ-pXSseAwu17EfXmZz2er1T" cm:type="ps:optional"><cm:target cm:id="i4UY8v18_lsXSmZ4UY8MjygSBMzCNYS09Gi3DHOV7">./istQEuaPp4JpsmrhqKPw2MZsaKmg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iQBzbBmbrPeSm0cDx" cm:mimetype="text/plain" cm:encoding="utf-8">CustomerPanel</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="istQEuaPp4JpsmrhqKPw2MZsaKmg" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="istQEuaPp4JpsmrhqKPw2MZsaKmgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iP6Qk9FdqnJaGhXGiK5QAndtuAg7E4otuygNPXm3D" cm:class="ps:parents"><cm:relation cm:id="iz23Dptv18_tucaJyntMjTBmdtKbas0GOmZkcD3_V" cm:type="ps:parent"><cm:target cm:id="iF3MPru3ThXE3fX8pfbtu0DVR5ootWCOQaWlcAgyw">./itSzsMLVbLF9a6OaFtiLeTQ74X6j</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iAyDmHyLvVprUNj7lM8JK1bSlvEa" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="io1YB-Ymx8BrBlIvt56BEoz3UEGn" cm:type="ps:path">CustomerPanel.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i_3IBjZdrLMJQuJ9c4wEFLS_FmWo" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="icWCwz7TWd2xhp2IHzGbtdq3z2sj" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i8VNo8ei8bsQxBpu9" cm:mimetype="text/plain" cm:encoding="utf-8">CustomerPanel.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ig9xHmnMeyT-MSaO_jJkGO62HlGp" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="ig9xHmnMeyT-MSaO_jJkGO62HlGpdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iaW6EJObabazwlIJ4QQ1nxfiIGifHmJTl0Dotaq5E" cm:class="ps:parents"><cm:relation cm:id="ifbBg6ovviI_VuLotcGmZ5-bWBgre5U8FtKK59_Fh" cm:type="ps:parent"><cm:target cm:id="iTBcWMzXCpZoZbqqu0DYCWmTBGOURAwG4ufJ4N5kc">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="imtY8pZaW3ngXBgPkLzNPbaSljc4-DhhHgrzMjY4U" cm:class="ps:children"><cm:relation cm:id="it0NzNzcaIOcaAMNPs0w1E3G4sK19YSXmY8uLicre" cm:type="ps:optional"><cm:target cm:id="iJi__xfFhpt4EfX0nHyvfSRnZG4HyKPBwAMmJlYbq">./ix7Kw-7B8918yU2YhwwDpiwMI6jj</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iwC-M9O1tFc0SHpVm" cm:mimetype="text/plain" cm:encoding="utf-8">DispenseController</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ix7Kw-7B8918yU2YhwwDpiwMI6jj" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ix7Kw-7B8918yU2YhwwDpiwMI6jjdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="icaEh__uvAMIi9Fkc1D0DVRFhOQiIaandqKXCDhIi" cm:class="ps:parents"><cm:relation cm:id="iRQerrehX0TCh8_URgHhXK59VywXSNjqubWWCU7G4" cm:type="ps:parent"><cm:target cm:id="i39EhB2dqaacaX8ygMz6EKzkc0n7UF3jIruJycWpt">./ig9xHmnMeyT-MSaO_jJkGO62HlGp</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ii3Qqx1lCqQBaALd5-DX5_oih5fm" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ij_qVxD1z8CVXcV-p4SkETf3aQXo" cm:type="ps:path">DispenseController.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iOi3T4M6LdQyNujWCTESWPguDyge" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="io2dCz40RcGRlXaCQTa2U9TYsWzl" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ip10IXjfljs6ENBed" cm:mimetype="text/plain" cm:encoding="utf-8">DispenseController.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iyi-JcPgCyedajS9VvoSi44OeAxb" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iyi-JcPgCyedajS9VvoSi44OeAxbdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iO6SlerB2YSzw4EtuD36UXm1DvL2DSR-F0DrKywEN" cm:class="ps:parents"><cm:relation cm:id="iGioJXm8VZmVRmZQ6nJpJDNuLisksX8I4PkiYdq29" cm:type="ps:parent"><cm:target cm:id="ivfwv2T7oLP0D5UFh1TlcGy9Vs0q0bGgbebre-F19">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ierTRC3IiPk8_dGIyY829zwpter7UOkD3EhbW-_jc" cm:class="ps:children"><cm:relation cm:id="iYCOkywisoJUlbaptQ68FJOufbG4EGyPQzMwfjY8_" cm:type="ps:optional"><cm:target cm:id="iu1MPdG29DxE3zgaWuLXmlcfb0DS7ptBwN5RklIIi">./iuiAAogg1aM_XsgEb7b_6_Ff3K3b</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iOsPI0-asQONVh6hU" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkSelectionBox</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iuiAAogg1aM_XsgEb7b_6_Ff3K3b" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iuiAAogg1aM_XsgEb7b_6_Ff3K3bdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="imtNPseOkHOdWBMAMQkAgfXmdywChnd_VfrTR_p6-" cm:class="ps:parents"><cm:relation cm:id="iCxFNQAiIFxHy6UtKL58VBMnJUlptw1SlIicadG0T" cm:type="ps:parent"><cm:target cm:id="iCN5oS7qe0DX8B2VlX8kYD3qKHyvvcG7E__HiExjI">./iyi-JcPgCyedajS9VvoSi44OeAxb</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i_ADknCk4jygHviW5__DqKlIk4Kc" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ipLeab2dmv-pUK4IeUZy9J7zIQhn" cm:type="ps:path">DrinkSelectionBox.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iNacYGfcFjFZO4irYf08TC-pdPul" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iOeFoYzCRjrVQ1yzZJdk-yB9mKBc" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i7Xy1m022b7L5QA7G" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkSelectionBox.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i26vptfca_6Jiu-vj7oizPvNf0Ge" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i26vptfca_6Jiu-vj7oizPvNf0Gedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iOAyMkYhrsuXSXCU7oZGOyM29VB6UR6y2199FENVl" cm:class="ps:parents"><cm:relation cm:id="iRAgHebicntv1eH8pw18pAg3TUB2nbarKnJGijseb" cm:type="ps:parent"><cm:target cm:id="iufY8CxE3gHOQ4UJiXCaGhHhrsesKSljsseF3IOjs">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ioJPAXCVlH4JyruXSaqcatKCxNP1D-pPQOQkINjFN" cm:class="ps:children"><cm:relation cm:id="iJ4frXSWCLzIOgrndKP2TENG46-ufC3URE3dqOABg" cm:type="ps:optional"><cm:target cm:id="iOADNmdSBjI2D-pA2dGY8IO4-CxNjpddaz2Ljq05U">./i8VUbkq1Ak0ONxHER5bu8D0U-T-d</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ifl1WnGYqgr91i0ci" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkSelectionItem</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i8VUbkq1Ak0ONxHER5bu8D0U-T-d" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i8VUbkq1Ak0ONxHER5bu8D0U-T-ddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ilYdG29Eht00n5oFNXSbWHyDNlsI49_dGOk8V1DVB" cm:class="ps:parents"><cm:relation cm:id="iL5hH0D7-dG6o5oxvAgLzE3L5Y8fbAgPADNXSlcTR" cm:type="ps:parent"><cm:target cm:id="ilcfHbqRA9V9V19RkfrerwL2nPknZxL_p9VV7uLse">./i26vptfca_6Jiu-vj7oizPvNf0Ge</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ifFDp9gPAtNCjS0Liwk3-_dg9oNo" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="inu89RCpjYHk6fwnB9uJqwocZFqp" cm:type="ps:path">DrinkSelectionItem.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i4_tWx4kTSi2Jz2WCXkRptyZ52tp" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ioWhB3x45tZy5lJapQqSnYdxLE-l" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iSExKIau-RrmTWmDq" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkSelectionItem.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iKjaTH8Q74EHVdslLzo2II5i3Kei" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iKjaTH8Q74EHVdslLzo2II5i3Keidependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i9_nZOkgX4o_VlI6EY8otdafHiIhbDN8_MP2DWS5o" cm:class="ps:parents"><cm:relation cm:id="itKSB2nGyH4v1R6YSK5NPbqz2SlKjkIcGuvX83nw1" cm:type="ps:parent"><cm:target cm:id="iU7Aw6EX8CNChfrodD31DChLP3D6oL5kIq0Ch-pEh">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ibaiI5omdZCS7pZwvmt9pZ8HOO64Ufr0T_VMjLPZ8" cm:class="ps:children"><cm:relation cm:id="iDh6UGiwf9F4URQ5-Dh1TRkq0tK8VisksuvS7gr3T" cm:type="ps:optional"><cm:target cm:id="ikIaqkssKR6aWA2__vfQQR6JyFhnJ8_zMq0zgWmfr">./iR7Pun4xOE6UfPym4CXhzm_W5pwi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iiSRPK5ASRce2ZO4W" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkSelectionListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iR7Pun4xOE6UfPym4CXhzm_W5pwi" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iR7Pun4xOE6UfPym4CXhzm_W5pwidependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iVlzMte1T0nygSlFNENMzgHgbtuqu6EZ8iYlcLzot" cm:class="ps:parents"><cm:relation cm:id="iIyrKOkFxbqqKEhENz2wL-_0nicuLS7fHkI5oPkE3" cm:type="ps:parent"><cm:target cm:id="ixfgXVBRAsKxLsupdqKicKP1DxfU7Mj8_0nnZjsgX">./iKjaTH8Q74EHVdslLzo2II5i3Kei</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iQcR-SPsjIvrFJ_cjjZwizeJUokl" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iTx-s6FqakHZ4duIvbSFrREr2vzd" cm:type="ps:path">DrinkSelectionListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iXRI25wlPmYV30su-wYpC3ZowjGd" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="inKB7L8gk2hKeZWwG2LPJNfnXOmj" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iTg9t7rUbBKpyfG5s" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkSelectionListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="igTnwbWaodpXapydDeIMue-YX0Vl" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="igTnwbWaodpXapydDeIMue-YX0Vldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iBgteHOAwBwVBcaQk0D7oers029ZCIyzMJiqerKkc" cm:class="ps:parents"><cm:relation cm:id="i19Iiic6-lsptZ8-VlIebiYNjaWcWqKvLA2xfoZ6-" cm:type="ps:parent"><cm:target cm:id="iVRaaLjsKxfHiruGOMjLPaqOQgXdGwfw1VBmtV7te">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iaa1TrKjISR6-PQX8URW8hbv1P6send9pjsjsPQvv" cm:class="ps:children"><cm:relation cm:id="iQQu10TNjaa4UI46Upd-_U7E3lcaqKjiIHOlIYCUl" cm:type="ps:optional"><cm:target cm:id="i__jIygYm3nH4oJ__ptFxsesK8FGir0W8VB5-zM-F">./ihQmcnLyyiFQ_Ba6_jMHDEhq6D8o</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ikRKJDPnme0RNHC_y" cm:mimetype="text/plain" cm:encoding="utf-8">TerminateButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ihQmcnLyyiFQ_Ba6_jMHDEhq6D8o" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ihQmcnLyyiFQ_Ba6_jMHDEhq6D8odependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iNzywrKUlDxcGwfqu6EruH4dahHO6iYB2dquvLPD3" cm:class="ps:parents"><cm:relation cm:id="iHOQkGOGynZhX39pJX86U1DIyhr5oHOKjPks0H4wL" cm:type="ps:parent"><cm:target cm:id="iiYG4od8pmdDN_FWSmJ9VpJoZfbWmPA-FeblIM5xL">./igTnwbWaodpXapydDeIMue-YX0Vl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iTSkyUic-J7oNcn2rCxkKY6aJOzm" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iZYUefUwuJkE_XPHw0BWMwlCW5Gp" cm:type="ps:path">TerminateButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i1suGsjgJMXkL2aL3em1volfT7Sm" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i2EHuqKdwy5CfgAxHEfCRxb2hLyp" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i16HLf70-FRfZ0hXH" cm:mimetype="text/plain" cm:encoding="utf-8">TerminateButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iMyBeKr6gv7_oCA9iIIDPap5U01b" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iMyBeKr6gv7_oCA9iIIDPap5U01bdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iWCpZcWxLnt4o1nSRXmKzmtgHNz7ENzXmKjNP8_iY" cm:class="ps:parents"><cm:relation cm:id="iYmt0LPKz2Tx1PAZmzMuLnJSB29wv__mdaWtereH4" cm:type="ps:parent"><cm:target cm:id="iAwywbaRAMPqKgHzMIO4EjIHOK5gXjsJy-pA2cW1D">./ign-QeKPv866f0XMjRX865jrEqXc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i8p-pLjYSnZX8z2AMmZ4EicTBQ68VBwhXhXgX0DX8" cm:class="ps:children"><cm:relation cm:id="i-VJifbuLuf6UNjZ8FhD3bGT719O6bWeH1nB27E3n" cm:type="ps:optional"><cm:target cm:id="igXSR7U_F39zgcqeXENLzW8Y8Pkjs39__Iyod__G4">./iFoNFVWa_vJW96imnGj4mY2E91zn</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iHEm3H_9eSLyzkeJC" cm:mimetype="text/plain" cm:encoding="utf-8">TransactionController</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iFoNFVWa_vJW96imnGj4mY2E91zn" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iFoNFVWa_vJW96imnGj4mY2E91zndependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="imd5oDNExdqcqquBgLjuLGiWmhXgHFNIOPQ5UU77E" cm:class="ps:parents"><cm:relation cm:id="ihrzwSlXmExeXPkJiLzF3jcpdC3I4tKX8hXz2DheX" cm:type="ps:parent"><cm:target cm:id="iMjUBA29V4Emtz2jcebNzjYSBvvebMPBw2Ds0WSkY">./iMyBeKr6gv7_oCA9iIIDPap5U01b</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="icW6kZdic364BODYaQhElD0Ve5Ck" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i_woHda_v-l9x8-rEQ6mpwRbiySp" cm:type="ps:path">TransactionController.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iUDKMZh0xe4UaYvNX7xUAqybzuzf" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iXlii6hSaaoTuQNX4ADehiMR26mo" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iZPLCw6ZD1u_AlQVY" cm:mimetype="text/plain" cm:encoding="utf-8">TransactionController.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ibK3jmHws-jEB8VYjoUkzWb9JG9e" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="ibK3jmHws-jEB8VYjoUkzWb9JG9edependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ilIcqebhX8VaWG4ENWCO6WmAMtKAg8FjI6EKj_Fhr" cm:class="ps:parents"><cm:relation cm:id="isKU7Z84UTBD3A2FNJOisIiBwkIwfYCrKwfksQ6vf" cm:type="ps:parent"><cm:target cm:id="iYm6-G4HytKGOgb-pYSqeXSfXntQ6Wmu1IygbfrEx">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iKzKzpdKz09xffriYywebu14EUBDNisGydW4U7E9F" cm:class="ps:children"><cm:relation cm:id="intpJD329ptV7fbodO62n7EmtAw0T1TB2fXU7teTl" cm:type="ps:optional"><cm:target cm:id="ilIq0QA_VM5Bg-peHzwgbYSAM09AMKjjYzwOAUlmt">./iJBIybphfcz7a1hseelECuHNmMye</cm:target>
+<cm:target cm:id="ibamZGOsucGxfhbBwv1AwkIRAsK0n7U1ncGcWqeLz">./idkO3L1mbODwjra-7Bbg3tUTB60h</cm:target>
+<cm:target cm:id="iSleXVBsKRkVRjY8_VlwvistKlsGi09lYHOA2Lz8p">./inoHmCShSc0pshOy4Fyk3t2ij1Sd</cm:target>
+<cm:target cm:id="i5UYCDhlYaqaWsuZ8wvlsyMkI39G4md9_fH8V-_Vl">./iOGW7pNYR_Nq8dilzfzMe84NdA6f</cm:target>
+<cm:target cm:id="iJyy2xfzMgHaWY83nwvvvxLJiBwRkq0ygDhywcqeb">./i2t6PwdYIi7AK2O6OlDpdm1-CUth</cm:target>
+<cm:target cm:id="iLPAMQ6OkR6A2mdR6ExJO8_PANPkIgraaxvR6FxvL">./iSBOEAmuR9C_yWke1HPxbhjxtQFp</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iqRPFH_Na_qUW04zWO8lwu1R7rUd" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="ibnWbTt0s5Gg07xXqHAUo-BGP96n" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss/vmcs/machinery</cm:constant>
+</cm:property>
+<cm:property cm:id="iTM0qVCMUKmdKIDpy9MHSMszJ2Gj" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iDHCj_yYRhLoVIOT5_5PwyrztwUn" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss/vmcs/machinery</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ivPfLaFvtmSthfan4" cm:mimetype="text/plain" cm:encoding="utf-8">machinery</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iJBIybphfcz7a1hseelECuHNmMye" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iJBIybphfcz7a1hseelECuHNmMyedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iLPwLPQKjvLK50TKPsK5UI4CNebC3aaoZmtks3Dmt" cm:class="ps:parents"><cm:relation cm:id="ilYxft0kcHi-VA2r0jskY0TZmWStuRkLzhHW809aW" cm:type="ps:parent"><cm:target cm:id="i2n-VwL7Evf-VMPcqK5mtPQ_prKC3OQzgfHExHi5U">./ibK3jmHws-jEB8VYjoUkzWb9JG9e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iebQQhbNj39ody239UBTlygRQ2D9p4--pptcGGOgH" cm:class="ps:children"><cm:relation cm:id="i6-gHkY3nSlquv1WC4Uygwf1TaG7UZSS7lcTRcqHy" cm:type="ps:optional"><cm:target cm:id="i__suGiK51n3nP6cWmJbagHyMExM5DhJOaaOQbGkc">./iQ0tZjUff9CdjX1BLJXayuCWG9Xe</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iZvITTt1_2QysA8ia" cm:mimetype="text/plain" cm:encoding="utf-8">Door</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iQ0tZjUff9CdjX1BLJXayuCWG9Xe" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iQ0tZjUff9CdjX1BLJXayuCWG9Xedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i3ThX4o2DTlYm3nFh3nY86-u1Dx5Ewv9pR6DN-F7U" cm:class="ps:parents"><cm:relation cm:id="iJiIOiIgr-_7Edq_FDxaavfbWqu4-lcFxygOQY8su" cm:type="ps:parent"><cm:target cm:id="i1Tz229FxU7WC9_aW-Fv1fHChGyHy8V6EMjwfH4hr">./iJBIybphfcz7a1hseelECuHNmMye</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i9beaPmVhCTkr-SxfDPEswgUsX-k" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i24ynMp2KxSzLqoZEhaXmx29abTj" cm:type="ps:path">Door.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iJTzimili71QW5GRQa2UKtZMlljh" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iNuFcGrgi46AqupHei0k8OqbEGjc" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i38nn-t7VPfwwCNJv" cm:mimetype="text/plain" cm:encoding="utf-8">Door.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="idkO3L1mbODwjra-7Bbg3tUTB60h" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="idkO3L1mbODwjra-7Bbg3tUTB60hdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="igXebkssKmJ3Ds0PQVB6UAwLztuT7jIru_Fwv2nzM" cm:class="ps:parents"><cm:relation cm:id="icG__EN4oGi7ECNyMQA-p7oZm1nreZCWCqujYC3Y8" cm:type="ps:parent"><cm:target cm:id="iBgaGiI_p6EGyKzExAgD3VRwvls-_wvAwvLhXZSru">./ibK3jmHws-jEB8VYjoUkzWb9JG9e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ihriYBw7-qe8_190DSBiYOA7oJOuLUBJigXQ6Wmr0" cm:class="ps:children"><cm:relation cm:id="ijYvLT7ZS6ExL6EQ6ChpdlsnJca7oW809OkO6kYCN" cm:type="ps:optional"><cm:target cm:id="izw5UlIOAI4X8LPENxfuvR6HyGilsTliI7ElcntZ8">./iK8AqJJzDlzQ-MoKzf2wMscYO90e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iA-D_mX_Ma3FazixJ" cm:mimetype="text/plain" cm:encoding="utf-8">DoorListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iK8AqJJzDlzQ-MoKzf2wMscYO90e" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iK8AqJJzDlzQ-MoKzf2wMscYO90edependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ilYkYXmUBywBMcq2TBMQAhb__dW0DgXxv9_w18_M5" cm:class="ps:parents"><cm:relation cm:id="ijsQ6u1FxT7isuLvLdGaWvfOQOQmdxf5EaWgb1DFN" cm:type="ps:parent"><cm:target cm:id="iaWFxJiN5Mjqu2DWms03n29WCtK9VFxlc19rKCNSB">./idkO3L1mbODwjra-7Bbg3tUTB60h</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="irNlablz7aGsYAePOOhPXaM1bT6m" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iAnitfu15pbsfuv_AuYNN5_NGLYl" cm:type="ps:path">DoorListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iimCMEwuV_wn6kWZHDspSSi04Ada" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="igCnrC9d4dnpMXdZYEIqr6ZaK5Fj" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iiUqrwWSxQsusXV21" cm:mimetype="text/plain" cm:encoding="utf-8">DoorListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="inoHmCShSc0pshOy4Fyk3t2ij1Sd" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="inoHmCShSc0pshOy4Fyk3t2ij1Sddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i5-gXIiY8iYChAgwfodz2DhjIwLLju1pJygEx_FCh" cm:class="ps:parents"><cm:relation cm:id="i7oW8A2ExPAFxAg4Ey2rKxfbW0TseerQATlBgsKtK" cm:type="ps:parent"><cm:target cm:id="ieHXm6o5UE3WSy2qugXt0lIrK0nVBq0dGser0w1I4">./ibK3jmHws-jEB8VYjoUkzWb9JG9e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iA2bqhr9F0nntDxfrIOGy3D2T3TGy9Flc8VhXx1wv" cm:class="ps:children"><cm:relation cm:id="iufBww1xvPQrusKtuwLbGygS7yg9_aWkIT7cGTRDx" cm:type="ps:optional"><cm:target cm:id="i7ERQxfWmzw5U7U6-ZSdWW8lIWmG4L5aaK56-M5QA">./iOF45aoRWXnoBbdJNic4H656dEme</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ipTkKskoLA6sVh8_W" cm:mimetype="text/plain" cm:encoding="utf-8">MachineryController</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iOF45aoRWXnoBbdJNic4H656dEme" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iOF45aoRWXnoBbdJNic4H656dEmedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iuLLjU7RQ3n6-_VXSdG7EmJIy5-FxL529OAv1XSot" cm:class="ps:parents"><cm:relation cm:id="iHOfrlIrKYmQQ_FkcruxvaGpJaGmJ4UhbB2VBkIBM" cm:type="ps:parent"><cm:target cm:id="iUlr0fHF3GOeXVleboJCx5UerK5kc8_GyOQJyNPgH">./inoHmCShSc0pshOy4Fyk3t2ij1Sd</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ipUkH36nJxx_ozRa4LP_dagd2SSf" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iC_AoNioP3tqSxgpfw0d9_3m8PKd" cm:type="ps:path">MachineryController.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i_NLUpfYQDH_Hu-sJKdCAc49IVLa" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ibSYB1DQlW4N94YDsa5TUsZG_cve" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ioV9TPYw9-znkImVM" cm:mimetype="text/plain" cm:encoding="utf-8">MachineryController.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iOGW7pNYR_Nq8dilzfzMe84NdA6f" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iOGW7pNYR_Nq8dilzfzMe84NdA6fdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iKPEhvfaqqKQ6pJSBtendJiNjcG_pmtHierLP1TYm" cm:class="ps:parents"><cm:relation cm:id="i1nnd5EdqBMfb-VaqX8hX5E9FlYcGDxuvjYVRZmHi" cm:type="ps:parent"><cm:target cm:id="iExfrxvVlBMNjCNFxv1zMicO6RACNExKz2DdaP6ru">./ibK3jmHws-jEB8VYjoUkzWb9JG9e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iI4ZmNjsujsENBM6EBguLYCnd7EpdbqptcGExuv-F" cm:class="ps:children"><cm:relation cm:id="ise7o9FC3uLDx-_reCxaWZ8jYXmEh2Thb6-fbYm7-" cm:type="ps:optional"><cm:target cm:id="ifrIOC3lsebO6qKVRmtnt_V39SlwLUBlYteCNZmks">./i2DbXYHEyqlgKItsfyUzV3AQWtcf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iVHNUPRHiPPpbVTxh" cm:mimetype="text/plain" cm:encoding="utf-8">MachinerySimulatorPanel</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i2DbXYHEyqlgKItsfyUzV3AQWtcf" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i2DbXYHEyqlgKItsfyUzV3AQWtcfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iUB-FjspJicFxXCKjnJ8VVlaWxfQk_Vq0kYbGBwls" cm:class="ps:parents"><cm:relation cm:id="i9Vv1Q6W8dGAM-VtewLuvTBTlMPDNL5B2ksWmCNDN" cm:type="ps:parent"><cm:target cm:id="iE3tupt8p19BMteZChXHyO6BMHiUR5UgH5EPQT7Dx">./iOGW7pNYR_Nq8dilzfzMe84NdA6f</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iUGXfolRWS5eMRJBCvYOgOM_12vk" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iFYInVUL0_JHt3DmXnuAHUMCt5cp" cm:type="ps:path">MachinerySimulatorPanel.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iwmew_5wUc9Y6aeGGClkVhUZRR-f" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iVB6LN7RNCZ5LGOKBogUutBCfB2p" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iAtYM09qZmodvIpXo" cm:mimetype="text/plain" cm:encoding="utf-8">MachinerySimulatorPanel.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i2t6PwdYIi7AK2O6OlDpdm1-CUth" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i2t6PwdYIi7AK2O6OlDpdm1-CUthdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iDhkYNPufVl1nIOKPZSsuD3nZ3DuvChLjgHUlpZBM" cm:class="ps:parents"><cm:relation cm:id="iBgIiC3QA4-qu__2nN5zg5UhXsKiccG8FWS0DSBs0" cm:type="ps:parent"><cm:target cm:id="i5-6Eaq0DDxL5ywoZntRQteBgAgHylspdgrr0JyQ6">./ibK3jmHws-jEB8VYjoUkzWb9JG9e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ilc0TpdaWhHcqnZzwVBntxf6U5ULPPQ6UENTBA2ba" cm:class="ps:children"><cm:relation cm:id="iywRkVlqezMB2suQAx1C3Y8grI4FxvL8pNP2nptx1" cm:type="ps:optional"><cm:target cm:id="iZ8OkvvIiW8ptkYM5XmXCJOJORQ7-D3JiFN_poJ1D">./i0sHQ3iKfqPZ17PE3wig0n3vvi2i</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ia5UKmQIT1aU7go8C" cm:mimetype="text/plain" cm:encoding="utf-8">StoreViewer</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i0sHQ3iKfqPZ17PE3wig0n3vvi2i" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i0sHQ3iKfqPZ17PE3wig0n3vvi2idependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iIyWCjYL5gHZ8bGRA4-WC4-mZpJ6-0nVl39xfPkz2" cm:class="ps:parents"><cm:relation cm:id="i19dqkcI4HOvvSByg9_jccauLnZyg2D-pJOAgiIL5" cm:type="ps:parent"><cm:target cm:id="iXCnJfr8p8_iIvvvfgHhHR6RA-_lsdqNPtuQA6-YC">./i2t6PwdYIi7AK2O6OlDpdm1-CUth</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ilSldo0REa3LkvoR043_0ZG5__dm" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="imdfiIQADqZCeS7I8KSV5IUNdyPl" cm:type="ps:path">StoreViewer.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iNJb8GSCTmBK6ClxKrCuPgccAzNf" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iSiOSKGF_U5WQxGvCJqKMNL6cv-n" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ihbRi-9ISfG3byrZC" cm:mimetype="text/plain" cm:encoding="utf-8">StoreViewer.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iSBOEAmuR9C_yWke1HPxbhjxtQFp" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iSBOEAmuR9C_yWke1HPxbhjxtQFpdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iVRG49_V7wfMzENdq3DVBMj7UC34Us0hr1nkswfJi" cm:class="ps:parents"><cm:relation cm:id="ioJLjx13TX8pJW8WCisxfvf5-ywqKoJnJmt2nK5YS" cm:type="ps:parent"><cm:target cm:id="iqetK9VAwmJicreA2QAM5AMwfIy29bWbqYCSBCNEh">./ibK3jmHws-jEB8VYjoUkzWb9JG9e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iAwmJPQURgH3TBg19J4IyTRChU7r0Lj-pLj7-uL2T" cm:class="ps:children"><cm:relation cm:id="i7oT7xL09gbiYB2090nYSRAufYS2DotSlJO7ozwr0" cm:type="ps:optional"><cm:target cm:id="i2DerzMdWJiq0quFhquPQFNGyptRQZCmtXSSR9VzM">./i2bEJgdc_OyJP-o21F_CJ_1cKCNp</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iFgHJCBJPZLo_JFAU" cm:mimetype="text/plain" cm:encoding="utf-8">StoreViewerListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i2bEJgdc_OyJP-o21F_CJ_1cKCNp" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i2bEJgdc_OyJP-o21F_CJ_1cKCNpdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iN5dGNjPQhbhrjIfHoZotGyeHzw7oqK7EWS6UURre" cm:class="ps:parents"><cm:relation cm:id="iMjLPhrgHXC4UOkhHufnZPAdqiYDNzw8pkcVRRk9p" cm:type="ps:parent"><cm:target cm:id="iuvH4AgExN5W8cqod_FL5DxJyR619u1L5ufSBT7-V">./iSBOEAmuR9C_yWke1HPxbhjxtQFp</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i3ZeK7l_dtfigAro5xTdHFWtpinh" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iIL8pW7Miog-svSxK11iMNOm3tNc" cm:type="ps:path">StoreViewerListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iS9W3buuqHU6VvudhPvpS00QCZSo" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="isGYlksnfUs8L4wPElHT-M4W7G8a" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ivwp_elU_HDT70nhM" cm:mimetype="text/plain" cm:encoding="utf-8">StoreViewerListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i5_XPaK8NozgW2RokUsAfOhoFCAi" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="i5_XPaK8NozgW2RokUsAfOhoFCAidependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i6-Z8F3mt8VTlhrIy3DwvDhWSLzqe29is7-6oE3te" cm:class="ps:parents"><cm:relation cm:id="iwfr0197o39zgO6_pR6mdQQOkTBA2lc7U-VnJ5Uba" cm:type="ps:parent"><cm:target cm:id="iuLM5wfLjRQWmJOzMBMR6pdt0LPYCndMz__pdJ47U">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i0nmt7EJiGyv13TMjjIcaygpdTRLPqu1DEhLjwvyM" cm:class="ps:children"><cm:relation cm:id="iOAR6RkFhuf4oq0aWIyK5Eh_p6-eXAwaWjYreAgda" cm:type="ps:optional"><cm:target cm:id="iL58_LPlsywH4_FaGAgHy3Tw1AwUlJO_pjcOkL5cW">./iDgdrnXKXeLZDSLknIkFKDpE5VJf</cm:target>
+<cm:target cm:id="ida6owLVlqefrlczgaaN5OQqeB2kYhb5-yMPQ1nZ8">./iXA7G6UrXMQy8YZYg8h505JfxYRa</cm:target>
+<cm:target cm:id="iWSWmIiM5GOse4UMjpd6-isGObaI4z2oZmdGOX8Ji">./itQnF7J15CZO8cva4BjtM5IXH2ec</cm:target>
+<cm:target cm:id="iqKYS6-4oeXFxodXmGiJ4Gi8FxvK5ExmdkcQ6sKhr">./ikV6YHf62l5stVuGLsvyyOgIyV5l</cm:target>
+<cm:target cm:id="iAgjIWCMzQ66ou13nEhkIMPjI39yM3DmdGiM5ic6o">./iLJH1m-6cu332WDTXbLaMt3S9bqm</cm:target>
+<cm:target cm:id="i6E6URkwLaqRQqeAgjsrKjY1DFxVBpJTBVB1DNzgr">./iaYJ6dyfIH3hvFt6eEpQ4nx5d0mg</cm:target>
+<cm:target cm:id="idWkcr0yg5UU7fbgbTBHyYmYSdGreR6reaq1ThbEN">./izSZxqcR7mnMl8WiqFU334zWRCuh</cm:target>
+<cm:target cm:id="i1n4EptZSO6GikY39tuicRQcWYSSRTRDhXmxLcaDh">./isDFWTVSqynbI6Dm6i1ppRcLgMWg</cm:target>
+<cm:target cm:id="ipJFNJy09gbcGcGVl9F0TC3CNMPhHlcMPebTR8VGO">./inzyQgrrsj7HHLldctCx7_ih9yRg</cm:target>
+<cm:target cm:id="iEhFxeHtuFNZSLzbG4EicG4lIQQBwCNGOeb5EAM4U">./ijq1DZl8heUPDGvxe2z1ZUs2lvyg</cm:target>
+<cm:target cm:id="i1TVBMP__7-fHJOiImZx1BwJOTR5o5UuvNzFxBMis">./iopq061lfx6kRhuowi0RdlSw1Zed</cm:target>
+<cm:target cm:id="iDN092nUllYr0cqw1V7isVBTRKzDNTRjsQAV7vLeb">./iz89tn97F6zJvFwa8jvAyASL6Owg</cm:target>
+<cm:target cm:id="i6ou1pZcafXdWSlgX6oVBpdufG4hrt0-F7E5o3nXC">./imhh2o8SO6pLorF_PRCYf2b-LSai</cm:target>
+<cm:target cm:id="iDhjIhH09096-VBZSjsqujIhHdar0aaENqe_VN5Cx">./iwqUw6bDlSl9V0PT5f_3fPtQnIRg</cm:target>
+<cm:target cm:id="iLPX8pdnZ09VRFhChT7y26UebHySlB2K5Ehod6-gb">./iY9gBEWLozSvWBsvrKRc57WzpOeo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="is2b3C3i7YDI_lUSer7-EG966jVc" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iisv5DIAyxfDYz2dGvWQ5saMLw_o" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss/vmcs/maintenance</cm:constant>
+</cm:property>
+<cm:property cm:id="iP69Hz-tqDqhKvoLRwVVk74VXN8g" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iPv1dPh3lsTWojg8UpssX4bJeVLp" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss/vmcs/maintenance</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i-ABpwRRmrdOA-n4x" cm:mimetype="text/plain" cm:encoding="utf-8">maintenance</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iDgdrnXKXeLZDSLknIkFKDpE5VJf" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iDgdrnXKXeLZDSLknIkFKDpE5VJfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="idWcqYm-_F3HO-_Lj4Eod_F3ndWnJYSygyMbWyM__" cm:class="ps:parents"><cm:relation cm:id="iGipZFNJ4mtqeENGyGyaG8VbGpJGiYm-_DNFN7ogX" cm:type="ps:parent"><cm:target cm:id="iUREN7-VRVl_FpJC30D0TgX3TmdJ4jsJOMPdG1T4-">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iUBxvNj2T3DreZCmthX8_5-0TwvCNF3dWndO6kYgb" cm:class="ps:children"><cm:relation cm:id="iZCebufRA399p9p-VbqjsqK__DNrKPQ2T4ETlE31T" cm:type="ps:optional"><cm:target cm:id="ifXUl-VQQnZqeHy4o2TrKhbC37UoJGON5uv1DebBg">./itDHlhRzzZw0KvCnqAJdsLjlvfOo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ideKxAsv0I29Pgs0T" cm:mimetype="text/plain" cm:encoding="utf-8">AccessManager</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="itDHlhRzzZw0KvCnqAJdsLjlvfOo" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="itDHlhRzzZw0KvCnqAJdsLjlvfOodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i6Uot2TcqsejI2DfXQkw11Thb1DSRgbbqCNEhVBgb" cm:class="ps:parents"><cm:relation cm:id="ilY9VreBMTBz2Wm8VvLgXQA6EaaLzt0hbkISRvLyM" cm:type="ps:parent"><cm:target cm:id="iE3hrzMWCFx7okcsKYSiYotHOcalYW8_VKjChfXIO">./iDgdrnXKXeLZDSLknIkFKDpE5VJf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="irICPqMYj-SBeEL5c07818XiwUsg" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iz4Yt0eXsIj91lkSXp7uU3Y_JoSg" cm:type="ps:path">AccessManager.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ifsOtyNbEhYUyKEIUL_8UaFseuDj" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iN6pcgnjcUtDopp61OVM6Alxuysb" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iOVOwrqPPywsBsKZe" cm:mimetype="text/plain" cm:encoding="utf-8">AccessManager.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iXA7G6UrXMQy8YZYg8h505JfxYRa" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iXA7G6UrXMQy8YZYg8h505JfxYRadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iiYwLt0X8ebIOUBoZmZ-_JyG4TRURA2AMvfs0qu8F" cm:class="ps:parents"><cm:relation cm:id="iruygQQcWPQwLoJxvO62nWSQQE33DGOSBsKz2Pkyg" cm:type="ps:parent"><cm:target cm:id="iWSfXgXWSaWywQ619FNKjlY09K5SBsKGOZSfHMz9p">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i5UHyP6ENwLGOcaSRKjwfZ8yMptsu2n5UruUR7-rK" cm:class="ps:children"><cm:relation cm:id="iSBeHqumdChmtAwWmaq09mt9_0ndGXmUlFNlcodW8" cm:type="ps:optional"><cm:target cm:id="iba0DoJEhAgsuCxSlMzWm__3npJ0TxfNP1nLjmZvL">./iTFGbZJE9cEmInHAa_ZhCrsYvj7k</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ilsIYo4m3-xrYzULL" cm:mimetype="text/plain" cm:encoding="utf-8">ButtonItem</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iTFGbZJE9cEmInHAa_ZhCrsYvj7k" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iTFGbZJE9cEmInHAa_ZhCrsYvj7kdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="idWoJRAFxYm-_lcZmHyPAtepJ7U4E8pGy7oqeA2cG" cm:class="ps:parents"><cm:relation cm:id="i0DxLpZ6oChBM-Fpt5E1Ter6olIDNptnZL5CNaW9_" cm:type="ps:parent"><cm:target cm:id="itu3nH4KzreptXCmtdGPACxfHS77-grZmfXqesujs">./iXA7G6UrXMQy8YZYg8h505JfxYRa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iKOKdrdg-8yrBjzHqVi10YiSq_Dg" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iS5XjU0Oon9pXTXjSORayf_JfQWl" cm:type="ps:path">ButtonItem.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iMxN8lPt3axW7YPYlC44mJd9Z4El" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i9HGgSeoR-7aSuehyd3ZIysjL-vk" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iPGzzF9L1e0wv8ejs" cm:mimetype="text/plain" cm:encoding="utf-8">ButtonItem.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="itQnF7J15CZO8cva4BjtM5IXH2ec" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="itQnF7J15CZO8cva4BjtM5IXH2ecdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ijcmJP6xf7ES7suENR6caGitueHoZ1nBgoZSl0Tqe" cm:class="ps:parents"><cm:relation cm:id="ivLUlL5jYVl-pptQQMPzgXCptYSqKygfX-piImZaW" cm:type="ps:parent"><cm:target cm:id="i6UPkDh9pLPZSAgnd7Uy2IOjs9_kcpdnJsuxLHO-V">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iYmD3-VXmLPjcA2wfVRNj7UAMtKAgebBgI4iYH4jc" cm:class="ps:children"><cm:relation cm:id="ipdcqksDhkstuyghXtuV7baX8Vl6-oJkYIy5UGiEN" cm:type="ps:optional"><cm:target cm:id="iBM__3DYmsewfaqgHhX0Tr0QAx1ntnZ2TlYYCZ8gH">./iSR9AlhfHFKaohZcQcXBHZKebR6n</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="insBgliFKXCxT9Rhk" cm:mimetype="text/plain" cm:encoding="utf-8">ButtonItemDisplay</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iSR9AlhfHFKaohZcQcXBHZKebR6n" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iSR9AlhfHFKaohZcQcXBHZKebR6ndependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iQAvv7U1nY8IiJyExJyBMr0-FRkfrlYFx3D4-OQks" cm:class="ps:parents"><cm:relation cm:id="i9VRQqer0J4ksy2uv1TNjCN3DfHdaTR9p39F3y2re" cm:type="ps:parent"><cm:target cm:id="iSRaafrVBIO0D1n9_7UDh1TsexvXSNjIintq0kI2T">./itQnF7J15CZO8cva4BjtM5IXH2ec</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="irVOdXFkeVlfcHGLgRK96m3Z0oAp" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iiifaSJFWrEwF8QEGlsb-5k9J1Jk" cm:type="ps:path">ButtonItemDisplay.java</cm:constant>
+</cm:property>
+<cm:property cm:id="im4TN5nzyq285B-ICSUkwY4aUUdj" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iYP_FPu-sdgpL5QrJA9oYBdBNmkb" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i15lDc5t0g5w4l8Hl" cm:mimetype="text/plain" cm:encoding="utf-8">ButtonItemDisplay.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ikV6YHf62l5stVuGLsvyyOgIyV5l" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="ikV6YHf62l5stVuGLsvyyOgIyV5ldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iIOqKG4q0wLisFhB2mtcqaa4EmderjcQAEhVR8Vot" cm:class="ps:parents"><cm:relation cm:id="i9p9FYSgHvf8FmZx1zgM5NjNPtKmtrKDNjczMG4L5" cm:type="ps:parent"><cm:target cm:id="iX8dGIOAgJOhb-VWCR6gX7EbGN5YmgX-pbW5ov1S7">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iFhv18_re2nY8eH29QAndgbMPdGpdVlT75oVlD3JO" cm:class="ps:children"><cm:relation cm:id="ivv19K5daI4mZwLw1G4otmZhH4UptRQ5EURhrnZ3n" cm:type="ps:optional"><cm:target cm:id="iLzB2_pVl4ENjA229ptCN4EL5-p5UJOVRhHhrcGMj">./iQW6_KqUsDB6C1puHYKimzPe5Toh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ibp4j1JSw0Oh0AblE" cm:mimetype="text/plain" cm:encoding="utf-8">CoinDisplay</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iQW6_KqUsDB6C1puHYKimzPe5Toh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iQW6_KqUsDB6C1puHYKimzPe5Tohdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iDNNz8FmJYSAg_VNPkI3DxvdGDxfXO6quoZOAFhSR" cm:class="ps:parents"><cm:relation cm:id="iQQntoJGyCh5-qe0Dsu3nG4er3DVRr039jIbaY8pd" cm:type="ps:parent"><cm:target cm:id="iw1Chuv-FruX8_pbWCNgXAwjYbaNPkcmJR6eHW8__">./ikV6YHf62l5stVuGLsvyyOgIyV5l</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iSp1qPtcodyhnDaIJk1U3LRGwFSa" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i0y5bvh78dMw8TYCzUSJOQRH1UTb" cm:type="ps:path">CoinDisplay.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iMNQUK7KzPgEmmfdkrbb4qM3Hf-f" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iw3Df_GUw47I8Omijzj7UTEn7Hdj" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="idH4kqT7Iv-0e8aT-" cm:mimetype="text/plain" cm:encoding="utf-8">CoinDisplay.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iLJH1m-6cu332WDTXbLaMt3S9bqm" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iLJH1m-6cu332WDTXbLaMt3S9bqmdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iA2qu0DqKNjt0_F2TI4URtKRA1DR6tuXmNzKjPQdW" cm:class="ps:parents"><cm:relation cm:id="iBMnJlsBMywisiYDhVR9_4EuverSRbaA21TPQU7Z8" cm:type="ps:parent"><cm:target cm:id="iNj29erFN8VDhnZU7bWJy8VmJJi-F-p6oP67UgHpt">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ida4-mdqeQk3DndmJRkseksxfYmxLeHT7sKIOeXDN" cm:class="ps:children"><cm:relation cm:id="iNzeXIOiIQAcqM5r0s0su3DjcJi5o09fbFxq0NPRQ" cm:type="ps:optional"><cm:target cm:id="i4EPAXSmtodquAwDh8V5UcWMjHORQkc4ElsDhqueb">./iyB3yS8cBVavJCwMtaOOsBdLpO9n</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iKNDJNdB8AA1b9yFO" cm:mimetype="text/plain" cm:encoding="utf-8">CoinDisplayListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iyB3yS8cBVavJCwMtaOOsBdLpO9n" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iyB3yS8cBVavJCwMtaOOsBdLpO9ndependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ier-p9V9Vy2WSuf7o__2Tqev1bq-VxfHys0wLqe_F" cm:class="ps:parents"><cm:relation cm:id="iTB4Ujc6-yg8_pt1T9pFhdGrKaqKjaWEhPQBwJynd" cm:type="ps:parent"><cm:target cm:id="iQ6v1wvN5N5quqKMPtKz21TfXlctKr0IO8FRA0DQ6">./iLJH1m-6cu332WDTXbLaMt3S9bqm</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iBN8nkeBWzjmufFyXwbPPIhmiL-e" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="izrdd1y90thryDoYhxl0MnJrL01j" cm:type="ps:path">CoinDisplayListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ipasuo7uWF9ROsQUwFbL8XljmQif" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iAjORhk9t8DAT1APUwTc_36qndEh" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i_sU4CrX0IwAcnpyS" cm:mimetype="text/plain" cm:encoding="utf-8">CoinDisplayListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iaYJ6dyfIH3hvFt6eEpQ4nx5d0mg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iaYJ6dyfIH3hvFt6eEpQ4nx5d0mgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iW8dahrB2Aw8VaaWC6olcDNFNxf4-7-QkgHBMQACh" cm:class="ps:parents"><cm:relation cm:id="ijYB2cGQkyMpZ6oT7re5oIOQARARQE3VltuM5Q6L5" cm:type="ps:parent"><cm:target cm:id="i4o-_fbeXKP6olsAwWCAMLPru9pdqUR0DbG6o1DFx">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="imJGyFNTBYmsKYSRkqeI4NjfXA2R6_F6-mZq0xfHO" cm:class="ps:children"><cm:relation cm:id="ivffXpJAMRAtucar0H4QQeHLzeXXCvL8p-Vca1T29" cm:type="ps:optional"><cm:target cm:id="iYC8pq0ZCZ8uLX8gbbGS7gHOQ_pbqt0LPotR6Wmre">./iIDFLf7g7JrpqYyXU8xGUpQ47NMl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ifw_bMqay5m71iwCz" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkDisplay</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iIDFLf7g7JrpqYyXU8xGUpQ47NMl" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iIDFLf7g7JrpqYyXU8xGUpQ47NMldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iaqFxs0-_KPaWksTlkYaWRQENlY8pA2kYKzquSl3n" cm:class="ps:parents"><cm:relation cm:id="iotT7PAodH4jIX8lsFxBgmZWCz2icU7vvMPpJI46U" cm:type="ps:parent"><cm:target cm:id="iPklIpdSBGOgXhXlsGyB2C3YSmtHyjsqeru7EhH0D">./iaYJ6dyfIH3hvFt6eEpQ4nx5d0mg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ivWrBs7PeZAp6VedMY3P_bedvElp" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i5S2eVcvRDFbM3BaunVK_hRtshUj" cm:type="ps:path">DrinkDisplay.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iP3qZd4ChqdGTDMwMeGUHVK7bPcp" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ijiGT7WW7s7ZIzGoHSyc-Z5qoMah" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iO0pgeJqjOlYLrRE6" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkDisplay.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="izSZxqcR7mnMl8WiqFU334zWRCuh" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="izSZxqcR7mnMl8WiqFU334zWRCuhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ivvy25E4Ubq_V8pIyaaZS2Tv1u1_Fmdvv5-_Fquw1" cm:class="ps:parents"><cm:relation cm:id="iNzRAG42T-FURnJExxLMPufdq8pM5Zm8FgH2TjYxv" cm:type="ps:parent"><cm:target cm:id="iYms0CxtuLj-p6-jcRA7UDh4oufndVBHiRkiI7EXS">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="icG4UcqG4DxqeEN7-2n6EvLfbcaHiwL6oMj1Dnt0T" cm:class="ps:children"><cm:relation cm:id="iisE3B2lc4UxvptHyhHvvC3daPQCxBgbqCxLjpJI4" cm:type="ps:optional"><cm:target cm:id="iw1ptV7TBdaisz22THySRcaExs0mJVBhrptCN6oD3">./iEx9ev06fh0lIWmjRG3Zlzvnzs4e</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iO1RwHzCw3FiHe3WX" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkDisplayListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iEx9ev06fh0lIWmjRG3Zlzvnzs4e" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iEx9ev06fh0lIWmjRG3Zlzvnzs4edependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i7oLP4-7Etu9_lcXSlsmZBM8FcqDxAg__wvjcChsK" cm:class="ps:parents"><cm:relation cm:id="itu__W8zMRkMPicruG4x18VruxfygZSL5w1gbTRC3" cm:type="ps:parent"><cm:target cm:id="i8pebTlkYru19V7PQSl7-MzKPygGysKodAw29IyD3">./izSZxqcR7mnMl8WiqFU334zWRCuh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i70iezylF5SqLFFhuon5mfKA0PBe" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iuWW2DZQIIjFkRhA2Da_Bzb6dTgm" cm:type="ps:path">DrinkDisplayListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iyNuGkYuhrp_w2p54iRowXSLXawj" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iiQiBLZwTYaGEP9ZP65LC5JZLjOn" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="id_2kXYhYJreWJQOB" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkDisplayListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="isDFWTVSqynbI6Dm6i1ppRcLgMWg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="isDFWTVSqynbI6Dm6i1ppRcLgMWgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iA2mJGi3919FxVR2DmJhXJibaZ8E3UB9FwvBgictK" cm:class="ps:parents"><cm:relation cm:id="iaaerOAV7UluvkYGiHOMPs05ohXygSBL5mdquvvZ8" cm:type="ps:parent"><cm:target cm:id="i-Fhrz2D3vvhb5U9VZSLzebD3jc4UNzD3t0ywDxru">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i2n19C31TcqoJQAWCdqZ8UlEhiI7oKPZ85-isYCFh" cm:class="ps:children"><cm:relation cm:id="ipJJO2T9VSlmd3nSldGOQY8yMvv6E_V8pDhR6rKjs" cm:type="ps:optional"><cm:target cm:id="i5ExLF3FNXSRk4-zgJi-pteisMP-FsKLjZChHSl8p">./ikUgmSYNbfvDdjVLvWpLNHhSDTQa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ikXCbMfIue_UVeWNe" cm:mimetype="text/plain" cm:encoding="utf-8">ExitButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ikUgmSYNbfvDdjVLvWpLNHhSDTQa" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ikUgmSYNbfvDdjVLvWpLNHhSDTQadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iiYmdHiz2TBPQ3DoZqeiY_pvfbqtuZmse9p5-RQOQ" cm:class="ps:parents"><cm:relation cm:id="iqeQQXS0TtKT7I40D0T7E4Uyg7UZ8WC19Sl7-9VeX" cm:type="ps:parent"><cm:target cm:id="iqKlIaWjsmtJOyMptSRbWG4MjmJ8FwfE3fbodLjhr">./isDFWTVSqynbI6Dm6i1ppRcLgMWg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i3q-fEmqISDpFfA6bAU25frmsWFi" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ipJAlDh_mFcRBcMgJ5BeGQfq1f9p" cm:type="ps:path">ExitButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i4ZLNKDMh4Wovbtae-BKQZnB9hka" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i1wmtw8i8gVrmouhdYmT_ecii_Gb" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iy8lZNF-ovHYOz0h_" cm:mimetype="text/plain" cm:encoding="utf-8">ExitButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="inzyQgrrsj7HHLldctCx7_ih9yRg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="inzyQgrrsj7HHLldctCx7_ih9yRgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ivvHyH4SBHO__L5kcruw1wf1D2TDh-_2TWSgbMznt" cm:class="ps:parents"><cm:relation cm:id="i8Fcq_p-FUBhXFxtuvvGOeH3nGilct05-M5JOpdse" cm:type="ps:parent"><cm:target cm:id="ikYWmUBaWO6BMJi0DOk__2D7UlsQkmtNPbqIiDNNP">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iVlN5quhXhXJywfkYAMOAufY8gr_FXSwL7onJreQA" cm:class="ps:children"><cm:relation cm:id="ieH4Entw1Agw1dau1BgiYhbFx-F4-4UkcKPhXIiIO" cm:type="ps:optional"><cm:target cm:id="iYS_pH4dWS7xfca09DNfX2TM5QQiIGy__IitKYmis">./izJWE1NnJ1n22qVWtwWTgUraDyva</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i-g9YmIjOVT9mSKa_" cm:mimetype="text/plain" cm:encoding="utf-8">MaintenanceController</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="izJWE1NnJ1n22qVWtwWTgUraDyva" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="izJWE1NnJ1n22qVWtwWTgUraDyvadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iDNeXpdLPA21TcqK5LjoJebJ4A2bGgHZSvvkYXS-_" cm:class="ps:parents"><cm:relation cm:id="iqK-pSRSBN5iYnt0TVB1nO6TRaGy2qemdnZw1u1pd" cm:type="ps:parent"><cm:target cm:id="i7obWNP09__Ok7E7oTRwfAwgXgH0TENURt0QQ8F8p">./inzyQgrrsj7HHLldctCx7_ih9yRg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ip_zHCN7HrocRlw62BIygWvKV-Cg" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ish3s_Vqn0Y5KT-2OrSH5QkFpb4b" cm:type="ps:path">MaintenanceController.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iwdSixyQiAX0RtsXbZUnMmvv2pNd" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iJFjpyqfGHbfwf9OjE1QGO34Qgeg" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iXGet6MHlaTyWA9EE" cm:mimetype="text/plain" cm:encoding="utf-8">MaintenanceController.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ijq1DZl8heUPDGvxe2z1ZUs2lvyg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="ijq1DZl8heUPDGvxe2z1ZUs2lvygdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iOA0n2nS7wvtKbGYS_FV7VB6UdWK5_ppdQA2TW88_" cm:class="ps:parents"><cm:relation cm:id="iufbWEhVlgb09YmC3lYvLz2pdpZdaFhwLmdL5lIQQ" cm:type="ps:parent"><cm:target cm:id="ibG9V9_L5gHTBC3grw1KzN5v1ZSnJrugbmtWm6oiY">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i7--Fy2TBaG09ywbGhr4-0TnJUllIisuLEhtK9FdG" cm:class="ps:children"><cm:relation cm:id="i19SlD3TRbqN5-p39hrpZQAqefXz2nZK5suseAMaG" cm:type="ps:optional"><cm:target cm:id="ibGr0ru9V4-LjO6BgWm4o7-qKbWeHIiuLExNPteEh">./icRVtgwT_-5JNN8-PzJqX9xvM3Al</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i1Q8-86vFklPBq0ms" cm:mimetype="text/plain" cm:encoding="utf-8">MaintenancePanel</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="icRVtgwT_-5JNN8-PzJqX9xvM3Al" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="icRVtgwT_-5JNN8-PzJqX9xvM3Aldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="it09VMzvLHO8FtuzgLzcqVBFxWmBwPAaacq8FAMEx" cm:class="ps:parents"><cm:relation cm:id="iaWK5vf6o-_Ulvf7odWB24U-poJ5ECNhrOAG49_dG" cm:type="ps:parent"><cm:target cm:id="iLPeXwLTBr0Ymjspt8pFher4-KjI4XCqu4ESl__aW">./ijq1DZl8heUPDGvxe2z1ZUs2lvyg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i9PU5r4cNoCo0-8v7hmfCvPZF3Ho" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iqkmtsNM2r17_NhP5ywSLMwLVMHo" cm:type="ps:path">MaintenancePanel.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i64F9rcADlIVps8_3O_vzv8i8INj" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iy_067i8YKaQCjX-UrsCu3YXGv7l" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iM6ym7Qh41bnZipSU" cm:mimetype="text/plain" cm:encoding="utf-8">MaintenancePanel.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iopq061lfx6kRhuowi0RdlSw1Zed" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iopq061lfx6kRhuowi0RdlSw1Zeddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i1DZ88V7Ejcis19FN2TvfLj8_ExoJisD3NP2n8_u1" cm:class="ps:parents"><cm:relation cm:id="ikYK5dG1DT7WmjI0T9FSRExC3vLcaP6Hihr_FseW8" cm:type="ps:parent"><cm:target cm:id="i9VZm4U9FWC2nwLbqChwfKz1DP6aqv1FN1TqeD3Lz">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iP6FNwLJiruOAUBzgbq8pCxkYZmM50nRQL5H4hHkc" cm:class="ps:children"><cm:relation cm:id="i8p8_7EwLAgdWA25UDhXC7oYCse__lYURvferWSlY" cm:type="ps:optional"><cm:target cm:id="iw1VBqeJ4DN39dqxLzM3DqKeXlI-VGOoZGiebreOQ">./iwU-Rrmt9Ir4ReeDunjo5lvNze7d</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ilFftKxqOBgzhV7J6" cm:mimetype="text/plain" cm:encoding="utf-8">Password</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iwU-Rrmt9Ir4ReeDunjo5lvNze7d" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iwU-Rrmt9Ir4ReeDunjo5lvNze7ddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i8_0DLPx1NjxvCherJi5UlY6oRQCxXCFN4oYSxfyw" cm:class="ps:parents"><cm:relation cm:id="i5EwLXSBgs0BwXCO6ENseFhPA9pmJseQAnJdGMzJ4" cm:type="ps:parent"><cm:target cm:id="iAMIy9VC3BgtKURNjhrwf-_gHR6seXSVBPA0npdbq">./iopq061lfx6kRhuowi0RdlSw1Zed</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ig3Y3mEfatoljjW0ffj0Ecx4A9Qa" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i5oip2-NM56fcwFBd_ERucnDIddj" cm:type="ps:path">Password.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iJGwtzt5C4xq-NfEYuI6Bpecs6Ja" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ixXR51O5K5lFNiCtCl_qvaedYpLd" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ibT_w8Oe6psu6jM5X" cm:mimetype="text/plain" cm:encoding="utf-8">Password.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iz89tn97F6zJvFwa8jvAyASL6Owg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iz89tn97F6zJvFwa8jvAyASL6Owgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="is0pJdGvft05U8_q0zMFNksruY839ZCChDNCh5ofH" cm:class="ps:parents"><cm:relation cm:id="iTRlYcWzwfrQkseNzH4isiclYV76-X8ZmerbWygfH" cm:type="ps:parent"><cm:target cm:id="intkIjsdGmZTlOQNPRk9p4oEhSRgXpZfHvLE31Dhb">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iF3_pRkSBcGjYRkCxlc2DywNj__8piIkYvf0n3909" cm:class="ps:children"><cm:relation cm:id="imd_Vz2R6pt-VtKQ6YSJyywdGcaxfRAVBAwrKLPqe" cm:type="ps:optional"><cm:target cm:id="ieXWS6EUBdW5URQmJ7URkcaBwhXYCFxU7HOjIy2OQ">./iRM3D9MbEc--_fxx2fpfZGzE1ZFk</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i2D1fp8bb1H79c8bg" cm:mimetype="text/plain" cm:encoding="utf-8">PasswordListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iRM3D9MbEc--_fxx2fpfZGzE1ZFk" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iRM3D9MbEc--_fxx2fpfZGzE1ZFkdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ihrebSBOkWS6EJ4lY6UCxXStKdqOksuqeWmfrHy2n" cm:class="ps:parents"><cm:relation cm:id="i3DvLMPlYaGW8M5da3D5E09supt5EkYuvWSDxHO3T" cm:type="ps:parent"><cm:target cm:id="iMjiYOkHiRQntqubas0NPChV7lscWK5Ag-_8FZ8uL">./iz89tn97F6zJvFwa8jvAyASL6Owg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iGfHl2Wr3dDzDtqk6rWemaE2y_Jn" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="impFSq3CLi_0geRijIKuxM-7pR1f" cm:type="ps:path">PasswordListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iiW014YJk3Sp1EompaN9BbhU9_dg" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iWxJtFn2y1Rd3sEjnBWJw4RhZlQh" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iC94_rlSU1YZdpNUn" cm:mimetype="text/plain" cm:encoding="utf-8">PasswordListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="imhh2o8SO6pLorF_PRCYf2b-LSai" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="imhh2o8SO6pLorF_PRCYf2b-LSaidependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iD3Dxre4-aGYChbwvKPKjXm9VRkMzwLywt0xfQA1T" cm:class="ps:parents"><cm:relation cm:id="i__od4-pdq0w1dqTBlYhX__CxENmJaWFhSR3TV7E3" cm:type="ps:parent"><cm:target cm:id="iksD3mdy2S7I4fbaq09ndv15oBwOQC3XS6Er0AM5E">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iq0BgRAdGmddaRA7oXCL5YSChufM5dW7-N5mJJybW" cm:class="ps:children"><cm:relation cm:id="iE3oJnttKrK5oS7SRMzw1ZCYm7-hXLPgrnJ5UfbdW" cm:type="ps:optional"><cm:target cm:id="iQQZSkIV75EBghb3TgrMjChOk1TxLu1EhY8PA6U5U">./i39nQtgUSAa3xGmyrYxfPlw10KAe</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iJ7O1VWLIwtPKBoj2" cm:mimetype="text/plain" cm:encoding="utf-8">PriceDisplayListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i39nQtgUSAa3xGmyrYxfPlw10KAe" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i39nQtgUSAa3xGmyrYxfPlw10KAedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i2T0TYS4Ew1yMlIdqoJ_pFxPAteUlerkYgrAMdGAg" cm:class="ps:parents"><cm:relation cm:id="ibqaq3DVlJOQQA2ZCXSUlE3aG9p8VQkN5__DNH4gr" cm:type="ps:parent"><cm:target cm:id="ixv3DEhx1WmlYcWndgHAgksC39_-pZSlIN58_wfxL">./imhh2o8SO6pLorF_PRCYf2b-LSai</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iy4b-8BLsV55h5S3f6fVDHWdI_ka" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iBimApQ5liaq68bt_b1wbVSiE7mk" cm:type="ps:path">PriceDisplayListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ivajzdAsx5aXZQf39x3hZQZYoMPe" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ii7QQyg5bkLoATGsR_FCcp-UL-km" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iaim_LDkGpEQgfAEw" cm:mimetype="text/plain" cm:encoding="utf-8">PriceDisplayListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iwqUw6bDlSl9V0PT5f_3fPtQnIRg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iwqUw6bDlSl9V0PT5f_3fPtQnIRgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iKj1TfrZmseL5baks-_pt0Tmdmd5UFxhbX8qKhH4o" cm:class="ps:parents"><cm:relation cm:id="i2nBgV7fbAMN5V7SlfrBg4UY8IywfpthbygR64UzM" cm:type="ps:parent"><cm:target cm:id="is0Ym7-dqufChVBQkrKNznZCxZSteqK_VZCodHiCx">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i0DF3J4odda1DRAURerfrrKJ4wLPkYmaG7UZSxLda" cm:class="ps:children"><cm:relation cm:id="iywx1hH19qur0UBIywfH4gH4EX8O6jcvvz2YCs0QA" cm:type="ps:optional"><cm:target cm:id="ibG6-M5jIisNjaGDhDNufmZAMOQtubWkIBMDNXC2n">./ixc02tnpPLZysiYdcHxMEusM3s3o</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i3O7IFZTowfUypOG_" cm:mimetype="text/plain" cm:encoding="utf-8">TotalCashButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ixc02tnpPLZysiYdcHxMEusM3s3o" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ixc02tnpPLZysiYdcHxMEusM3s3odependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="itKLzseE3URu1ZScW3TfX19aaZmsu8F39qu_F_VCh" cm:class="ps:parents"><cm:relation cm:id="iURJiYmoZLPuvwLwfxv7E2Dptwv8pjY0T9V9FfXBg" cm:type="ps:parent"><cm:target cm:id="isefb7-8_6UfX3nbaCxNj29zgdGQQZ8uLKzW8P6QQ">./iwqUw6bDlSl9V0PT5f_3fPtQnIRg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ifQX5tib3TtdMf5bbD8peMhfRuOk" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i0fO62BZAyZBXXJE1XerIPTVNIcd" cm:type="ps:path">TotalCashButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i-u77bLYquxLOYXNDF1_DGt97kck" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iIl4gz-x7frks1L5c4MHJvK70Hjp" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iBdekBpnKcDkxSOLj" cm:mimetype="text/plain" cm:encoding="utf-8">TotalCashButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iY9gBEWLozSvWBsvrKRc57WzpOeo" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iY9gBEWLozSvWBsvrKRc57WzpOeodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i1nDN9F2nrKwf-p5-3TuLOAhbSBntVR_pVRGihrJ4" cm:class="ps:parents"><cm:relation cm:id="igXygGOoJA2SlCNlccGerSlvfYSaGeHR6eXMzdqRQ" cm:type="ps:parent"><cm:target cm:id="icWqKMjaaXmuLXCHiot29A20DQkZC0DIyEhSRfrnJ">./i5_XPaK8NozgW2RokUsAfOhoFCAi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iaWURreotSRU7kYOQ7-9pGO2n2nqKH4r0RQYS8VEx" cm:class="ps:children"><cm:relation cm:id="i9FzgoZeb7-cGTBjYdWisPAaWndSRE3mtL58Vfr6U" cm:type="ps:optional"><cm:target cm:id="iXCPAhrRAmZmJMPJOCxKzhb0T2nIydG094-6owLjY">./i1V-QsPYyWW9cxHSQjt6hG2TYj3o</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ioljziU6JKkwxBkDj" cm:mimetype="text/plain" cm:encoding="utf-8">TransferCashButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i1V-QsPYyWW9cxHSQjt6hG2TYj3o" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i1V-QsPYyWW9cxHSQjt6hG2TYj3odependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="isKGyv11DxL1T5UAg__xvquzg3T5UaG0TSR8F2ngH" cm:class="ps:parents"><cm:relation cm:id="ipZufH4kIBwufSRBgvf7U8_9pENQk6EUlaGGiCNuL" cm:type="ps:parent"><cm:target cm:id="ieX4EZ8jIAwTR9F9FgHjsQ6R66EXmcaC3yM19WS_V">./iY9gBEWLozSvWBsvrKRc57WzpOeo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iQwz-nW0r3cqeGu9MiNUTjcUJLUe" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="if3EZhSgi-2TT3KrlbjOzsh61MIe" cm:type="ps:path">TransferCashButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="itl0lBw4xt8IYGRpQDya9Cj1lUrg" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ikf33ufM7bpDTZs0DboSpzG_YPyg" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iVINgWgNr_IOfB2k0" cm:mimetype="text/plain" cm:encoding="utf-8">TransferCashButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iPB9RH7aw702r3PlURxWWh8xg78p" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iPB9RH7aw702r3PlURxWWh8xg78pdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iTlfHygaay2R6_VTlhHDx-VoZSBWmhrzwfHL5QAeH" cm:class="ps:parents"><cm:relation cm:id="idGTlpJlslYwvCh-VJioJygz2H4AMgXptmJmt7oEh" cm:type="ps:parent"><cm:target cm:id="ibGY86oWSK5cqM5ksOk_pkcRQzM5ofXDN5-bGMPgX">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i1DQQJOdqygqubqq0NP9_x1D3qKC3C3vvwvQkfr-_" cm:class="ps:children"><cm:relation cm:id="i8pIOhHkc4EwvndlICNeHUBnthHQk-pba9pcG6-ru" cm:type="ps:optional"><cm:target cm:id="iENygfrSBV7Z8YmteaaGydGtuYSs0pdgHH40ntKlc">./iW-wmyAv3S8N5ETKyfz2kS_hJR_g</cm:target>
+<cm:target cm:id="iE3gbFxGyBMIikcFxcqGOTBqeywy2Kzv1eryMZ84U">./iO6leMlroaltvhtvEFyQ6RCYBfPf</cm:target>
+<cm:target cm:id="i9VeHvv3D4UGOkImJYSSlVRQAR6OQvfeXnJhXlYY8">./iSav2AUdjI9SQq6-xEhA_F5gq_in</cm:target>
+<cm:target cm:id="i8p4EXmQkW8jsHiIyfHmdmZOkJilYAwJONjU7wfCN">./i3Cw36nqfEbEzHJJ-QnKX2gtMiCa</cm:target>
+<cm:target cm:id="igXXSNPTBwLotfXXmBwV7Dx7E_V194EMzWS4ood8_">./i40S8QwpbHNoql4bqvsOj-8IhHle</cm:target>
+<cm:target cm:id="i09LjPQiYte9VgHWCebsKZSgXmZXSlYmdZmGO-pJ4">./iDqv0o3QN7h6AtnKJFL8gJkydggk</cm:target>
+<cm:target cm:id="iQAy2B2vfkcQQ6UVBfH-VHiwfUBPk29er8F09SlSR">./iwjvF7gxcvT1B5pALHd6htbk29Zc</cm:target>
+<cm:target cm:id="iURda-__FdW9FruxfaakIotQQF3ENpJ2nkciIwvZm">./iPVTp_3WWkveLPoobegL_g6oKMtk</cm:target>
+<cm:target cm:id="iD3A2jI9Fx1eHaGM56EksMP7oBMUllIeXaGXCmtS7">./iOeTKhavq1YmKvjL7vW-Xk80MGMd</cm:target>
+<cm:target cm:id="i7oic8pGiK5-FXCTR19sKAg7U5olcCxpdRA_p0nGO">./i0P6dr9EQezuL-S5Tveomapf6fyi</cm:target>
+<cm:target cm:id="iebAg-_6-Gy7Uq05Uw1XmpZoJhX-F1DisAMzwaGiI">./iKF-zcpVWFAO0UGd664_xZl-Ylvg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iYCF39bbmwl9a561SkkpkOdYvxUn" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iHNfr9kIE-8KftEoEYa7M4l4Re9c" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss/vmcs/store</cm:constant>
+</cm:property>
+<cm:property cm:id="iGGQaX6ziadq-qsI-pFfqCVBP50d" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="ig8_SV5VrTwvxynacCpSDvuN6XJl" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss/vmcs/store</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iadWrsQpNaPvussEJ" cm:mimetype="text/plain" cm:encoding="utf-8">store</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iW-wmyAv3S8N5ETKyfz2kS_hJR_g" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iW-wmyAv3S8N5ETKyfz2kS_hJR_gdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iygpZHO_VpZEx__lctKpJMjZmgXyw1D_pW8Lj5-Wm" cm:class="ps:parents"><cm:relation cm:id="iy20Tx1mdFhRQjYBgaWBw5o__rukIU7mtwvKPs0uv" cm:type="ps:parent"><cm:target cm:id="i2Tx1HiodYSC3-FRkgrebcajIvfKjMP2TQ6wv3nmt">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iaGnJ2TU7wL9_6-icAw4U4ExfDxywIy_FxvPkt0R6" cm:class="ps:children"><cm:relation cm:id="i3n0nwvcqoZ2DisoJAg-_Y87ESR0DvviYdGjYExy2" cm:type="ps:optional"><cm:target cm:id="iDNwLz2YmksdqPQcaLPDx8p9p_FRkQktK1DqKvLPA">./ic0ntNjkc8dQP3ffNbpLdchkrnWp</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iwWmtBLVeryMTEZ0E" cm:mimetype="text/plain" cm:encoding="utf-8">CashStore</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ic0ntNjkc8dQP3ffNbpLdchkrnWp" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ic0ntNjkc8dQP3ffNbpLdchkrnWpdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="idWNjzw29gbwLWSjsSRAgBMqKV7zwcW7EU7EhvLM5" cm:class="ps:parents"><cm:relation cm:id="iJi9F5UdWdWTR7EoZsK_pfHisHi5oXmQkUBEhP64-" cm:type="ps:parent"><cm:target cm:id="iOA6-Fxwfx1_FoZ9Vfr39Z8D3gXerzwzMbq_pR6Lj">./iW-wmyAv3S8N5ETKyfz2kS_hJR_g</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="igJIR2hPAEexv69A3emJEFUeVjne" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i5bdw5p33ZFc5Yeq3L3-1-DnWifc" cm:type="ps:path">CashStore.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iZxaCeDUY6Z_Lct-2Sr0SJBlYu8m" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iNeRPMX5wHT9z1sYfYEuOwAEMxlc" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iPqXIYxw8n-G25fhR" cm:mimetype="text/plain" cm:encoding="utf-8">CashStore.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iO6leMlroaltvhtvEFyQ6RCYBfPf" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iO6leMlroaltvhtvEFyQ6RCYBfPfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iYSr0cW6EygX8XCishrJ4L519WSoJ7oPQ9VSBI4zg" cm:class="ps:parents"><cm:relation cm:id="iZ8aGw1PAmdS7Cxjc6oaGhbZ8v1AwDheHQ6ZSyMaq" cm:type="ps:parent"><cm:target cm:id="iX8ksIi3nqe29bantywwv-_XmDxGOP68FoJS7090T">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i7Eic09lIdqptwvu1_FtKBgbq2nksGipd9_DxMzdG" cm:class="ps:children"><cm:relation cm:id="iJ4YShHL5s0odCxUBChZSRkaq4EwfnZ5E2DENntMj" cm:type="ps:optional"><cm:target cm:id="iYCbGNP_pcW7o9_xf3TUlbW-VmdNzJijYyMDx1TRQ">./iiJyob07UQPn_zs1NFm3GXlodSSg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="idlPzdCO1AjMIm2Xd" cm:mimetype="text/plain" cm:encoding="utf-8">CashStoreItem</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iiJyob07UQPn_zs1NFm3GXlodSSg" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iiJyob07UQPn_zs1NFm3GXlodSSgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ibacqKjBgXC5o5ElcJygX6-BMA24UdqzwhHK54Ufb" cm:class="ps:parents"><cm:relation cm:id="ihrzw8VFNzwExRQs0Kzv1odRQsKdaFN4UMPJi8FT7" cm:type="ps:parent"><cm:target cm:id="itumJLjzgYCcWz24-IOLj0D_FENiIxf7o196-gb09">./iO6leMlroaltvhtvEFyQ6RCYBfPf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iIAAml7t41aTwjoQSmzFOmKl-8Bf" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iOxIeAg8u0HF18JGmmZIk4AjZ0Ln" cm:type="ps:path">CashStoreItem.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ic-pL5D68ijbBApmloKxlYHjFv0e" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ilrivhezHi950M2Dc4YUVpPZ1HEi" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iM6rE1M1akP8Uw3Mv" cm:mimetype="text/plain" cm:encoding="utf-8">CashStoreItem.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iSav2AUdjI9SQq6-xEhA_F5gq_in" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iSav2AUdjI9SQq6-xEhA_F5gq_independecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iWCDhP6UR5EJ4Z8wvK5M5K5M5QAMzWmT7Q6md__Ul" cm:class="ps:parents"><cm:relation cm:id="i6UoZYCMjoJNPKz_FbW6UVBywnJ2DS7OA_paGotQQ" cm:type="ps:parent"><cm:target cm:id="i4-caH41TGyLPic9VTlF3Xmre-_baIO5oSBBMru0T">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i7-oJExoJY8V77oA2R6ygTlvLzMls9p0929T73TNP" cm:class="ps:children"><cm:relation cm:id="iK5u1zMU7lcCx9VT7-V8VYC7Umd0DerbadWKPtKhX" cm:type="ps:optional"><cm:target cm:id="i5-GOhbGymdsKq0aaMjXCQkMzXSMzufHyxfbqIiI4">./iYRciG8wav6V3lIJHKp3kOH7rAtn</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i8NZAZRkf4ZIeQzBY" cm:mimetype="text/plain" cm:encoding="utf-8">Coin</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iYRciG8wav6V3lIJHKp3kOH7rAtn" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iYRciG8wav6V3lIJHKp3kOH7rAtndependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i19fXeHuv7ozw8_rKJihXrKJ4Ul1919jsywFh6ETl" cm:class="ps:parents"><cm:relation cm:id="igr8Vq0Gy5UENDNlYcG0D4-7-Bg39WmKPGiQ6SBw1" cm:type="ps:parent"><cm:target cm:id="ihrt0ExO69VOQmdJiaqRQ2DXm39t0OkN5QkC3iIN5">./iSav2AUdjI9SQq6-xEhA_F5gq_in</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iQ9tl657c2ADWWDwm9Lyjvt1qeXi" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="isLGrcOcsHmg4xA_hBuMMsU9GYXe" cm:type="ps:path">Coin.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iw86nwRIeQjBZO5idrlHhZd_WoDf" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ikef7v43bS11jWwbXvnXR8aeLtSa" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i3k_vp00K_W4-clIe" cm:mimetype="text/plain" cm:encoding="utf-8">Coin.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i3Cw36nqfEbEzHJJ-QnKX2gtMiCa" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i3Cw36nqfEbEzHJJ-QnKX2gtMiCadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iTBbGKP09rKDx-pru9Fte1nodjYicuv6UbqjcyMQQ" cm:class="ps:parents"><cm:relation cm:id="iw1q02DoZYCtuPQ09S7uvVljcvfdGF3wfz2WCC3U7" cm:type="ps:parent"><cm:target cm:id="ixfVlH4BgX8od1DOQE3B2mZH4X80n6EhXwLAgYmUl">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iR609dG6oU7BgywpZcqeHT7sulsV7E38pC3xLjIjY" cm:class="ps:children"><cm:relation cm:id="iVRYmVRVBfXIyhbw1bqpdlIruA2Hy1n1n-VBgS7jc" cm:type="ps:optional"><cm:target cm:id="iV73TbGpJsKYmTRgbQkvv8_JOuLbq4UfbsufXQQlc">./iAQuZLiTMN5T5QXabJm4xhkTHxMi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iJPxhOKTUfdidl8mF" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksBrand</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iAQuZLiTMN5T5QXabJm4xhkTHxMi" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iAQuZLiTMN5T5QXabJm4xhkTHxMidependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="imZNjuvNjFxGyoJRA5U3nWCndI4Q609XSpZerntlI" cm:class="ps:parents"><cm:relation cm:id="iDhBw9_bajcWSdG5o29MPTRV74-vLAgDxV70n7oIy" cm:type="ps:parent"><cm:target cm:id="ioZbq0T7okctuLP9phbHOE3IOTBSBs0pdOQgbGyK5">./i3Cw36nqfEbEzHJJ-QnKX2gtMiCa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="itDoyS2u_bYZLGH98UjGpOk4vFym" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iIpudv3wSCo7FHZ_2S50ZMX6V7_p" cm:type="ps:path">DrinksBrand.java</cm:constant>
+</cm:property>
+<cm:property cm:id="irxdy5KEMgS_fu6VmHJBaKeJCD2n" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iEih5N-FzPO9FbV4mpg7rJAozA_a" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iihWSv6JkFkhf5zAi" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksBrand.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i40S8QwpbHNoql4bqvsOj-8IhHle" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i40S8QwpbHNoql4bqvsOj-8IhHledependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iWmjcX8OAtKyM4UvfHipt7-ENR6M5lcpdHyA28V6o" cm:class="ps:parents"><cm:relation cm:id="i_Vru-p-_OQcGxvzMmdjYJysequreodkYXS1n1nW8" cm:type="ps:parent"><cm:target cm:id="iZCaq_pT7Qkaa4oY82TsKPk0TzgC3s09_1TyghboJ">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i39DhFxWCv1wvjIDNZmjczgXSmt5-Z8RAruwvlIFx" cm:class="ps:children"><cm:relation cm:id="i5-ebDxwLz25UiYnZGOsKIiWmExEN4Uwv-_2TCNuv" cm:type="ps:optional"><cm:target cm:id="i0T5-hrWmu1ntExhH_V6UqeuvSlUBCNgrcGeb_Vs0">./i31f2y1qLkrG_oRoiMOg1hLA0yha</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iBdWHYxnSQSGpiSaU" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStore</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i31f2y1qLkrG_oRoiMOg1hLA0yha" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i31f2y1qLkrG_oRoiMOg1hLA0yhadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iHifbVl_FhH6UZ8kYY8RAChT719cqmJqeeHTlyMjI" cm:class="ps:parents"><cm:relation cm:id="ixLY8XCGO6EcakYxv8VFN5oTBFNyg-_zgzw-FcWX8" cm:type="ps:parent"><cm:target cm:id="intjIwL6oURRAN5GygXvvqu2noZ09-pU7JiY8AglI">./i40S8QwpbHNoql4bqvsOj-8IhHle</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="icL4Pbj42W9H9eWkhb6sAjMYSvnd" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="idv6d-NMC0yQgNJFWh23X1b6s-sc" cm:type="ps:path">DrinksStore.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ij0BXI9nxEF7ROWJMsL3HyQS6W_l" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i3iXoMF36WB9Kn7EDcFn8vIn6F4l" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iTLmEgzDa8UYKFEsT" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStore.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iDqv0o3QN7h6AtnKJFL8gJkydggk" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iDqv0o3QN7h6AtnKJFL8gJkydggkdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ixf6UhXSlrKkY0nYSqKjsgbCxP6D3cqKzWmoZV7Fx" cm:class="ps:parents"><cm:relation cm:id="i2TodIiPAvvK5_pG4yg0TG44ois-_Fxis9VExAg7o" cm:type="ps:parent"><cm:target cm:id="iufwfCNR6G4ZShbpZM5Wmmd6EtKXmS77oFN-_zMIi">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iXCmZ1T__LzXm6UYSfXRQURcWlIU7VBaa0nPQoZ7-" cm:class="ps:children"><cm:relation cm:id="iXCteZm3TNzTl4-8pExU7dqC329q0PkVllIGOsebW" cm:type="ps:optional"><cm:target cm:id="iZSOkIOqKOA_pChqKjswvwLW8_psK9FMz8pLzDxls">./i1alOYaAIzwShNuNzAk7M9ihdPGh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iN-JyXQjVT-6C5Msh" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStoreItem</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i1alOYaAIzwShNuNzAk7M9ihdPGh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i1alOYaAIzwShNuNzAk7M9ihdPGhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iCxz2-F3T09URChgHVBNzChJiURdGQk8FSRAgTR2D" cm:class="ps:parents"><cm:relation cm:id="icGCNqeXmVlr0_V_pU77EDNmJOkCNBMfHO6S71DE3" cm:type="ps:parent"><cm:target cm:id="iWmpd0nnZBg1nC3t0AMWmMz0DdalYChLzTl2DteBM">./iDqv0o3QN7h6AtnKJFL8gJkydggk</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iJruX7lz6a02eXBN9GWvdsMcsLnb" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iZTMuRJENBLlLcHHs1VyFc4uRJWn" cm:type="ps:path">DrinksStoreItem.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ivPiHQFJ9ACWel10ShZX1FHWCU6m" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iZOFdkNvpA3Mne6kCEKJKvDbT8sm" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iRchpff-lBT8cjXnS" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStoreItem.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iwjvF7gxcvT1B5pALHd6htbk29Zc" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iwjvF7gxcvT1B5pALHd6htbk29Zcdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ikcXCsexvKz4-ufPQuLoZQkWmHidaba9VU7JO1D39" cm:class="ps:parents"><cm:relation cm:id="iRkSRwv1ToJ6-ebLPfbN5Dx2nlIptXSRQSBotbWjc" cm:type="ps:parent"><cm:target cm:id="ihHIi0Ty29_8_KPX85oD3C3PASRMPmdFNoJL51neb">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iBwV7ic2TvvOAGOY8VRx1L5V7HiwLkskcoZF3oZ5-" cm:class="ps:children"><cm:relation cm:id="i29aWP6hXiYOkTl3n2Djst0ndW82TMjlscGqesuT7" cm:type="ps:optional"><cm:target cm:id="ikY3DIy2TZCWCZ8teVRCh-F7EPQywfrDxw1NzmJru">./iPt7Wmhsrh06yCeFqpk9lSfyXJnl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ibKUdu_joaNErmewb" cm:mimetype="text/plain" cm:encoding="utf-8">PropertyLoader</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iPt7Wmhsrh06yCeFqpk9lSfyXJnl" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iPt7Wmhsrh06yCeFqpk9lSfyXJnldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iGyBgQ6x1I4mZHyXmxLURNjv1bqTl6Eu1UluvCxvf" cm:class="ps:parents"><cm:relation cm:id="ixfCh1nGy0TKzkYYC6oIOCNB29_tudqbauvJ4jYfX" cm:type="ps:parent"><cm:target cm:id="ilIdqFhRQIOY8vvr0Y8V77oU7sueHYmks2nufZCIi">./iwjvF7gxcvT1B5pALHd6htbk29Zc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iQstbrNKiZ12oN4vFEH2gEks6Zpf" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iYAyGglriiPzOwhQ8X7g9xDZGX3f" cm:type="ps:path">PropertyLoader.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i4TB-iaFBXK69aFLJrfrNntYX_1o" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="io1wW0nagVusslJswAoWs6TWpbYi" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iqIg3-HUlOj70kxyK" cm:mimetype="text/plain" cm:encoding="utf-8">PropertyLoader.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iPVTp_3WWkveLPoobegL_g6oKMtk" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iPVTp_3WWkveLPoobegL_g6oKMtkdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iIOKz6EPAE3icebPk2nJyda09sKDhhHBwfXwLY8Dh" cm:class="ps:parents"><cm:relation cm:id="icaO6VlAw2TXCfH_p7oX88_JyNzExcGfXPAxvcW0D" cm:type="ps:parent"><cm:target cm:id="i6oca7o5EPQbWxvoZkYhrWSZS__OAzwD3ksGOTlwL">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iMP0TWmcGQkM5BwNzKPcWEhFhq08_ExLzFNK5IyVl" cm:class="ps:children"><cm:relation cm:id="iv1KjCx6-uvsubW-VYCFxmZr0eHjsvvqe4Umd8_WS" cm:type="ps:optional"><cm:target cm:id="iV7__M5F3S7YmxLpd4o4-eXWm0TLzlcy2pJoJ-VTB">./i9Kwb_BfnvVdKxnAzRhwzZcGZ6Jd</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iNjev3NduCrcgsfcR" cm:mimetype="text/plain" cm:encoding="utf-8">Store</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i9Kwb_BfnvVdKxnAzRhwzZcGZ6Jd" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i9Kwb_BfnvVdKxnAzRhwzZcGZ6Jddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iXScaE3bGQ6SR6EhX1njcH4NzzMxvzg4oMz5oAMjI" cm:class="ps:parents"><cm:relation cm:id="iWCVBisVlre6U2DhXv1I4FNmdbWIOda4EvLWS2TDN" cm:type="ps:parent"><cm:target cm:id="iSBRQ-_grcqbWMjyMX8XmWmtuwfiY4-zwmJ9phrVl">./iPVTp_3WWkveLPoobegL_g6oKMtk</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="if5S1NrUOLTbGLliFVSbmoJT2vxn" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iiOSug2RN_F39ntdDiDjCQmWbCDb" cm:type="ps:path">Store.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iNiRwrPPdrdxK91SeKd3frV_9Qdo" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="izUsatgSMn60UDkTs1AstBrrLAji" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iasxeDxt5XuIgBDaU" cm:mimetype="text/plain" cm:encoding="utf-8">Store.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iOeTKhavq1YmKvjL7vW-Xk80MGMd" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iOeTKhavq1YmKvjL7vW-Xk80MGMddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ihH-VS7NzLzHyKznZM5cGZSndIiufHyU7B2Y89VD3" cm:class="ps:parents"><cm:relation cm:id="iDhQ6VlquwL-_OQnJ7EbWRkSlmJiY5EM5GioZXm8p" cm:type="ps:parent"><cm:target cm:id="iyM39dWwvhbfHKj9FFxntdGQkW8s0SlI4XSXS-_pd">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iKj4EaaY8-F4EPAiI-_lsreH4mJFxr0Jy4EksTB4-" cm:class="ps:children"><cm:relation cm:id="i5EKjGizwqKOAuLMzOQC3T7Eh8_Sl6UXCv1x1aWJO" cm:type="ps:optional"><cm:target cm:id="iI4rKDhAwnJ6okcdaRQbaSB1TJOJiksI4queXksba">./iUEvse5UyLH8NQZaRoNOQ0muMoTf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iGlGoIU5dFqGMeFjA" cm:mimetype="text/plain" cm:encoding="utf-8">StoreController</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iUEvse5UyLH8NQZaRoNOQ0muMoTf" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iUEvse5UyLH8NQZaRoNOQ0muMoTfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i8_UlGyMjLzFN8_s0t0lIY87-6-A2ZSFhaW0TfH0D" cm:class="ps:parents"><cm:relation cm:id="ihr29Iy19Dxxv6E5oHODxpJerNP19lcxL5oKPXSKj" cm:type="ps:parent"><cm:target cm:id="iv1HyjsnJ6oEN4U-_nJjYAg19KjQQgbCN1TQAMPR6">./iOeTKhavq1YmKvjL7vW-Xk80MGMd</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iACb874TtHPjEDmAaztck7hCUSLk" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iz_XIDa1zdXllAYuOJhHj3Zapbme" cm:type="ps:path">StoreController.java</cm:constant>
+</cm:property>
+<cm:property cm:id="izt_WHLSquTDGeg3UV3Yk7PeseHf" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iOKdOqiHJxbpLVABQcjx39J2SE6h" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iTAjiykrvAaVAHy7h" cm:mimetype="text/plain" cm:encoding="utf-8">StoreController.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i0P6dr9EQezuL-S5Tveomapf6fyi" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i0P6dr9EQezuL-S5Tveomapf6fyidependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="inZNzOk4o6UWCSRjc8VzM5Ux1kIretKnZF3-VcGK5" cm:class="ps:parents"><cm:relation cm:id="i1DxfA2gHaqxf29SRCNq07-Mzy2MPCx39W85oxfqe" cm:type="ps:parent"><cm:target cm:id="ilIChNjjsdW3DnJ09_VlsVlxLPQMPnJ1naWKzr0C3">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ibGgbAMEN3D7-T7O6Gyz2T72TiYhrQ6jIGy0T8p7-" cm:class="ps:children"><cm:relation cm:id="iJ4-VI4v1F3vvlYotnZVBdWicfrO6fHiYW8Kj8pfb" cm:type="ps:optional"><cm:target cm:id="iNjndGi5o5UBMgXbGXm9_T7vL5U7ox19_2TVBlYcG">./i9pkV4keaUpjCOK60RJg64T-6TKk</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ihq3JTvBEwuZaMLzw" cm:mimetype="text/plain" cm:encoding="utf-8">StoreItem</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i9pkV4keaUpjCOK60RJg64T-6TKk" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i9pkV4keaUpjCOK60RJg64T-6TKkdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ix1v1odyMM5I4F3_pbGcGMP8p5E5UxfrKGO196ECN" cm:class="ps:parents"><cm:relation cm:id="iKPtueHgHu19Fru1nV74-8p9VExN5H4H4HOer4--V" cm:type="ps:parent"><cm:target cm:id="ifHTlM5hbURr0cakcntDNgr6E1nCNFxhXV7K55-ZC">./i0P6dr9EQezuL-S5Tveomapf6fyi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="if_ZQ7Rr_mOHVWxX3Dkev7WMdhnb" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iV6D29zvL4E2HEFesVxGvkiA9-cp" cm:type="ps:path">StoreItem.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iZkS23xfwfVGyoXsyx3hOn6jJzGf" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iesAnMekIIRJ00zfcA7T_FHFp54a" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i1aRUx-WDXkM1S6O7" cm:mimetype="text/plain" cm:encoding="utf-8">StoreItem.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iKF-zcpVWFAO0UGd664_xZl-Ylvg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iKF-zcpVWFAO0UGd664_xZl-Ylvgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i9p7UXmWStuNPdqwfWC8p5U1nS7XCCxX8B2s0kcoJ" cm:class="ps:parents"><cm:relation cm:id="iGOJOXSt0rKz2PAgbB2E3hHsK6-E3mthrpJv19pY8" cm:type="ps:parent"><cm:target cm:id="ise8_IiB2TlzgFxGiYS_VmddaxLV7Q6ygVlnJ0nqu">./iPB9RH7aw702r3PlURxWWh8xg78p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ixL1TiYdaLzRA4o5EbagXSlkcwfseY89F_p0TgXLP" cm:class="ps:children"><cm:relation cm:id="i-VA2NPdGqeEhiYrKwfMzG4sutKndyw5ooZHOQQWS" cm:type="ps:optional"><cm:target cm:id="iSlaWQAJidacajcwvdqzgiIMzMPlsTls0r0FhjYFx">./iFQop_avtnDe6PzyN1Imd7a3tmve</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i3VtIBcJWizeoutEr" cm:mimetype="text/plain" cm:encoding="utf-8">StoreObject</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iFQop_avtnDe6PzyN1Imd7a3tmve" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iFQop_avtnDe6PzyN1Imd7a3tmvedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iw1T7bqM5IicaR6TBhHXCxfIO3Twf09r0aadG29md" cm:class="ps:parents"><cm:relation cm:id="iF3NzZmTRq0pJKzvLBMufgHUlWC4-kY3nM5x1q0qK" cm:type="ps:parent"><cm:target cm:id="i1TzM9V5UgbmJlcPkvfEN09vfSBntlsvLZmxfW8ot">./iKF-zcpVWFAO0UGd664_xZl-Ylvg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iPIXNbxug0MOEv1Tvj-cfau_Q1sm" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iZ2qO1RM0f927Vr-kJrh0DrSipmp" cm:type="ps:path">StoreObject.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iXd49ma8xN8dfJjRwD_AH-e5riOg" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ij6Sb06ixApR1zs0z2hctErvlzKj" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iIrv8mTQvpE8jRAjx" cm:mimetype="text/plain" cm:encoding="utf-8">StoreObject.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i0ks5tJkbTwKazNXxonX_hmojxvh" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="i0ks5tJkbTwKazNXxonX_hmojxvhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iruksIOURCxdGKzH4AMZCiYC3OAyg_Fx16URQzwKj" cm:class="ps:parents"><cm:relation cm:id="iNzNzENaa6-OkbamZhHsKgrvLnZXm8pJOfXChteVR" cm:type="ps:parent"><cm:target cm:id="iptN5aWksDNA2N5iIsuQAebhHYSExxvxvntw1FNWC">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i-pGOXS6EntoZu1TlHOuvotBg5o0nJ4YCcW9_Agse" cm:class="ps:children"><cm:relation cm:id="ibqOkfbC3QkZ8Z8yM6EeXkYptfrM54-ywQk-V6E3D" cm:type="ps:optional"><cm:target cm:id="iI4aqlYkYbGJOKztulIV7TRPAIiXmnJaaDN19HOR6">./i4U0MpJg7N8mrbZGC_dGxC6sAYVf</cm:target>
+<cm:target cm:id="izgB25-RQUB7ELPmJaaRA9VY8MzFhDhksAgOQ2n4o">./i4I7T8scwp0zl2btiU53iBrYsTJh</cm:target>
+<cm:target cm:id="iAg-_GOyg4UoJJ4q0kIcaWCUBq0mtAwmZtK8FeX_p">./i9kgRkXuqFZ4LzPJGZ0jtkVV2nvb</cm:target>
+<cm:target cm:id="i7o5EreYSK5SBt0ygI4M5JidG8pVBSl9_3TdWr0qK">./iKaQvsnmeaGXca3wTdOvTnlWRBwa</cm:target>
+<cm:target cm:id="imJy2Y8NPF33DUBaWru8FeX9_dGNPmZdqxLTBqe1n">./iosBwC0Ybx8WTAEdyg8hPW7QTXjf</cm:target>
+<cm:target cm:id="i6o1nfHoJYCw1VRtu__yg6UA2vv1TNzmZ_FufFN3T">./is4O9Z0tT_EjGhDcKYxWtwsaVVnj</cm:target>
+<cm:target cm:id="iFxJOpt4ENjHiYCichHQ6_pruuL8pPAFNChNj9_ks">./itaJDRpusgJef1218ouBPyEmC1Fc</cm:target>
+<cm:target cm:id="iRkExG4hr6o9_VlAMx1EhaqlYMzX86U3Dvv3Tr0XS">./iKmzAQlDFmnP8G2-21zWah7Eg7fl</cm:target>
+<cm:target cm:id="ioJLPvfptKjHyQkZ8jIGicGzgENdWdqRkD3BwJ4oJ">./idedxVSrOFMXCv7U4SYAN6BXEWqe</cm:target>
+<cm:target cm:id="i5EgrRAicOQXSqu3D-_icV78VndvLIOwLZ81Tt0YC">./iZrfJJ9zq3AP8VUUUnE_Q1IGoKRm</cm:target>
+<cm:target cm:id="iicTlYmXSL5iccWBw5UoJbaMPfXXmIiExPk1nKP4U">./iNB66_vJ1B48ZeScHvodJvy7zzRh</cm:target>
+<cm:target cm:id="itKgXbGF3ispd7-wfHyywLzYSFhndLz4UTlUBF3w1">./i9hSmp8ZVU80BvUOCx3y4TcFFBHa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i7HAKANEAS5TTfyNxAE8cXEA3ZEg" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="irqD7XAurOvnmq1dv97cZeYPj0Wg" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss/vmcs/system</cm:constant>
+</cm:property>
+<cm:property cm:id="iteoSyhWjkeOwT2y6eHfTxcrQoxi" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iBO7XZH17E5gSrpQUCESahFClOmo" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss/vmcs/system</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iCPIEFAvm62OQ9i-P" cm:mimetype="text/plain" cm:encoding="utf-8">system</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i4U0MpJg7N8mrbZGC_dGxC6sAYVf" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i4U0MpJg7N8mrbZGC_dGxC6sAYVfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i7-DxAM-pyM5UVBbaaq7UV7C3aacWs0B2AwhXbGDN" cm:class="ps:parents"><cm:relation cm:id="i8_ZCRkfX4-R6OQ4UGOrurKRk4oufuvuvENGOtKmd" cm:type="ps:parent"><cm:target cm:id="i-VU7grCN4UbWL5YSfXu10T39-piIiYIyXCExXC5U">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iBg1TKzywX82nOQBghrOkaaE3kYPA2TiY29ZSZSZS" cm:class="ps:children"><cm:relation cm:id="iH4LjtKJiNPrK3TwLKz4EBMntUBdWhHlIM5MPUBWm" cm:type="ps:optional"><cm:target cm:id="iFxTlVlodMjvfK5dqjYaqSRhHwLpJaGYmNjcadqx1">./iUJwq0Vz7qP63evaAAhaprZ7u1Hj</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i_PInsf96wT8x37Tg" cm:mimetype="text/plain" cm:encoding="utf-8">ActivateCustomerPanelButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iUJwq0Vz7qP63evaAAhaprZ7u1Hj" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iUJwq0Vz7qP63evaAAhaprZ7u1Hjdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ipdRQwfL50nAwygywVBgbW80DnZQkDNR6sK2D8VNz" cm:class="ps:parents"><cm:relation cm:id="iZm4opt5EXmBMXCgb8F6EhHMjNzvvJimZVRMj2nWS" cm:type="ps:parent"><cm:target cm:id="iks4oKP9_3Dv1__uf4-XS3DWSbqermtdWdWI4O6Z8">./i4U0MpJg7N8mrbZGC_dGxC6sAYVf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i785glwHBw7flRGKg8A_qVlf-bnl" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iI7FjPmp8WsnhifKE-Oh25RVR5Tb" cm:type="ps:path">ActivateCustomerPanelButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i7fgYzN4WDfqmidSW4_ZDgyLsKzj" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iKTytNW_tBxF8zfAe4wpAVeeQzmo" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iF4LlsJtpeCNqJXfi" cm:mimetype="text/plain" cm:encoding="utf-8">ActivateCustomerPanelButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i4I7T8scwp0zl2btiU53iBrYsTJh" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i4I7T8scwp0zl2btiU53iBrYsTJhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="igX2TwLFxKPtundisI4jIH4C3JiT7LPI4XSA2OQhX" cm:class="ps:parents"><cm:relation cm:id="ilIotX8CxLzaqbqcWC3xLIy7o0D7UPk9pDh8FD3fr" cm:type="ps:parent"><cm:target cm:id="iN5gr6oteks19eXR6yg2TChgr4EcGerVBK5eHrKQ6">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iRQwvJygHywR6ntVBxL5USRJOBwpddalItuO6ntwv" cm:class="ps:children"><cm:relation cm:id="ivLOQ4EreJiKzteGyY80nIiGi4U7-XmGiiIX8QAsu" cm:type="ps:optional"><cm:target cm:id="idG29qeru0nfrAw8_aa6-kIcqIiDhtKKzoJIiKjV7">./iJ5ThwL9pht1JTQ5V-ziWX_7W3ml</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iyxvpBzf8mRWdLRN8" cm:mimetype="text/plain" cm:encoding="utf-8">ActivateMachineryPanelButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iJ5ThwL9pht1JTQ5V-ziWX_7W3ml" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iJ5ThwL9pht1JTQ5V-ziWX_7W3mldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iVlufmJZmotR6Xm4-DxE3cGB2O64Er0ZSDNjIr0t0" cm:class="ps:parents"><cm:relation cm:id="ilsLjnt_Fjscaz23DgHs0BM3TlsQQ-VI4Y8cqI4AM" cm:type="ps:parent"><cm:target cm:id="iZCebVRvvkc6-fryMcax1seqK3TGi_FW85-zgQA6-">./i4I7T8scwp0zl2btiU53iBrYsTJh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iwZMp83DzlQMQ3stR1qH-TtaRMDb" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iirEehEu4eMr8oqYC_yoXI_zK3Fl" cm:type="ps:path">ActivateMachineryPanelButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ibgNfkw6A4ckHMA30wO96gtKSjKe" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i-WH9CSx6yFwPU3_jQ37G1t5cqZk" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iEDgC9vxU0dvev5w6" cm:mimetype="text/plain" cm:encoding="utf-8">ActivateMachineryPanelButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i9kgRkXuqFZ4LzPJGZ0jtkVV2nvb" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i9kgRkXuqFZ4LzPJGZ0jtkVV2nvbdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iXCIyHy7-t0jIptvLqKQA6EgXZCvffXsK1DvLLPPQ" cm:class="ps:parents"><cm:relation cm:id="iHOHyS7YmbG09GiOQS72nNzT7G4ndJ4WmDxtuoJhb" cm:type="ps:parent"><cm:target cm:id="iOAAwlIt08_ndTlAw-F_pDN-pygntzgjs3DFhF30D">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iR6tKVRLPWSKPz2MjwfV7CxaquLSBRAF3hXYSfbmd" cm:class="ps:children"><cm:relation cm:id="iXmH4DNodC3aq9_ru_V5-CNPAL57oJ4C3PAPkwv9p" cm:type="ps:optional"><cm:target cm:id="i4UQkaWywOQ_V-_cW6Uq0X8mZDh3TZCbGgH1TgrCN">./iF6BGwHWUeoNwmP2uBtXaoticyZc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iDpRPRdFuA9e6ppAt" cm:mimetype="text/plain" cm:encoding="utf-8">ActivateMaintainerPanelButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iF6BGwHWUeoNwmP2uBtXaoticyZc" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iF6BGwHWUeoNwmP2uBtXaoticyZcdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iQQkYvfbWYC8_3DZCENgbptMjxLW85U3DNPkYMPPQ" cm:class="ps:parents"><cm:relation cm:id="i9VQQYCK539lY3DVR5Unt6-Z8Xm5E8pPQU76oChJi" cm:type="ps:parent"><cm:target cm:id="iCN5-JyVBaas0F3AwdawvW81nmJ-FPkkIaGFxAw29">./i9kgRkXuqFZ4LzPJGZ0jtkVV2nvb</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i9GJENm5CSdPuFnRfAtm3Yq-7z_k" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="im_GTes_-i4kWi8l7lNnthRMwhjn" cm:type="ps:path">ActivateMaintainerPanelButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i1ZyNCyfLdfCMwvrG7Z7oAfSS5dc" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ivD4N7GkAVDqcbktLTg8vMTAVijo" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iXd0etTEYJTzZPvaY" cm:mimetype="text/plain" cm:encoding="utf-8">ActivateMaintainerPanelButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iKaQvsnmeaGXca3wTdOvTnlWRBwa" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iKaQvsnmeaGXca3wTdOvTnlWRBwadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="igH19nJI4ygV7RA9FIiH41TGORAqKerX8ENgbvLjI" cm:class="ps:parents"><cm:relation cm:id="iXmmtMzjc1TywhHcWndaa3TXmBgaaYCfX8FfHOAxf" cm:type="ps:parent"><cm:target cm:id="idaiYkIBw29eb39NjJ4PkMjlYYCIOhrZ8Ok29zMFx">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ihHeHeX3D-_cq7o09zMaGAgRk8V3DzMdqeHJy_Fod" cm:class="ps:children"><cm:relation cm:id="iksW8t0WCDxAMRQnZYSQAQ6PA9Vfb3TfrDhVBmdkY" cm:type="ps:optional"><cm:target cm:id="i_VxvA24-vvq0fHVR4EvvK5Hy4oLjNzoZcW-_2nMP">./iLd93n9W1DQIAgfvg4i6TFeT2PJa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iNjIwFqz0MGdQS-Pb" cm:mimetype="text/plain" cm:encoding="utf-8">BeginSimulationButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iLd93n9W1DQIAgfvg4i6TFeT2PJa" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iLd93n9W1DQIAgfvg4i6TFeT2PJadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ipdbaSlTRjI6EmJw1WCS7fHsKSlJiVl9VsK4-Gy6-" cm:class="ps:parents"><cm:relation cm:id="iN5TBis9Fv1zw5Uotx1S76-kI__5oBws0U7F3QkRk" cm:type="ps:parent"><cm:target cm:id="i7EAwMjtuZCQAFN6-QkoZbGXCzMicqu6ErKufDxJ4">./iKaQvsnmeaGXca3wTdOvTnlWRBwa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iEdRJ1QtKywdFbhQwfjUlGMvTeoi" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ig8uXf4N5Cqn1Cs5FFeAMUS8icyl" cm:type="ps:path">BeginSimulationButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i3SoIEbgyC8_r05-69d0wY8z2PGp" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i1ksZpsLLOi3R_fdqbtYYsV2MIgk" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ibAZT7PcqB8NiyBBP" cm:mimetype="text/plain" cm:encoding="utf-8">BeginSimulationButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iosBwC0Ybx8WTAEdyg8hPW7QTXjf" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iosBwC0Ybx8WTAEdyg8hPW7QTXjfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="idaT7Rk_FR6HOfb-Vvv2DFNZSjcuvgXcqPAFNs0Vl" cm:class="ps:parents"><cm:relation cm:id="iOAksW8cWSRuLRkGiNPqe6ohbBwDxJOAgiIFxyMhr" cm:type="ps:parent"><cm:target cm:id="iS7CNntXm6EChNzqKAgfbTBs00DkYExCxtKyMntca">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iquvLptRkjYmdF3TlrKYCfrx1N54oQQ5UrKP6zgAw" cm:class="ps:children"><cm:relation cm:id="ifXeb8VG4mJOAbWQkKzC39pcqcW9FreuvKjoZptU7" cm:type="ps:optional"><cm:target cm:id="ixvygdWsKcGCN09lYX8hb3Dt0LzRkufO6ygF3VB6E">./iKIkBZsle2kKvbxM5BOCB7vGiWWm</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i08aIxpG063RJAdke" cm:mimetype="text/plain" cm:encoding="utf-8">CashPropertyLoader</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iKIkBZsle2kKvbxM5BOCB7vGiWWm" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iKIkBZsle2kKvbxM5BOCB7vGiWWmdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iwfL53T_pD319Ymv1WSoJM5B2TRGyGybGdq6oaGSR" cm:class="ps:parents"><cm:relation cm:id="iv1fbHy7Ueb29jIqu8_u1OkUBdaDhX8daBg2T_pJ4" cm:type="ps:parent"><cm:target cm:id="iXC9VjIcG8V9VcqtuCxLP9_YCpJXmz2G40T0Ticda">./iosBwC0Ybx8WTAEdyg8hPW7QTXjf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iUXz2ES5bAnxVWmx5JpGZ1naj0Wf" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iULrX2pvvSGoowaJSyr7MpIEz-nl" cm:type="ps:path">CashPropertyLoader.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i0EMb1IWxEKkf74RUjrkFaEWWeKi" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="icmZo6FkyNxMNqjjx340u47zZVGl" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iBhcvE7k4Qj0sB_vm" cm:mimetype="text/plain" cm:encoding="utf-8">CashPropertyLoader.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="is4O9Z0tT_EjGhDcKYxWtwsaVVnj" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="is4O9Z0tT_EjGhDcKYxWtwsaVVnjdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="intzMAw09zgvvJyJy8_Q6fHA24EqeXmx1mZjs7-ZS" cm:class="ps:parents"><cm:relation cm:id="iJO4EreJis0E30nVR8pLPx1S7DhjYZ8Z8U7NjeHz2" cm:type="ps:parent"><cm:target cm:id="ipZNPfHvfodFN5EgXSRjYzgMPB24-mZHymt4oIiM5">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iP63n8pRkmt7-jsygN5eXXCrKbWWmL5DxVlda-FC3" cm:class="ps:children"><cm:relation cm:id="ikseH2TywChufptV7y2jsExufda5ocGzMnZ6oXmY8" cm:type="ps:optional"><cm:target cm:id="isulIH4P6OAv1SRZmE32DCNhbJicaGOyMiI8FPAjI">./imv9TO01-1huKC251OukyqLTH8Ri</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="idVmsoFkESb_Af5ag" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkPropertyLoader</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="imv9TO01-1huKC251OukyqLTH8Ri" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="imv9TO01-1huKC251OukyqLTH8Ridependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i4oP6N5qumJtepd_V6onJTleXcaWSBgdWYmBg6-G4" cm:class="ps:parents"><cm:relation cm:id="ivLHi0TdGzg7UA2VldWNjteDx4-vvAww1GOKjnZse" cm:type="ps:parent"><cm:target cm:id="iJyWSkIP6yghrygseqe2DtKyMhbr06Uxv2TcWAMru">./is4O9Z0tT_EjGhDcKYxWtwsaVVnj</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iJPNcgCLLi0mtxonD_bl-EDkrwXg" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ihsToU-XZt_eDe3gjXRl3KfD8FQm" cm:type="ps:path">DrinkPropertyLoader.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iYn7PhBeqj-DD1CQNGdyhkR0ZM7p" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iLJ4GvHSnYsZ4CDJcHuvQVYInJIf" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="icRve85X_8_LrOd3Y" cm:mimetype="text/plain" cm:encoding="utf-8">DrinkPropertyLoader.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="itaJDRpusgJef1218ouBPyEmC1Fc" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="itaJDRpusgJef1218ouBPyEmC1Fcdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iFxZm2DTR19nJcG4EjcP6IyQQC3SlPQURSBENlsaW" cm:class="ps:parents"><cm:relation cm:id="iTBoJlcP6nJdatu-_t05UN5t05-gHwLqKJ44E4o-V" cm:type="ps:parent"><cm:target cm:id="iKj9F3nfXDhF3erNzO6_FM5lsVluvqevveXqeXCse">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iK5odgHuvntBwTlqucWndIy2DeXebdG09VBSl8_9V" cm:class="ps:children"><cm:relation cm:id="ikcsKLzdajsFxksoJExAwaG7o6-is0nExUR9V8_1T" cm:type="ps:optional"><cm:target cm:id="i2T4-kYaGI4N5qKZSbWZSodJOOQHO9_UBW8DNMPw1">./iC4RBi-e64jzIZMO7wm_EDxzZQUo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i-AdkBwCJtS-Bg4SL" cm:mimetype="text/plain" cm:encoding="utf-8">EndSimulationButtonListener</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iC4RBi-e64jzIZMO7wm_EDxzZQUo" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iC4RBi-e64jzIZMO7wm_EDxzZQUodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="itudGjshroduLufO6jIX8U7IiNz1nqePAfXUR4-Bg" cm:class="ps:parents"><cm:relation cm:id="indoJ-_aWW8HOmJG4D3_pTBE3s0bGBMw1ebAgxLGi" cm:type="ps:parent"><cm:target cm:id="iiYLjba2DRAxL6oVR2T5UE3E3PAE3mdF3jYNjLjqe">./itaJDRpusgJef1218ouBPyEmC1Fc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iT1yNSjlPjJvhJheKpZhXrZU2fHi" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iW2KBD1s3grR3vG3dAyd-wFxpqXe" cm:type="ps:path">EndSimulationButtonListener.java</cm:constant>
+</cm:property>
+<cm:property cm:id="isFGrESUY24Wig34YV31QOY3PX0a" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iqvSHBBdn7yx__FvL51a1PLgPfLa" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iJ63WuOTpfui1DmMq" cm:mimetype="text/plain" cm:encoding="utf-8">EndSimulationButtonListener.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iKmzAQlDFmnP8G2-21zWah7Eg7fl" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iKmzAQlDFmnP8G2-21zWah7Eg7fldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iS7GyC3hrGyKjaW7UNzXmpd0D8p5ULPwvyMIi4oNz" cm:class="ps:parents"><cm:relation cm:id="iFNOk291DBws0F3IOcWru4EBMjIzw0D1TZmtuywmJ" cm:type="ps:parent"><cm:target cm:id="izwr0QQRkoJbWteRAiIseSlmJuLRQJyTB_plsRkmZ">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iisrKEhK5GyfXUBreT7cqXm2DM5E37E2nYmfXV7WC" cm:class="ps:children"><cm:relation cm:id="iQQHyrKy21nfHba4E8FZC197UGiiYT76UzMzwaqUl" cm:type="ps:optional"><cm:target cm:id="i8VyMqKfbfXxfCNEhqeM5KPmZVBEhnJIyM5_VU7re">./ilvXsbv24UZH4kGSxN8mWQ5M-xej</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iRp2rfmcsufdCy6gG" cm:mimetype="text/plain" cm:encoding="utf-8">Environment</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ilvXsbv24UZH4kGSxN8mWQ5M-xej" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ilvXsbv24UZH4kGSxN8mWQ5M-xejdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iY8GilIXCwfBw3nJyruXC2TkIS7__RQIOSlhbcG09" cm:class="ps:parents"><cm:relation cm:id="ihbC33nBM19_FYCHOFxJ419NjbaQkL5ptkcENic0D" cm:type="ps:parent"><cm:target cm:id="isu__W8GyWmmtseC3BMqunJoZS7w1P6dWWmHO4-SR">./iKmzAQlDFmnP8G2-21zWah7Eg7fl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iruB-VJrigKAzw4B2JZSmb9M75Di" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="imfb8-wk2OCwpdEj0bAKD3Db7CUe" cm:type="ps:path">Environment.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iRy2uVwxFpZ1yY1HZ8gpZR4aWkZf" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="inhGBkSpMsZrvGQB2EVt2A80kKse" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iaNeXhvOIfED74SE4" cm:mimetype="text/plain" cm:encoding="utf-8">Environment.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="idedxVSrOFMXCv7U4SYAN6BXEWqe" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="idedxVSrOFMXCv7U4SYAN6BXEWqedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ihrtereOAygsKD3GOoJO6X8T7ENba_peryws0Fx-_" cm:class="ps:parents"><cm:relation cm:id="ixLzwJy8Vvv6US7X8ywSBHijcFNsKmJmdUBKzeHAw" cm:type="ps:parent"><cm:target cm:id="iURwfwvYS__Jiru5-mJZSxfKj6-odN5-_mJvf7oUR">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="irKlIwf-_H4XmfbhX-pSRmt1DkIzM1n5ohHR63nlY" cm:class="ps:children"><cm:relation cm:id="i19gXeHpdfbsemJExkIDNSBpdremJcqmZreCxcqW8" cm:type="ps:optional"><cm:target cm:id="iYmfb09S7SBZS1TTBQQbaPkOkT7aa-FChKj2T-VMP">./iO3dYC7dyxynuvxpmYeS4YE7fm9d</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iQjZByVJlnZ_KeWTW" cm:mimetype="text/plain" cm:encoding="utf-8">FilePropertyLoader</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iO3dYC7dyxynuvxpmYeS4YE7fm9d" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iO3dYC7dyxynuvxpmYeS4YE7fm9ddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i8_QkCNdqbG8ppJxfkYL54oAgLPpJx1xfhH8p29x1" cm:class="ps:parents"><cm:relation cm:id="iU7GiD3hXFhqK1THyzgD3098_4EUlLzebMj1nT7XC" cm:type="ps:parent"><cm:target cm:id="i0ncqodaGjY29-VcqgX8FUBlcL5VBw17-KPt0MzSB">./idedxVSrOFMXCv7U4SYAN6BXEWqe</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i37nK66gt-AtQMdCy2vUWN0G_v6b" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iz_5cLbPUuJ6EALlG97pMFP2_-8o" cm:type="ps:path">FilePropertyLoader.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ikcQGU5fVXByfVB3y_Kvwsux7f9h" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ic-yu0O78IvvgR5m6G8RkCGjPtuk" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iYiHi_6cpCINz7TfD" cm:mimetype="text/plain" cm:encoding="utf-8">FilePropertyLoader.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iZrfJJ9zq3AP8VUUUnE_Q1IGoKRm" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iZrfJJ9zq3AP8VUUUnE_Q1IGoKRmdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iteU7TlpdXmfrChNPygZCJO-FebRAYCtKr0AM3DeX" cm:class="ps:parents"><cm:relation cm:id="ifXkYGOlYJioZeXMPkILzPkSlTBqeRASRK5C3LPBM" cm:type="ps:parent"><cm:target cm:id="i7oQA3D7UWSbGqe5-ygRQzw8VtukIZSZSHyLjjc__">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iSlzw4opdW85-FNV739teUBSlSB8V395UPA3n-FAw" cm:class="ps:children"><cm:relation cm:id="ipJ7o19hbBgS7XSz2Dhz2dG6opJodVRcqTRfbV7aq" cm:type="ps:optional"><cm:target cm:id="izwervvy2LPVBebW84-__D3NP_poJZCkITlLP3TFN">./icgIWupZ10OSRud9V-8J1zIR0sGh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ixpL3iJ7MSGhvya2_" cm:mimetype="text/plain" cm:encoding="utf-8">MainController</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="icgIWupZ10OSRud9V-8J1zIR0sGh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="icgIWupZ10OSRud9V-8J1zIR0sGhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iqKZCSl09se6EDNcWZmpdBgZ8mJZ8xvG42TKzMj-p" cm:class="ps:parents"><cm:relation cm:id="ixficWSWClIebkYt0iY-_PQE3HyVR-pVBVlzM-Vgb" cm:type="ps:parent"><cm:target cm:id="ikYoJ6Ehbda8p8_A2H4vfExhrHyU7PkwL2D2nS7OQ">./iZrfJJ9zq3AP8VUUUnE_Q1IGoKRm</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ibotaZ_UPYgXq6EVlYogadYbLG1k" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ixvf4D_ogAwokl1sXaGtxhopziun" cm:type="ps:path">MainController.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iXQ58edXLJrTUVvZFkeQpZzLV0nn" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i3vD1Fs8iiSo-xWSI4SoS8lcMoVk" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ifqrudqEmjRQSR81s" cm:mimetype="text/plain" cm:encoding="utf-8">MainController.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iNB66_vJ1B48ZeScHvodJvy7zzRh" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iNB66_vJ1B48ZeScHvodJvy7zzRhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i1ns0J4cGA2w1tKHiDhjYndNPS7s0KjbGLj8FLj4-" cm:class="ps:parents"><cm:relation cm:id="iEhS7dW__CN4-kcT7Bg8_wfpticlI_pCNMjiIRkGO" cm:type="ps:parent"><cm:target cm:id="ihblIpd3nwLlc29dGKjmdqeaa_pjsbaX8Lj29DNeb">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iU7qeXCLjwv4oaaksG4nt_pQQqu8_ptwfpdgrZSV7" cm:class="ps:children"><cm:relation cm:id="iZCF3kI2DY8ygxLhbcqYmBMru8_W8Q6iIlYwfqeSB" cm:type="ps:optional"><cm:target cm:id="i3DjY9_y2aaUlChE3FhPQfrkcV7yMufMzcWlcX8pZ">./ipW86tBqxuJ7wygRmYsb35SBYu3m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ioCVGtpVCrhk_0HKB" cm:mimetype="text/plain" cm:encoding="utf-8">SimulationController</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ipW86tBqxuJ7wygRmYsb35SBYu3m" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ipW86tBqxuJ7wygRmYsb35SBYu3mdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i5EaaPk7oSRDNfbP6eHP6y2z2erwvDNNzE3lY0Dzw" cm:class="ps:parents"><cm:relation cm:id="iURQAkITl9pYS6U6ECNpJZChbs0GykYgXF35EbGte" cm:type="ps:parent"><cm:target cm:id="iHiGOtetKOAWm-psuUBN5MjX8gXNjwfA2AwRQjs0T">./iNB66_vJ1B48ZeScHvodJvy7zzRh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ixvdXzp-pRJLhGdf-d5as8JyCRib" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iCLTYx8WNnlpZxOsKRTxYnduxLSm" cm:type="ps:path">SimulationController.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iVwS6HPZYN47afYnWIg2n_LAKfih" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iGwlscER_2daHibCfJSuX2v65nRk" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iFi8Fd4CuNVo6Hu-R" cm:mimetype="text/plain" cm:encoding="utf-8">SimulationController.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i9hSmp8ZVU80BvUOCx3y4TcFFBHa" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i9hSmp8ZVU80BvUOCx3y4TcFFBHadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iU7Fxks6o-_099pIyFxBgzMbGyw19dakII4cqoZcG" cm:class="ps:parents"><cm:relation cm:id="iMzU75UXSFhcGfrDNeXQQr0S7TRvfD3qexvcGKPmZ" cm:type="ps:parent"><cm:target cm:id="imd2TH4X8s0W8Bg39pZmZRQIOChU70D9_7o0TaqQk">./i0ks5tJkbTwKazNXxonX_hmojxvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i-_-VptkcjYVBicDxlcL5EhwLVBZmiY7oUBTlWSGi" cm:class="ps:children"><cm:relation cm:id="ibadWHidG_FOAI4gr_VZS8FXSCxvLuvChpZfXlsaa" cm:type="ps:optional"><cm:target cm:id="iGyfreXot9p4EG4hrGi6-YSkIR6pdvfZ8nJPkWS9p">./itgiiKb7HhbAGTKzGMkOrBnJksld</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ijw6jnhaus1saRlV5" cm:mimetype="text/plain" cm:encoding="utf-8">SimulatorControlPanel</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="itgiiKb7HhbAGTKzGMkOrBnJksld" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="itgiiKb7HhbAGTKzGMkOrBnJkslddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i7EXCE3VlRkGyT7-VVlC3te09jcQ60naa_poZ-FbW" cm:class="ps:parents"><cm:relation cm:id="iTRcqSB9FcGM5odLPF3_pLjlcaWaWqe1DiYpdfb7E" cm:type="ps:parent"><cm:target cm:id="iXSR6_VvfhXaq8phHKzreURE3U7lsQQt0gXcaFhWm">./i9hSmp8ZVU80BvUOCx3y4TcFFBHa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iH8fOAZA74CBy6JV0AmnzXmgNGva" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ivkoAHTeLBiKf8JWNMd2DlC2FlOj" cm:type="ps:path">SimulatorControlPanel.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iWuxBJhp1_86trEQCNLyeiC-LdPo" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="imiP0y0weioAsiZAj0bwy8Wu9Qeg" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i5ZRV6MF4fNZOtjXw" cm:mimetype="text/plain" cm:encoding="utf-8">SimulatorControlPanel.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ilTCpLzkO2vGl8CateBbQuj3j6Lf" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="ilTCpLzkO2vGl8CateBbQuj3j6Lfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iPQDhgXeb19X8yMoZHODNndres0ptjIlYlYJycG8p" cm:class="ps:parents"><cm:relation cm:id="iRAywcW4omtNj8_Z8SR3nNP3nRAMjW8YSL5xvygOQ" cm:type="ps:parent"><cm:target cm:id="ioZywC3vLx1q06UerJ4ExiI8VaGZ8xvlsCxicG4fb">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iqu7oiYOQ8pGylYHidqfr4EksTBWmYCL5Exw1Qkw1" cm:class="ps:children"><cm:relation cm:id="i4ooJQQer0TxvqejsnZ__W8teWm5-vf-Vzg0ThrZm" cm:type="ps:optional"><cm:target cm:id="iru6oPQEx3TG41TjceHcGba19Mz0nQkAg7EM5RQ2n">./iEv_ugspJJns5VCDlqEFHCis2LTd</cm:target>
+<cm:target cm:id="iGiNPTB3Dz2ZmDND33DsKzgpdbGVB3DuvD34E5-gr">./iQn3nbAfF1N0kQ6fzq0xl1D8Kfkp</cm:target>
+<cm:target cm:id="i1naWmtbWExDhaqLzUlK5H4aWjYNPCx7EAwmdIiFh">./inYKIJK8dG3-TptIVU-6RUzN1u7c</cm:target>
+<cm:target cm:id="ijYbGqewv9FN51nWSwvDxD3cGca6U6UzwAgBgxv-F">./i6SZgZ35IPCivKR_pFwwawQTsueo</cm:target>
+<cm:target cm:id="icarukY9F__qu-_gXJyeXkI1n4-6-bWX86ooJTB__">./iWIGp_-Z4fhSWdrIttcQM_FqiTbl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iDO1nlX037_twCqaWoyGGLvJJtho" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iFy80XQallHDrRNmWgRf5FbO_1qp" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/src/sg/edu/nus/iss/vmcs/util</cm:constant>
+</cm:property>
+<cm:property cm:id="iUv_HIavl0oyaQsPf2ioYFl59qdn" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="ikDdoKhCPO9DK6Wp9GrhfSUu-cka" cm:type="ps:directory">PureVariantVCMS/src/sg/edu/nus/iss/vmcs/util</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i7U8Ifgfgk768CKPg" cm:mimetype="text/plain" cm:encoding="utf-8">util</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iEv_ugspJJns5VCDlqEFHCis2LTd" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iEv_ugspJJns5VCDlqEFHCis2LTddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iPk_VlY5EeXcqfbaWI4N5uLO6VlfXURP6RAxLHiv1" cm:class="ps:parents"><cm:relation cm:id="i9F7U4-RQYmQQ7ot0v1hXOAbGPAGiDN4UXCvv9VIO" cm:type="ps:parent"><cm:target cm:id="iExDhQ6JyksD36Evf5UAwzgdW3DvfzwOkksptHOL5">./ilTCpLzkO2vGl8CateBbQuj3j6Lf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iRQ_p-FH4vvfH_VAgJidWoZt0SRaqKPOQCxWmfrU7" cm:class="ps:children"><cm:relation cm:id="iptnJ1T0nlc1npdq0IyVlK5BwW819V7lY8pHO8_hH" cm:type="ps:optional"><cm:target cm:id="iX8B2sejskIM54UxvD329ZmSlyg7osKaGAMD36o7U">./inxhIAa2yU6fusHO-pwi_HOOMFIh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="i5Qo6vjA1mF5R0VzI" cm:mimetype="text/plain" cm:encoding="utf-8">LabelledDisplay</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="inxhIAa2yU6fusHO-pwi_HOOMFIh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="inxhIAa2yU6fusHO-pwi_HOOMFIhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iPQfHlcnZV7gHfrpJZmIiHOcq0TIiotndV7tuUBU7" cm:class="ps:parents"><cm:relation cm:id="iJiSlUlbaI4TBMjSBCNhXGOpd4UG4gHxL_VHyV7od" cm:type="ps:parent"><cm:target cm:id="iIiPAHiEhJ4kcQQS7cWaGaqq0rK9_1DHOeX_Fvfwv">./iEv_ugspJJns5VCDlqEFHCis2LTd</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iB0AYD3-hVBKaXVnxjl8Sv0N77ec" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ibo7NFgP5ceCiz5olfxWAQZw4aVf" cm:type="ps:path">LabelledDisplay.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iNM8wj-iWn6va1FYsggT5cyfvrAl" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i2S3PD8Ir6II6o5RiIHfHQSd8Guk" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ik5ub64SdgVJxHTMD" cm:mimetype="text/plain" cm:encoding="utf-8">LabelledDisplay.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iQn3nbAfF1N0kQ6fzq0xl1D8Kfkp" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iQn3nbAfF1N0kQ6fzq0xl1D8Kfkpdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ibGaWlcM5cGquI49pX8sudqSBr0UBYS7-aGURIOdq" cm:class="ps:parents"><cm:relation cm:id="ifbyMLzU7_VNzeraqufUlreiYHOjsqK7oVB29TBIi" cm:type="ps:parent"><cm:target cm:id="ihHTRaaAMgXgHXSnt5U_VVBgXFxygfXkcgroZLPpJ">./ilTCpLzkO2vGl8CateBbQuj3j6Lf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iyM9plIrusuFhC3P6t009grUR9p1TX8Z8zMpZCxdG" cm:class="ps:children"><cm:relation cm:id="iuf19UBq0pdaqquygLzeHEx4oC3JiChURR6tKq0Ii" cm:type="ps:optional"><cm:target cm:id="i2nebO6Chte09MPisNPKjW85Emt0TodicufvvT7Nz">./iBg5wsoopTTMBX3E4xKuqrUCqxpg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iFJq9KF_mdGskyILG" cm:mimetype="text/plain" cm:encoding="utf-8">LabelledValue</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iBg5wsoopTTMBX3E4xKuqrUCqxpg" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iBg5wsoopTTMBX3E4xKuqrUCqxpgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iChZmGypt7-w119__oZXSYCIiH4nZaaPk0T0D3T4E" cm:class="ps:parents"><cm:relation cm:id="iQ65-lsHioJR6quRQPAFN_pmZjI6Eiszw39_FjcPA" cm:type="ps:parent"><cm:target cm:id="iENoJbaF3B2Ym_FD3ZmhrX8r0eHsu2DvvCNIy7EBw">./iQn3nbAfF1N0kQ6fzq0xl1D8Kfkp</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iMgFwJcX5gdeITrQxwT6pVX0lHZa" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iwPq1MPACTuFkB8EuQ2pPf6B3qao" cm:type="ps:path">LabelledValue.java</cm:constant>
+</cm:property>
+<cm:property cm:id="icS1QcUqrXcv8TXW8CDgB708sJHd" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iaPg-Him6Bm2pMv6c6-ATyonHmSb" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iJ44ugwY0CIaRfW7G" cm:mimetype="text/plain" cm:encoding="utf-8">LabelledValue.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="inYKIJK8dG3-TptIVU-6RUzN1u7c" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="inYKIJK8dG3-TptIVU-6RUzN1u7cdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iaGebcGebFxdGvL5o2DkICxOA4-yMicQkLP8p9Vre" cm:class="ps:parents"><cm:relation cm:id="iIOlYD3NzEh9pmdcW5EjsQAcGDhnZcWTBCxE32TW8" cm:type="ps:parent"><cm:target cm:id="iOQs0LjzgDxba1ThXI42njcu1_pzgjYiI296U8Vnt">./ilTCpLzkO2vGl8CateBbQuj3j6Lf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iW8vvbatuhH4oNzKPxvjsbWY8-pYmZ8I4dGSRUlSB" cm:class="ps:children"><cm:relation cm:id="iZS-V3nsK0TQ6wvSBywR6IiuvXmlIzMhHvLIiPAw1" cm:type="ps:optional"><cm:target cm:id="ihrhrsux1_p5USR-_mJUlkYwLuLSBH47EJ4VBXCJi">./i4wKfLeZsIhc_xfpAHmBsD0OYPAd</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iRVHAcf1w7cueXnEU" cm:mimetype="text/plain" cm:encoding="utf-8">MessageDialog</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i4wKfLeZsIhc_xfpAHmBsD0OYPAd" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i4wKfLeZsIhc_xfpAHmBsD0OYPAddependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ir03nda9pdq6EUBbG0TBgAgBMPkMP7oNjY8SlJ4Ex" cm:class="ps:parents"><cm:relation cm:id="iiYSlKPHOdGZ8tuaqDh-_TRpJAwVlS7xLmJhblc_p" cm:type="ps:parent"><cm:target cm:id="iMz__YC39W8H4Ch6UVRaqtuVB2DnJca297EaWxLSR">./inYKIJK8dG3-TptIVU-6RUzN1u7c</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i71rYPJcopSf-1L4bJo0BLxgc2Yc" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iOYYP1a-6KETC5Sq9MkatFFxEzig" cm:type="ps:path">MessageDialog.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iwdnKBruC1BNVkZlBJ4Dm8mC2-Zh" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i29dLay6kHsDaZdIXc9qQJqhRCGl" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i9uWkHbNeuumCqu5e" cm:mimetype="text/plain" cm:encoding="utf-8">MessageDialog.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i6SZgZ35IPCivKR_pFwwawQTsueo" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i6SZgZ35IPCivKR_pFwwawQTsueodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i1n9VFxXSSB4-hrRAwfB2oJSRv1lIUR-pbGGiqu9_" cm:class="ps:parents"><cm:relation cm:id="i4UI4TRzMGigH5-0TKzsuZ8bWcWerY88VEhkc3TdW" cm:type="ps:parent"><cm:target cm:id="iXCTlBgcazg7UntaqJioJqe6-hbK5oZgbIOgrRAvv">./ilTCpLzkO2vGl8CateBbQuj3j6Lf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iKjt0ZmJintHi1nBg_VGOlYTRW8VlpJfHyMP6pdwv" cm:class="ps:children"><cm:relation cm:id="ihbjIjIExTl4-I4C3Slr0hH8VC3kID3aWVR19Tlba" cm:type="ps:optional"><cm:target cm:id="iWCeH4ouvFN4UKzQ6GOD3x1-VndPkLPufeXkcfber">./i-W8UYITzp4--2Iiq_Wdv_TcH4Xh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iCW6crwDSW_LZI9tj" cm:mimetype="text/plain" cm:encoding="utf-8">VMCSException</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i-W8UYITzp4--2Iiq_Wdv_TcH4Xh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i-W8UYITzp4--2Iiq_Wdv_TcH4Xhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iHOebbqhHq0hr0TC3sKcWx1Lz2DotN5aGWmaGjccG" cm:class="ps:parents"><cm:relation cm:id="iP6hbQ6r0BwLzreB2aqRkZCr0ufcGMPQk190Dzgcq" cm:type="ps:parent"><cm:target cm:id="iPQ_VZ8Mz4UCxmdA2lsjcWmmt8VaqYSodgXV7aWyg">./i6SZgZ35IPCivKR_pFwwawQTsueo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iwpKAXNsvZgE4Fqd7Vdd0LblToDl" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ivOrLHp1m-Ig95i8tmumMnUwYutc" cm:type="ps:path">VMCSException.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iHYHw_k6epwddnOBJWg_dFDpwlSh" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iBEvHt6pJJn47ycMuTCDX8lB4Img" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="in_nidbEGBjv_66JK" cm:mimetype="text/plain" cm:encoding="utf-8">VMCSException.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iWIGp_-Z4fhSWdrIttcQM_FqiTbl" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iWIGp_-Z4fhSWdrIttcQM_FqiTbldependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i7-CxdGndgbSlsu_FRAX81nt0nZpJMjE3J4u1ot4E" cm:class="ps:parents"><cm:relation cm:id="iJOSRKzGycGFxbGv1DNXmfHNz2T9FOA2DsuSB29NP" cm:type="ps:parent"><cm:target cm:id="iZSLz1DVRgXotJOVBfbT79FChebHiVlbqcWE3Hi9V">./ilTCpLzkO2vGl8CateBbQuj3j6Lf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iKzE3Ag1T5o09ZmTRWm_FbWdGH4t0Y8hHaWfXxvaa" cm:class="ps:children"><cm:relation cm:id="i1D1TQA8phrrKpJ4EJ4s0XCjYoZYCrKRAotvv_F9F" cm:type="ps:optional"><cm:target cm:id="iisENaasKBgw1hHjcDxMPsKquLz9VjYpZOkXSicnt">./i_aLnJFva3IrqATH9ovHYpNRleuh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="izQfqPyraWLJWVYT9" cm:mimetype="text/plain" cm:encoding="utf-8">WarningDisplay</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i_aLnJFva3IrqATH9ovHYpNRleuh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i_aLnJFva3IrqATH9ovHYpNRleuhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iufFhteWSnZ5Ux17-w1daTRbqFx0Dv1y2xLQAxL6U" cm:class="ps:parents"><cm:relation cm:id="ivfOQwveXYSntwLMzKPaW3DPkeb0TzMksEhx13DqK" cm:type="ps:parent"><cm:target cm:id="iFNw1vLRAw1Nzjc7oFNXmuvisWCxfteX8x1yMcGOQ">./iWIGp_-Z4fhSWdrIttcQM_FqiTbl</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iDH8clysP6Nf5EpImZplS6ymkhMg" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iN89brLCB6qP4KmvjYJGTL7ytDop" cm:type="ps:path">WarningDisplay.java</cm:constant>
+</cm:property>
+<cm:property cm:id="igFj_S8rslbvMz63_MQY6q9CpZQo" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iJJC7KMSehvtWyqODFFduFkJRYDe" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ihtcimZL6_qZVr_HK" cm:mimetype="text/plain" cm:encoding="utf-8">WarningDisplay.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iqor5OI8g0r_s3Yu9eS5EkgUZCdj" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iqor5OI8g0r_s3Yu9eS5EkgUZCdjdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iT7IOLzUlT7xvfHbaAMdqv1ZCuvwLdWKzDx6o5UGy" cm:class="ps:parents"><cm:relation cm:id="i__sKCxGyP6RA0DWmF3kITRIOfriIOQEhlIzgGO1T" cm:type="ps:parent"><cm:target cm:id="ihbquChSB9FAMOAUBywcGZSZCndIiuLtKaqHiRQQ6">./ipTYTEvyV7FldB5RQbpQKKt1hwre</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="idq8pdq3n1Tuv7o8FMjjsJ4NPkY2TRQO6vL5-SBvL" cm:class="ps:children"><cm:relation cm:id="ipJ2nyM6o-_NjYCLPR6ptpdgHD3VBiIquwLiI39Dx" cm:type="ps:optional"><cm:target cm:id="iXCcWjcW8dGS7jcaquLvf4EodNzENiI_Fr0aGebZ8">./ien5Nfweh4Kvld3KwVq_b928Xppo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iwNhAlGvoiZIlAKln" cm:mimetype="text/plain" cm:encoding="utf-8">Vmcs</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ien5Nfweh4Kvld3KwVq_b928Xppo" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ien5Nfweh4Kvld3KwVq_b928Xppodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ilI2DFhfX5-xvu1xLO6mZIyvvzMbqicTljI-F-_er" cm:class="ps:parents"><cm:relation cm:id="ivvbaNPS7VBz2P6B2dWcWOQq0Okr0ntQ6xL6U__nJ" cm:type="ps:parent"><cm:target cm:id="iVR_Vq0WSsuKPu1oJOkGO0DW83Tv1CNlczMUlO6hr">./iqor5OI8g0r_s3Yu9eS5EkgUZCdj</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iQNNmDsAK7x0R8YYetCUm8ofMBIj" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i7yBcqzOel23RkhRDLhSXJqFIeho" cm:type="ps:path">Vmcs.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iakwx3S4szPr4A3sm-Pgxk_Vihxj" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i_mnvuCiEa6YV6PKLRKKdT4DD-vd" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="inQVVbeZcRSRumJzV" cm:mimetype="text/plain" cm:encoding="utf-8">Vmcs.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i4_IvTIZMOjicBngntKxufOCBgyb" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="i4_IvTIZMOjicBngntKxufOCBgybdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ixLF3zw2D3Dw1qKQQebgbRk4Uzg-FAMquIOPkB2lY" cm:class="ps:parents"><cm:relation cm:id="i5E9_t0se0TvfMzuLvvLjksIOSBzglsjcDhAwCNRk" cm:type="ps:parent"><cm:target cm:id="iu1NjfXLPw1B2TBO6UldqjsOAuvxvgHKjqedGzg0D">./ixyk3KCkkzwfVQNAupvqVPGnwfDa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i-FmdfHF30T6EzMKjz2JysKrecaN5XmzgKPV7-plI" cm:class="ps:children"><cm:relation cm:id="ier8_lsVRaqgb19sKWmBwuL_FB2X8aqsK2DQkAwca" cm:type="ps:optional"><cm:target cm:id="i09JyR6t0HiY8cGhHgbURpJBwkI_F-FgH-Vvf3D3D">./iWNCyRcLlT8MMhWENPNTutqk1ixc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iAs52IKjHpKTo4loaX0jxfW4kP0a" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iFEMQjb01DhcZp6rJGUqIJ1Pwkrk" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/tests</cm:constant>
+</cm:property>
+<cm:property cm:id="ipemGfc3UXq34breRXrfHXDPbbXn" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="icvcjxHQzRzQw1Ah9YqT5VtPRmSg" cm:type="ps:directory">PureVariantVCMS/tests</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iWaFYhGQA-h0KtTzl" cm:mimetype="text/plain" cm:encoding="utf-8">tests</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iWNCyRcLlT8MMhWENPNTutqk1ixc" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iWNCyRcLlT8MMhWENPNTutqk1ixcdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i4EFNPQUBFxSRsuIOUBot3DcG7EptfHBgmtQAdqYm" cm:class="ps:parents"><cm:relation cm:id="iebJi5oOQFx-VaG29iYeXPQ3TwflYFh7opdD3-VDN" cm:type="ps:parent"><cm:target cm:id="imt0D__URlsxveXufG4ls4-mZ0TPkAgjIodv1jYhr">./i4_IvTIZMOjicBngntKxufOCBgyb</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="ixf8pC3ebNz1nJyPkYmUl1nHifXYCSlVRlc09X8aW" cm:class="ps:children"><cm:relation cm:id="iF38p0TJiM5QkYSoZebNzerPA193TPkr0Z8ptsKR6" cm:type="ps:optional"><cm:target cm:id="iv1aqM5rKSR9_R61TGyfrcGK5V7S7tejcywz2Hicq">./i2x_p2ix0E0_5TYo56FSDITsSrff</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i35vuj2LWt97UasXhY5VahxBEG0f" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="i4XU8PnBGiPUj0anSI69d78aSZUn" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/tests/sg</cm:constant>
+</cm:property>
+<cm:property cm:id="i9WMIifKsL2xpwN8Iydz13Z2nC6o" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iq5u402WnucNW6bOz5A2dGbtCE-f" cm:type="ps:directory">PureVariantVCMS/tests/sg</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iwiUb4KcYnslOk0S9" cm:mimetype="text/plain" cm:encoding="utf-8">sg</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i2x_p2ix0E0_5TYo56FSDITsSrff" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="i2x_p2ix0E0_5TYo56FSDITsSrffdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iaWK53TOkhrjY_VzgwfPAkITl1nFNptDhE3IO7-Rk" cm:class="ps:parents"><cm:relation cm:id="iKjgXeHebFxFhjszg2Dy27-u1_pP6A2ntG47ocaZC" cm:type="ps:parent"><cm:target cm:id="indpdygfr0nL5OQ29bWte2nWCDxOkD3gr2TwLA28F">./iWNCyRcLlT8MMhWENPNTutqk1ixc</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iVlSl-pmtwvpds0sKvfGy_FJ4UB8VSlRkoJLjVBVB" cm:class="ps:children"><cm:relation cm:id="ijscWT7GyExCNFhic8FlsENdWmtZSjY-_iImJC3zg" cm:type="ps:optional"><cm:target cm:id="iptnJ2TdWENjIDxisIO_FsuNzE3pZ7oRAdWks1nqe">./i0gJTD9p1WiKC38n0oR7lc3hz97a</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ibmxaPepE2zFa9n04zwoA3dZq2Hh" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iao1Hgoqkta5bOtIxCff92xgXf1i" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/tests/sg/edu</cm:constant>
+</cm:property>
+<cm:property cm:id="iNuGEVfz-4whHOuDV2ovNYfJFTDg" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="i4e5UdAay9SuKpF2NxnpDtTNiebj" cm:type="ps:directory">PureVariantVCMS/tests/sg/edu</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iS2KJmCORSFvZLlbX" cm:mimetype="text/plain" cm:encoding="utf-8">edu</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i0gJTD9p1WiKC38n0oR7lc3hz97a" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="i0gJTD9p1WiKC38n0oR7lc3hz97adependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iOkHyHyvfzMzgYSufK5YC9_UR-p-VerZSnZ_V0nE3" cm:class="ps:parents"><cm:relation cm:id="iXCPAvviIL5JiFN7-otG4SlygPABM9FZmPQkst0YS" cm:type="ps:parent"><cm:target cm:id="iS7J4VRermZQk1DZCy2P6K5ZCgHA2kcodfbdaO68p">./i2x_p2ix0E0_5TYo56FSDITsSrff</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iSBpZE3Jy19ygXCuf8FVR3D9FaaXSisQAufpt2Duf" cm:class="ps:children"><cm:relation cm:id="iSlHyHyFNYmxLu1EhOAhrs0Vlbas00DTRZ8nJ8_-_" cm:type="ps:optional"><cm:target cm:id="iXmIOI4KzndOQ-pCNMzgXAwaGqKndw1wLDhMPpZls">./iiObvRKAnmwEQ3PaVGkL1xmSV5-i</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iL6M7ZAPysZ46DcIZ9adUHCWQbUd" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iSYU9V8MKK1LNbUu2HFzggp-aA1m" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/tests/sg/edu/nus</cm:constant>
+</cm:property>
+<cm:property cm:id="iN62vCM--561qPxMnVssuVANk_cl" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iJiUiTgOQ8biYs2kPldzy0nsFwcc" cm:type="ps:directory">PureVariantVCMS/tests/sg/edu/nus</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i-OlEw3_QSc3PtIkj" cm:mimetype="text/plain" cm:encoding="utf-8">nus</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iiObvRKAnmwEQ3PaVGkL1xmSV5-i" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iiObvRKAnmwEQ3PaVGkL1xmSV5-idependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="igr7EMjVliIoZdqnJFNKPjcuLkYdqfXB2KjlIK5Mj" cm:class="ps:parents"><cm:relation cm:id="ivvsuC3XCDhTBCxCNOky2z2ChHOAMzgTBCh-_ndfr" cm:type="ps:parent"><cm:target cm:id="i9VLPxvjcqe9_HywfMjMP6EKj__mtcGz2_VZ8DxYm">./i0gJTD9p1WiKC38n0oR7lc3hz97a</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iOk6-9FBgNjkIaWzwRQR6grHiCN3nebQQeraGxvnJ" cm:class="ps:children"><cm:relation cm:id="iDxiYndE3JOsehXUBDNYmwv0DdqMjJ4KPQA2nfH4-" cm:type="ps:optional"><cm:target cm:id="iHivv0nlYzw7UmJtK9pwL-VPQiYpZFxFxS7TR1TS7">./iUvwSGKhP-uCjxHtdKuFj63A7Yrg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iD_4dy1vetIF22vEs159jWHZb8Cb" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iI9sDuYQVEw5V4KUlGg3y9X3p2Ki" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/tests/sg/edu/nus/iss</cm:constant>
+</cm:property>
+<cm:property cm:id="iScVDKXBC77P8QJ0PTeLHpiGH48k" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iFFjgag_4kg72YRiOlcfd1dMiCqj" cm:type="ps:directory">PureVariantVCMS/tests/sg/edu/nus/iss</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iEXUIebsicMKajl2M" cm:mimetype="text/plain" cm:encoding="utf-8">iss</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iUvwSGKhP-uCjxHtdKuFj63A7Yrg" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="iUvwSGKhP-uCjxHtdKuFj63A7Yrgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ifrC3jsWSzgebIynJ7-xfqeTBrKx1WS4-VR8ppJOk" cm:class="ps:parents"><cm:relation cm:id="iersu09eXIyLjGi7-8ps02T0TdqnZOQPAhrZCJ4Jy" cm:type="ps:parent"><cm:target cm:id="i09DxUBQAcWWS2Dx1v1OAWCMPr09pruDh5-7EfXLj">./iiObvRKAnmwEQ3PaVGkL1xmSV5-i</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i5ElYzMQQdaQQP64-Q61nruq0eXAgXmKPXSL5qe1D" cm:class="ps:children"><cm:relation cm:id="ivviY29Hixf5E7U09zMzw5-YCOQ4o-VicChwfPQ5o" cm:type="ps:optional"><cm:target cm:id="iz2M5t0qe9_5-MPaGQA7U8pKzCh6EW8ChruqKqe_F">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i1puXKXStbuV3nN1SWN7fmDiEzMm" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="iyTL-Aw9hcHshVvpDVmrjkGQAqSb" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/tests/sg/edu/nus/iss/vmcs</cm:constant>
+</cm:property>
+<cm:property cm:id="ix0G_G9U45T4XkWZn-gUebWd7jBa" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="iUZ6FrFtZOSDUk1OYL6tlrfv1aWo" cm:type="ps:directory">PureVariantVCMS/tests/sg/edu/nus/iss/vmcs</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="inJcZ15rwYMVUXpdx" cm:mimetype="text/plain" cm:encoding="utf-8">vmcs</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ioID5TOrM6elZ5RCfWizXw6yXZ4m" cm:type="ps:component" cm:class="ps:component" cm:default="on"><cm:relations cm:id="ioID5TOrM6elZ5RCfWizXw6yXZ4mdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iENr0hr-_ptXC__-FhrMPjY8_r0otkYbWFhjYPkhb" cm:class="ps:parents"><cm:relation cm:id="izwv1uLqeu1Jy-pUlnJ0TH4kssKGyF3Gy6o3npdAg" cm:type="ps:parent"><cm:target cm:id="ihblYFNxfw1aWFNq0suntKPV7kY_VGy-_erIydGNj">./iUvwSGKhP-uCjxHtdKuFj63A7Yrg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iZmWmMj3TlIIOJiAgUBNPKP7ULPlstKR6_VbaKPBg" cm:class="ps:children"><cm:relation cm:id="i9_Ehyg__WmzMZS29PkH4otEhZ8-VExpZy2FxT7tu" cm:type="ps:optional"><cm:target cm:id="iU7TBz2R62DqKENnZmd1TfXVRict0otfHmJz2nJ4o">./ivn8gHsPtT-DeacjLVYe1UD1wOTg</cm:target>
+<cm:target cm:id="ikIWSiIxfiIruoZV7zglcOAeHaqkYNjkcH45o2noZ">./iJP_vSSVYQPrXdjH-LkEmPL13tgn</cm:target>
+<cm:target cm:id="iDN9FnJ_pCxvL8F1Dz2OQlYAgwf6UQk-Fbq2TtuDh">./i_IsZZhgLx25UU6mt8-FMoHJwBTa</cm:target>
+<cm:target cm:id="i2TC3VR2T0T5EYmU7J4TRkYW8aWJy5oAw6U0nO6S7">./i46DOLlzK2S0-palBTGLH2XOoQGk</cm:target>
+<cm:target cm:id="iUBDxcGZSFhiILzcG4-segXpJ5-9VcqKPs0Y8ls6-">./iZ-PYL7n-OhC4SVUahFkfofnUPIk</cm:target>
+<cm:target cm:id="iwfiI29EN8VGiqejsu1Mj19bGA2UBaq0D3D5ozwY8">./i63jUz5DTXVwObPftswm_PP1cDWh</cm:target>
+<cm:target cm:id="i6-sKAgVlGO7oR6-pvLicR6pt0ns06U7UBMoJ3TqK">./iSaeZoVlybQe6okDEjvpS-c1FdIg</cm:target>
+<cm:target cm:id="iG4suGiptiYY8-VCxygkYiskceX8V5oxLN5bWz28V">./iTGH-k5PHpwXgrg4feuVImzX5tGo</cm:target>
+<cm:target cm:id="icqOQN5SlqeCxvfH4fHAg-Vis0TQAlc7oZmgHPQY8">./i0bDNm2eKx4F0FKmtxfXDSKB165p</cm:target>
+<cm:target cm:id="iZ8XSqKqebG8pM519VlYm9FRkpZEx0TxvFxAgz2Nj">./ivo5wDz_mr4KUCAh4bGM-PORqoOf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="it6hCszw9rJUgE-u7EEwZRLcrCSf" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir"><cm:constant cm:id="infcUiBZdsp4SEJmrGm44jBt9KZa" cm:type="ps:directory">C:/Users/nguwarthawdarshwe/git/PureVariantVCMS/tests/sg/edu/nus/iss/vmcs/store</cm:constant>
+</cm:property>
+<cm:property cm:id="i7ax4rRB5cvQll1fdm-eKJ_I71Dh" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir"><cm:constant cm:id="insZJg0B7uRSlnHj5OScKQaHVLOg" cm:type="ps:directory">PureVariantVCMS/tests/sg/edu/nus/iss/vmcs/store</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iQcuWB49hlWeY_FI2" cm:mimetype="text/plain" cm:encoding="utf-8">store</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ivn8gHsPtT-DeacjLVYe1UD1wOTg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="ivn8gHsPtT-DeacjLVYe1UD1wOTgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iChu1HOR6K51DLzZS8_oJXmLzqKiIKzH45U5otKcq" cm:class="ps:parents"><cm:relation cm:id="ipJRQdaW8__gbWShXdaP6IO__5E-FhXtKUBFN1nlI" cm:type="ps:parent"><cm:target cm:id="ijsuvhX6-zMsuWmCN9FN5KPA2zMXmE33nT7dq9pru">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iaWx1gbiIZmsubq5-fXdqsKcWbGxLgrCxBwMP-_jY" cm:class="ps:children"><cm:relation cm:id="ioZbWpJ5UotBg1DJ4-V8pvfRAY8w1OQN5IOUldGiI" cm:type="ps:optional"><cm:target cm:id="indGyJO6UvfWScqks3nC3_FjYsuca09ufU7z2mtkI">./iDRzijal-ntDoz0vwfcYtrz8drwj</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iNmSZLeM7r32YWUR9" cm:mimetype="text/plain" cm:encoding="utf-8">AllTests</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iDRzijal-ntDoz0vwfcYtrz8drwj" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iDRzijal-ntDoz0vwfcYtrz8drwjdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iYS6-PkQAjcjIXSKP4EeHbWerRAMPWmcand3DK509" cm:class="ps:parents"><cm:relation cm:id="iM5UBYmteVBaWX8QA__4ESBU7zM9p09CxnZgrPk3T" cm:type="ps:parent"><cm:target cm:id="iu1gbPQRAXm6UJyT7Iivv4-ufaqZ8ksQ6OQmJYmDN">./ivn8gHsPtT-DeacjLVYe1UD1wOTg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iDDx-7L-ZTCZTyR4bmh57Cq4FfXh" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iUNOZyk1bWslGJ40iXlQpEQq413h" cm:type="ps:path">AllTests.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iJmgawziLEmNR-2AT8sN0VB-24Wl" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iD7dN--jH8ZTA8Cb611hJBXpeeYm" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i2EIG9kKSpeo1tHyD" cm:mimetype="text/plain" cm:encoding="utf-8">AllTests.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iJP_vSSVYQPrXdjH-LkEmPL13tgn" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iJP_vSSVYQPrXdjH-LkEmPL13tgndependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ipZ3TmdhrSlwfaaywv1DxN5aWVlyMDxD3icSlS7zg" cm:class="ps:parents"><cm:relation cm:id="i6oJycW-F5UQQaq4UMzR6sK5U3ndaB2N5-F7UOQ8V" cm:type="ps:parent"><cm:target cm:id="iIirebqfXB29pZ80DVlaW-VFNDhCNPkU7gXqeoZ0n">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iod_poJdqfb1nNPNj-FVR4-UBCNdGmZbadqqK7Ezg" cm:class="ps:children"><cm:relation cm:id="ifHHiX8X8U7XmL5mtkcxLksxLE34oIO2Dr0quHO9F" cm:type="ps:optional"><cm:target cm:id="iOA5EdW__QkLj0TfbbqyM4UGOiIdaKP-FJyvvndE3">./ioyvQDHRbovzjqFn-jRbSO6KwiMi</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iAsXZC_9q-t3Bw016" cm:mimetype="text/plain" cm:encoding="utf-8">CashStoreItemTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ioyvQDHRbovzjqFn-jRbSO6KwiMi" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ioyvQDHRbovzjqFn-jRbSO6KwiMidependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iYmz20nSRfXzwoZcaX8xv09LjSB9FbGkcWScGHOUl" cm:class="ps:parents"><cm:relation cm:id="iTlJi5-D3Aw__kI-VvLsuSlRk8pu1BgWmwfPkK5G4" cm:type="ps:parent"><cm:target cm:id="i9VxfLzXClsO6DNisMzbWF3AwMzMjygGi2D5EkcG4">./iJP_vSSVYQPrXdjH-LkEmPL13tgn</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ioGjSAOWRPWFVxokR2D1hbao_jYb" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ifp2jnfkijhqD4NV1E5Ey-O05rKg" cm:type="ps:path">CashStoreItemTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iVB5oWr42VBlAtYdTPOHWpdEVHtf" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iMcbZyQJGewJ2S1Ctt3xAxLLdGNl" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iXKkwfev4zaTxe6Lu" cm:mimetype="text/plain" cm:encoding="utf-8">CashStoreItemTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i_IsZZhgLx25UU6mt8-FMoHJwBTa" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i_IsZZhgLx25UU6mt8-FMoHJwBTadependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ixLvLPQ6-cGxLisgbhX8_-F1TTBDhmtxvC3Y8Y87o" cm:class="ps:parents"><cm:relation cm:id="iEx0THyX8T7I4caiIqe8V8pY8BgFxCNbagHX829Bw" cm:type="ps:parent"><cm:target cm:id="iXmBwVRMzG4LjSlD3JiyM0nXSaqiscaA2baJifHeH">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iM5zwBgTBRkRQ0nTB3DV7HOuLChQkaGv1u1lsu1Nj" cm:class="ps:children"><cm:relation cm:id="iTlHiygdGB2qeQ6wfiYDNgHwftKPA0nExygntXCoJ" cm:type="ps:optional"><cm:target cm:id="ihXEhfbcWM5QQpJ4U-ViIzwgr2nNzZ8PAdG6oXSkY">./iS-0W4NLb523o76sRkn0Z4g0iN4c</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iANgAybW_U9CoXOM6" cm:mimetype="text/plain" cm:encoding="utf-8">CashStoreTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iS-0W4NLb523o76sRkn0Z4g0iN4c" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iS-0W4NLb523o76sRkn0Z4g0iN4cdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ikIT71nXCmZY8vvod_FPQQAAwN56Uz2mtxvqKjcVl" cm:class="ps:parents"><cm:relation cm:id="i8_1TI4PkKzMjCNqebWbWtuwvIi5U0TYmEhxf29Kj" cm:type="ps:parent"><cm:target cm:id="iAgzwxfsKKj4oW8HihXAMseMPZmhXcWjcD3ZSgHBM">./i_IsZZhgLx25UU6mt8-FMoHJwBTa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ihwa_FvVj3Dfw9UaA5K48SM0sgec" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i4SJS1sx7A3-pyNwnQWNy_SlojAj" cm:type="ps:path">CashStoreTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iG7Mf7vOc5wGuiVCNHieJtKgsDHi" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ifJ-ZJMbttSDWp-bV9RmtvfJvczn" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iZuUwsMc9LhNC7pYo" cm:mimetype="text/plain" cm:encoding="utf-8">CashStoreTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i46DOLlzK2S0-palBTGLH2XOoQGk" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i46DOLlzK2S0-palBTGLH2XOoQGkdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iL5GygXiImd0DaaS7_FjsU7F3FN3DBwdGeX4oT7IO" cm:class="ps:parents"><cm:relation cm:id="i39C30TYSX8RAxvQAAMXSXSTRJi7Edq8FfHteVlw1" cm:type="ps:parent"><cm:target cm:id="iYSTByMnJruB2HyYCGy5UB2ruUB_ptKcaL5dGzM9V">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iXCMPxvMztKqu_pYmlcKzQQNj6UiIHy0Dotfr-_Pk" cm:class="ps:children"><cm:relation cm:id="ierSBZSMzcaSB_VF3js5E8VredaB2CxF3C3JOSBMP" cm:type="ps:optional"><cm:target cm:id="itKOQzM8FhX9_MzlYO6aWD3DN_pQAq0Xm_F29Ji7o">./iDlgDKwsRZVMyqdAUy6fHtP48Uhe</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ijC8flQdVqEVtNzw6" cm:mimetype="text/plain" cm:encoding="utf-8">CoinTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iDlgDKwsRZVMyqdAUy6fHtP48Uhe" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iDlgDKwsRZVMyqdAUy6fHtP48Uhedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="izM__AMOQ9VnJC3EhVl-FlsIOda2nhXoZ5E2nzM9p" cm:class="ps:parents"><cm:relation cm:id="iSBwLIOseCxvfT7cGu12nOABgfX0TwvxfX84EAw6-" cm:type="ps:parent"><cm:target cm:id="iIy-_2DX8EhW8y2w1od_VVRChhXygMz3nywmdFhis">./i46DOLlzK2S0-palBTGLH2XOoQGk</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ipn381xfFD3B7E_RtWu6HC4omc5f" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i4ZkwyD9hmEViyAq2uwaJbFe38rp" cm:type="ps:path">CoinTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iY4MyPhr9uuxxRhJd-0FgCjB4Jcc" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ijzT23_wwAHFuRbW4Kkl8z-sH6ib" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i48iBdY_nw863Qxrs" cm:mimetype="text/plain" cm:encoding="utf-8">CoinTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iZ-PYL7n-OhC4SVUahFkfofnUPIk" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iZ-PYL7n-OhC4SVUahFkfofnUPIkdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iB2L5M5qubW9potXmicI47UfrU7NjTBUBwLgrs07o" cm:class="ps:parents"><cm:relation cm:id="i9FdqY8VBD36-MPmd4ULjIiP619u139zwBMbaI48V" cm:type="ps:parent"><cm:target cm:id="iuvH4u1tu8p2ntuY84EKPIy6U__PQ5E3nExQkt0mt">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iq03TquCNH4v1__CxgrkYnJcGFh0Dy28_xfYCF3_p" cm:class="ps:children"><cm:relation cm:id="iU77oyglIHi19R6sKFNls29Jiw1bGJODNsebGOA6-" cm:type="ps:optional"><cm:target cm:id="i5EhrG4te7Ebawfkc2ngrRkzgfH-pywr0FNGOoJT7">./iRddo6xPv6Nv7Gj6tpWqMSv5WDhh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="isIXDK1q6cw1ALfBC" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksBrandTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iRddo6xPv6Nv7Gj6tpWqMSv5WDhh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iRddo6xPv6Nv7Gj6tpWqMSv5WDhhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iGOkc8ppZwvv17-xf3T09TBaa4or0JiFh9F1nENgb" cm:class="ps:parents"><cm:relation cm:id="ilIuvnZKjnJO64oCxFx9p8VsK7E-FMj0T6UzM6UYm" cm:type="ps:parent"><cm:target cm:id="iruwvFxaaU7QQoJG4QA4E3nIODhY8er29mZzMTBfX">./iZ-PYL7n-OhC4SVUahFkfofnUPIk</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="is0pOAY-BN-Qi56EKA_znF8xI94a" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i9m9gHdvdVi91_mHbskihyyqgiep" cm:type="ps:path">DrinksBrandTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iTJgL5pjkTAZLxQYnYLAAss2kHDm" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ip9D-MGhftfrr6hNJfaq32RFwVgb" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iFp__CcXYdHMm3sal" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksBrandTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i63jUz5DTXVwObPftswm_PP1cDWh" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i63jUz5DTXVwObPftswm_PP1cDWhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ieXQkqeiISl8_P6-VzgaaaqYmndqe7E2D9_cqG4AM" cm:class="ps:parents"><cm:relation cm:id="i5UzMseaqFhYS3DfXsKebuf9_w19_5-LP5UVBCxnZ" cm:type="ps:parent"><cm:target cm:id="i9pC3XmsuSlAgMz3n6USBeHQ66-wLLjiIpZAgYmlI">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iZ8ChEN6EG4HOjInJL5NPKj8pjs-FmZOk5-V7hr9_" cm:class="ps:children"><cm:relation cm:id="ixfu1rujcQ65U09kcHifrv1qKhHC3DxfXW8R69_TR" cm:type="ps:optional"><cm:target cm:id="ijYYSHyteaGMjTROQrelIeXW89_rKoJO6URfXjYYm">./i78B3pdDTpOD_ptq6pnuaHXTASzn</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iBCqpYpK34jas8iu0" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStoreItemTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i78B3pdDTpOD_ptq6pnuaHXTASzn" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="i78B3pdDTpOD_ptq6pnuaHXTASzndependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iTR3n9FPQ9p6ocq2nqKx1odbGX8XmI4BwOQ2Dy2Rk" cm:class="ps:parents"><cm:relation cm:id="imt6-eHR6mtOk_VygJizgpdeX6-zMIygbPAYSquaW" cm:type="ps:parent"><cm:target cm:id="iBw7osKKztK39-_vvaq0D1nSBgb39LjSRA2zwmdru">./i63jUz5DTXVwObPftswm_PP1cDWh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i1WRhwNf1ogJzHK45JJZarlxVgtj" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ikYMUB-YKhlmKJi2QvNq_hPye7yf" cm:type="ps:path">DrinksStoreItemTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="ietybUpxGxmaZECRhh5Qcmr0AS3f" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="ieMPhINPtSnfyANfhr7xj87Z6b7h" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ia-lnqMXKetDzP-id" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStoreItemTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iSaeZoVlybQe6okDEjvpS-c1FdIg" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iSaeZoVlybQe6okDEjvpS-c1FdIgdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i8VExGi6EcG5-RQVllIYmU7hrtexv19ufaWIidW8_" cm:class="ps:parents"><cm:relation cm:id="ihHte5UBw3ngrVB8VvvG4mtTR4o4E3DQAx1QApZA2" cm:type="ps:parent"><cm:target cm:id="ijsLj8paaU7QAWSUBeHls2DHOJ4isv14ovftK8FsK">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iUldW4UteaG19FNNP39qeTRWCbGFhExjYntaaUlzw" cm:class="ps:children"><cm:relation cm:id="iR6Lzda__Pk09tKB2pJGOhb__NPvvYSCxC3X8zgZC" cm:type="ps:optional"><cm:target cm:id="idW0D_pRkerzMpdy2XmptIymdMjuvPkerAwwLZ8wf">./iizSe5iu9GYXhv8gc1Rj7P3UsUUe</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="ioJ5S2cpT7DWa-ALz" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStoreTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iizSe5iu9GYXhv8gc1Rj7P3UsUUe" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iizSe5iu9GYXhv8gc1Rj7P3UsUUedependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iaaaakIlc1DHy0nxvsKYSZSeXsesuPA5EfXPAKP19" cm:class="ps:parents"><cm:relation cm:id="i39MzhraWeH2T5-K5PkBgjIywAweXjY9FIiwfkIWS" cm:type="ps:parent"><cm:target cm:id="iYmdGVlNz3TAgFxWSygA25UKjy27EIiIiK5GiVlyM">./iSaeZoVlybQe6okDEjvpS-c1FdIg</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i5qa5h-T5hlw5jjX5RreADLZAB5c" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iQwKKJPeKJL7C19itycGChlEKsvo" cm:type="ps:path">DrinksStoreTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="iRJxHAUiAjTSd8r2UsUbKkyJCyGm" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i_m_7ldw0z_qmSQcuLqYvyOjzNrp" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="iRgOi5atmZF8QDSvO" cm:mimetype="text/plain" cm:encoding="utf-8">DrinksStoreTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iTGH-k5PHpwXgrg4feuVImzX5tGo" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="iTGH-k5PHpwXgrg4feuVImzX5tGodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i097-icZS4U8_ertKmZoJMjHiAMU7T7RkRkx1KzuL" cm:class="ps:parents"><cm:relation cm:id="i399py2fHwvHyygVlhHu1Z8B2O67UGiRQJ4TR4UQQ" cm:type="ps:parent"><cm:target cm:id="i-VtegX_pFhKPQkaGzwL5ptptURTl9_XCfHWm6-Kz">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="it0cabqz2dq7UUl_VF36oPkENiYFhS7eXUlJyMzmt" cm:class="ps:children"><cm:relation cm:id="i29gHA2x1eXR6odqKL58_0TQQL5WmMjO6NjaWjIlI" cm:type="ps:optional"><cm:target cm:id="iQ6seTRu1icXC8FeXkcDNerw1fbBwtKiYseZSEhvf">./ibkwc5WkAhbA-HqOMGYQHtR_lWyk</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iM7mM_C2v91x5pkFA" cm:mimetype="text/plain" cm:encoding="utf-8">StoreControllerTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ibkwc5WkAhbA-HqOMGYQHtR_lWyk" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ibkwc5WkAhbA-HqOMGYQHtR_lWykdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i_FPA5UT7fHwLJyBME3pZvvI4aWtKPk9FmJNz4oV7" cm:class="ps:parents"><cm:relation cm:id="iC3I4mtzg6-xL3TicXCL5gb1TENpZuLywcaq05EXC" cm:type="ps:parent"><cm:target cm:id="i6UN5aqgbjIbqN5VRJitefrM5xvPkgHCNpdChUR0n">./iTGH-k5PHpwXgrg4feuVImzX5tGo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="ic600gFuQd6O1x-VNychiKzjxYyl" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="ih30f4r06V59sFbIR5zUvNVbwd5p" cm:type="ps:path">StoreControllerTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="i-9LCkjO9tmxOcvxAStZkU-jbolm" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iln4huDJ5GwHt21WngHmmr4g1yyo" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="idx52tggVscmmi35D" cm:mimetype="text/plain" cm:encoding="utf-8">StoreControllerTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="i0bDNm2eKx4F0FKmtxfXDSKB165p" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="i0bDNm2eKx4F0FKmtxfXDSKB165pdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ihXkcw1DNTRbW7ozwTBz2PQxL_VFNP6NzRQOAGOC3" cm:class="ps:parents"><cm:relation cm:id="inZSR8FHOG49VfXZSbaChCxqe_pwvBg5-dWPQNz3n" cm:type="ps:parent"><cm:target cm:id="iTB_VIyfrru7oD3fXIOs0OANPaq8pVlredqndZmlI">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="izg9F8p6U_pBwGyufC3F39F6-AwS72npJr0bqjs7-" cm:class="ps:children"><cm:relation cm:id="iHOVlXSJi6UlsiImdR6C3-psKoJxfAgDNpdgbcG29" cm:type="ps:optional"><cm:target cm:id="iY83nJ4YCkI4EisHiH4FhtK19kcotsueXVlr0y2w1">./ivdDHPjdh50CSEwLeqtEZVG0UTKo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iph5N7l7jpaPVCD5f" cm:mimetype="text/plain" cm:encoding="utf-8">StoreItemTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ivdDHPjdh50CSEwLeqtEZVG0UTKo" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="ivdDHPjdh50CSEwLeqtEZVG0UTKodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iodfrP6oJcW4Ejs5E6Ukc3TvL_Fvf0nFNHiaGgrhr" cm:class="ps:parents"><cm:relation cm:id="iPAeXUBMjPQIyzMG4SB7EhrRkT7ery26Eotlcq09F" cm:type="ps:parent"><cm:target cm:id="iUlOkqK4EgH5-2T1DZC0T8FBghXeHDhdamJjIUlod">./i0bDNm2eKx4F0FKmtxfXDSKB165p</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iFwsxkVqYt1gmfYtOpYDIfcATiff" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="iwmRj5InYoAVCO8Wka8Sj0u4FUBo" cm:type="ps:path">StoreItemTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="igmXYZMW7WAZZwnrf0upWYYAzXif" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i6vWPCDQfHAZ08ZKVnfg8bLrjZpf" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="itbkLppov4PlwYVaS" cm:mimetype="text/plain" cm:encoding="utf-8">StoreItemTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="ivo5wDz_mr4KUCAh4bGM-PORqoOf" cm:type="ps:class" cm:class="ps:part" cm:default="on"><cm:relations cm:id="ivo5wDz_mr4KUCAh4bGM-PORqoOfdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="i8VjIoZpZNjdGRkr0U7bGisChLP5UIicWwLTlgbba" cm:class="ps:parents"><cm:relation cm:id="ibWeHWCrK8_ebaqOQ6EyMvvB2ishbTlT7w19_t0I4" cm:type="ps:parent"><cm:target cm:id="iTB9_rKJySRNPsKpdntv1od39eHC33Dqupd2Tqu7E">./ioID5TOrM6elZ5RCfWizXw6yXZ4m</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="i4EisE39FCxKPAMLPnJyw8_fXK5uvwfwv4EoZdGbG" cm:class="ps:children"><cm:relation cm:id="iisB29pCx__isIObGv1lsF3-VerG4PQZStu5EIiAM" cm:type="ps:optional"><cm:target cm:id="iDxExEhv1eb2TlYbq4obW8pruJOfHzgLzEh1TVRZC">./iu4MZ6Udve6o1MEnmduKuiJ-wkvh</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iYX1r_zUEdILr1tte" cm:mimetype="text/plain" cm:encoding="utf-8">StoreObjectTest</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iu4MZ6Udve6o1MEnmduKuiJ-wkvh" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iu4MZ6Udve6o1MEnmduKuiJ-wkvhdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iMzYCYmX8M5cGodIiOQLP1Todfb-_Rk_VfHuvB2nd" cm:class="ps:parents"><cm:relation cm:id="itKGiy2U74-jINjdGvLB2ZSXShrRAruq0lsDNvLKP" cm:type="ps:parent"><cm:target cm:id="iYmbW4--FcWseRkEN9_yMWSywjcFNw1URDhjcaqtu">./ivo5wDz_mr4KUCAh4bGM-PORqoOf</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i5Tm2cqCVvMTImgnjox7whSUvYUn" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i2UTOannTda5dmyLQcAA79XvGFie" cm:type="ps:path">StoreObjectTest.java</cm:constant>
+</cm:property>
+<cm:property cm:id="irPPmen3Mm5kKpStQb1wUGn_Rfij" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="i9aondjl6txRfV_ke5ultTCs80nn" cm:type="ps:filetype">impl</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="ijRDN5vKDEscma1oP" cm:mimetype="text/plain" cm:encoding="utf-8">StoreObjectTest.java</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="im56mAsY-6BByfefgUCvrmlVqLef" cm:type="ps:makefile" cm:class="ps:part" cm:default="on"><cm:relations cm:id="im56mAsY-6BByfefgUCvrmlVqLefdependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="iE33TeHU7QQ2nW88VoZdGUl-VkISlZmXCUBQk2nLz" cm:class="ps:parents"><cm:relation cm:id="icWRQywA27Egr6oHy-_U7TlR66--pgHvvO6seDhJy" cm:type="ps:parent"><cm:target cm:id="iiYLPpdXmrKnttu4oT73T_pYSSlmdCN3TE32n3TrK">./ixyk3KCkkzwfVQNAupvqVPGnwfDa</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:relations cm:id="iIO6o7oZS2nENqejcM5lsPARQE3fHoZJi2DSRBwWC" cm:class="ps:children"><cm:relation cm:id="iIiMjpt4oHOgrHyeHXCYSFx4-cqCNndxvkYmd8V1T" cm:type="ps:optional"><cm:target cm:id="ix1N5-paG39OA9FhXS71nIyeXuv_pufBMmJmdGOTR">./iXCahehhfuAalH93vXIkoF25EDfo</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:vname><cm:mimedesc cm:id="iyqi8jNVgIYRNwo6B" cm:mimetype="text/plain" cm:encoding="utf-8">build</cm:mimedesc>
+</cm:vname>
+</cm:element>
+<cm:element cm:id="iXCahehhfuAalH93vXIkoF25EDfo" cm:type="ps:file" cm:class="ps:source" cm:default="on"><cm:relations cm:id="iXCahehhfuAalH93vXIkoF25EDfodependecies" cm:class="ps:dependencies"></cm:relations>
+<cm:relations cm:id="ibW2TEh8pHivL2nR6Ljzwlc-pjcMzLP-_-_baENvL" cm:class="ps:parents"><cm:relation cm:id="iiIbG39_FPkM539q05-2DJ4H4Y81n7UtKbWOQdq9p" cm:type="ps:parent"><cm:target cm:id="imdBgxL0nMPvLD3pZU7OkH4QAis3ThXmZywzwhbW8">./im56mAsY-6BByfefgUCvrmlVqLef</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="iwFvheZEOfSIWF7Oofkfm2ivf9hg" cm:type="ps:path" cm:fixed="true" cm:name="file"><cm:constant cm:id="i6yu8D2ETjGpjtK6i-ElLlnmZpcm" cm:type="ps:path">build.xml</cm:constant>
+</cm:property>
+<cm:property cm:id="iLXWDx-mjkAURFgxvzC9zVOdw3ua" cm:type="ps:filetype" cm:fixed="true" cm:name="type"><cm:constant cm:id="iwu7NPPOyCEq80Crh81QBh611k6a" cm:type="ps:filetype">misc</cm:constant>
+</cm:property>
+</cm:properties>
+<cm:vname><cm:mimedesc cm:id="i4DGHXc9B68ttA7EK" cm:mimetype="text/plain" cm:encoding="utf-8">build.xml</cm:mimedesc>
+</cm:vname>
+</cm:element>
+</cm:elements>
+</cm:consulmodel>
